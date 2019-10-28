@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Timeline" transform="translate(-688.000000, -7202.000000)" fill="#2B2B2B" fill-rule="nonzero">
+            <path d="M688,7322 L808,7322 L808,7220.1416 L766.4608,7292.1248 L749.956,7262.8208 L731.1808,7292.696 C731.1808,7292.696 718.6624,7262.8208 714.82,7253.7176 C719.5144,7250.3024 741.1384,7237.784 741.1384,7221.2816 C741.1384,7204.7792 704.2168,7202 688,7202 L688,7322 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

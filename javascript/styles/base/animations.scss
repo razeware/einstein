@@ -1,0 +1,65 @@
+/*
+* Animations
+*/
+
+/* ==========================================================================
+Base Settings
+========================================================================== */
+
+.a-animate {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+/* ==========================================================================
+Vue Slide In n' Out
+========================================================================== */
+
+.slide-fade-enter-active {
+  transition: all .3s ease-out;
+}
+.slide-fade-leave-active {
+  transition: all .3s ease-out;
+}
+.slide-fade-enter, .slide-fade-leave-to {
+  transform: translateY(100%);
+  opacity: 0;
+}
+
+/* ==========================================================================
+1. a-fade-in
+========================================================================== */
+
+@keyframes a-fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.a-fade-in{
+  animation: a-fade-in 1s;
+}
+
+/* ==========================================================================
+2. a-fade-in-up
+========================================================================== */
+
+@keyframes a-fade-in-up {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.a-fade-in-up{
+  animation: a-fade-in-up 1s;
+}

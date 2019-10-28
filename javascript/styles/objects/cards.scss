@@ -1,0 +1,712 @@
+/**
+*
+* Cards
+*
+*
+*
+* 1. Card
+*
+* 2. Modal
+*
+* 3. Hide Modal Button
+*
+* 4. Card Category
+*
+* 5. States
+*
+* 6. Colors
+*
+**/
+
+/* ==========================================================================
+1. Card
+========================================================================== */
+
+.o-card{
+  border-radius: 21px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  transition: all .1s ease-out;
+  cursor: pointer;
+
+  @include breakpoint("mobile-large"){
+    padding: 9px;
+  }
+
+  &:hover .o-card__content-display{
+    background: inherit;
+  }
+
+  > span.o-card__click{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+
+}
+
+.o-card__content-main{
+  transition: opacity .2s ease-out;
+}
+
+.o-card__code{
+  font-size: 1.3125rem; /* 21/16 */
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  opacity: .4;
+
+  @include breakpoint("mobile-large"){
+    opacity: 0;
+  }
+
+}
+
+.o-card__title{
+  width: 100%;
+  font-size: 1rem;
+  text-align: center;
+  display: block;
+
+  @include breakpoint("tablet"){
+    font-size: 0.875rem; /* 14/16 */
+  }
+
+  @include breakpoint("mobile-large"){
+    font-size: 0.75rem; /* 14/16 */ /* 12/16 */
+  }
+
+}
+
+/* ==========================================================================
+2. Modal
+========================================================================== */
+
+.o-card__content-display {
+  z-index: 99;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  opacity: 1;
+  z-index: 100;
+  background: inherit;
+  padding-top: 36px;
+  box-shadow: 0px -2px 34px 0px rgba(0,0,0,.2);
+  cursor: auto;
+
+  h3{
+    @include breakpoint("mobile-large"){
+      font-size: 1.25rem;
+    }
+  }
+
+  .o-card__content-display-links{
+    height: 54px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 36px;
+
+    a{
+      font-size: 0.875rem; /* 14/16 */
+      letter-spacing: 1px;
+      text-decoration: none;
+      color: white;
+      height: 54px;
+      line-height: 54px;
+      text-overflow: ellipsis;
+      padding: 0 30px;
+      text-transform: uppercase;
+
+      @include breakpoint("mobile-large"){
+        font-size: 12px;
+      }
+
+      &:hover > span{
+        padding-right: 24px;
+      }
+
+      &:hover > span svg{
+        display: block;
+      }
+
+      > span{
+        padding-right: 0;
+        transition: all .2s ease-out;
+        position: relative;
+
+        svg{
+          position: absolute;
+          right: 0;
+          top: 0;
+          width: 24px;
+          height: 24px;
+          display: none;
+        }
+
+      }
+
+    }
+
+    .o-card__content-display-links-title{
+      @include breakpoint("tablet"){
+        display: none;
+      }
+    }
+
+  }
+
+}
+
+/* ==========================================================================
+3. Hide Modal Button
+========================================================================== */
+
+.o-card__content-display--hide{
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  background: none;
+  padding: 0;
+
+  @include breakpoint("mobile-large"){
+    width: 20px;
+    height: 20px;
+  }
+
+  svg{
+    width: 30px;
+    height: 30px;
+
+    @include breakpoint("mobile-large"){
+      width: 20px;
+      height: 20px;
+    }
+
+  }
+
+}
+
+/* ==========================================================================
+4. Card Category
+========================================================================== */
+
+.o-card--category{
+  align-items: flex-start;
+  justify-content: flex-start;
+  transition: none !important;
+  padding: 0 15px 0 0;
+
+  &:hover{
+    transform: scale(1) !important;
+    z-index: 0;
+  }
+
+  span{
+    font-size: 0.8125rem; /* 13/16 */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+     @include breakpoint("tablet"){
+      font-size: 0.75rem; /* 12/16 */
+    }
+
+    @include breakpoint("mobile-large"){
+      font-size: 0.625rem; /* 10/16 */
+    }
+
+  }
+}
+
+/* ==========================================================================
+5. States
+========================================================================== */
+
+.o-card--empty{
+  background: #222222;
+  border-radius: 21px;
+  cursor: default;
+
+   transition: none !important;
+
+  &:hover{
+    transform: scale(1) !important;
+    z-index: 0;
+  }
+
+}
+
+.o-card--fill{
+  background: #2B2B2B;
+  border-radius: 21px;
+  cursor: default;
+
+ transition: none !important;
+
+  &:hover{
+    transform: scale(1) !important;
+    z-index: 0;
+  }
+
+}
+
+.o-card--fill-top-left{
+  background: #222222;
+  cursor: default;
+  transition: none !important;
+
+  &:hover{
+    transform: scale(1) !important;
+    z-index: 0;
+  }
+
+  &:before{
+    content: "";
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #2B2B2B;
+    border-radius: 21px;
+  }
+}
+
+.o-card--fill-top-right{
+  background: #222222;
+  cursor: default;
+  transition: none !important;
+
+  &:hover{
+    transform: scale(1) !important;
+    z-index: 0;
+  }
+
+  &:before{
+    content: "";
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #2B2B2B;
+    border-radius: 21px;
+  }
+
+}
+
+.o-card--fill-bottom-right{
+  background: #222222;
+  cursor: default;
+  transition: none !important;
+
+  &:hover{
+    transform: scale(1) !important;
+    z-index: 0;
+  }
+
+  &:before{
+    content: "";
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #2B2B2B;
+    border-radius: 21px;
+  }
+}
+
+.o-card--fill-bottom-left{
+  background: #222222;
+  cursor: default;
+  transition: none !important;
+
+  &:hover{
+    transform: scale(1) !important;
+    z-index: 0;
+  }
+
+  &:before{
+    content: "";
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #2B2B2B;
+    border-radius: 21px;
+  }
+}
+
+/* ==========================================================================
+6. Colors
+========================================================================== */
+
+@mixin backgroundColor($backgroundColor) {
+  background: $backgroundColor;
+
+  &:hover {
+    background: darken($backgroundColor, 3%)
+  }
+
+}
+
+.o-card--light-green-1{
+  @include backgroundColor(#6CBB6E);
+}
+
+.o-card--light-green-2{
+  @include backgroundColor(#47A861);
+}
+
+.o-card--light-green-3{
+  @include backgroundColor(#44A15D);
+}
+
+.o-card--dark-green-1{
+  @include backgroundColor(#0E8D52);
+}
+
+.o-card--dark-green-2{
+  @include backgroundColor(#097E4A);
+}
+
+.o-card--dark-green-3{
+  @include backgroundColor(#046F42);
+}
+
+.o-card--dark-green-4{
+  @include backgroundColor(#00613A);
+}
+
+.o-card--light-blue-1{
+  @include backgroundColor(#6984C0);
+}
+
+.o-card--blue-1{
+  @include backgroundColor(#4665A0);
+}
+
+.o-card--blue-2{
+  @include backgroundColor(#38568F);
+}
+
+.o-card--blue-3{
+  @include backgroundColor(#2D4980);
+}
+
+.o-card--blue-4{
+  @include backgroundColor(#213B70);
+}
+
+.o-card--purple-1{
+  @include backgroundColor(#8F589C);
+}
+
+.o-card--purple-2{
+  @include backgroundColor(#82478F);
+}
+
+.o-card--purple-3{
+  @include backgroundColor(#753982);
+}
+
+.o-card--purple-4{
+  @include backgroundColor(#6B3578);
+}
+
+.o-card--purple-5{
+  @include backgroundColor(#632E70);
+}
+
+.o-card--purple-6{
+  @include backgroundColor(#5C2869);
+}
+
+.o-card--pink-1{
+  @include backgroundColor(#EA629E);
+}
+
+.o-card--pink-2{
+  @include backgroundColor(#DB4F8D);
+}
+
+.o-card--pink-3{
+  @include backgroundColor(#CF407F);
+}
+
+.o-card--pink-4{
+  @include backgroundColor(#C93275);
+}
+
+.o-card--pink-5{
+  @include backgroundColor(#C22B6E);
+}
+
+.o-card--pink-6{
+  @include backgroundColor(#BA2366);
+}
+
+.o-card--red-1{
+  @include backgroundColor(#E3514D);
+}
+
+.o-card--red-2{
+  @include backgroundColor(#DE4B47);
+}
+
+.o-card--red-3{
+  @include backgroundColor(#D6423E);
+}
+
+.o-card--red-4{
+  @include backgroundColor(#CF3A36);
+}
+
+.o-card--red-5{
+  @include backgroundColor(#C7322E);
+}
+
+.o-card--red-6{
+  @include backgroundColor(#BF2A26);
+}
+
+.o-card--orange-1{
+  @include backgroundColor(#F27043);
+}
+
+.o-card--orange-2{
+  @include backgroundColor(#E8673A);
+}
+
+.o-card--orange-3{
+  @include backgroundColor(#DB5D30);
+}
+
+.o-card--orange-4{
+  @include backgroundColor(#D45528);
+}
+
+.o-card--orange-5{
+  @include backgroundColor(#CC4D21);
+}
+
+.o-card--orange-6{
+  @include backgroundColor(#C4451A);
+}
+
+.o-card--light-orange-1{
+  @include backgroundColor(#EF813C);
+}
+
+.o-card--light-orange-2{
+  @include backgroundColor(#E87933);
+}
+
+.o-card--light-orange-3{
+  @include backgroundColor(#E0712B);
+}
+
+.o-card--light-orange-4{
+  @include backgroundColor(#D96923);
+}
+
+.o-card--yellow-1{
+  @include backgroundColor(#F1BB2B);
+}
+
+.o-card--yellow-2{
+  @include backgroundColor(#E6AF1E);
+}
+
+.o-card--yellow-3{
+  @include backgroundColor(#D6A115);
+}
+
+.o-card--yellow-4{
+  @include backgroundColor(#CF9A0E);
+}
+
+.o-card--yellow-5{
+  @include backgroundColor(#C79208);
+}
+
+.o-card--yellow-6{
+  @include backgroundColor(#BF8B02);
+}
+
+.o-card--turquoise-1{
+  @include backgroundColor(#27C38A);
+}
+
+.o-card--turquoise-2{
+  @include backgroundColor(#19B37A);
+}
+
+.o-card--turquoise-3{
+  @include backgroundColor(#13AB73);
+}
+
+.o-card--turquoise-4{
+  @include backgroundColor(#0DA36C);
+}
+
+.o-card--turquoise-5{
+  @include backgroundColor(#089964);
+}
+
+.o-card--darker-green-1{
+  @include backgroundColor(#097E4A);
+}
+
+.o-card--darker-green-2{
+  @include backgroundColor(#057543);
+}
+
+.o-card--darker-green-3{
+  @include backgroundColor(#016E3D);
+}
+
+.o-card--darker-green-4{
+  @include backgroundColor(#006639);
+}
+
+.o-card--darker-green-5{
+  @include backgroundColor(#005730);
+}
+
+.o-card--darker-green-6{
+  @include backgroundColor(#004727);
+}
+
+.o-card--turquoise-blue-1{
+  @include backgroundColor(#169296);
+}
+
+.o-card--turquoise-blue-2{
+  @include backgroundColor(#12888C);
+}
+
+.o-card--turquoise-blue-3{
+  @include backgroundColor(#0C7E82);
+}
+
+.o-card--turquoise-blue-4{
+  @include backgroundColor(#067275);
+}
+
+.o-card--turquoise-blue-5{
+  @include backgroundColor(#02686B);
+}
+
+.o-card--turquoise-blue-6{
+  @include backgroundColor(#005C5E);
+}
+
+.o-card--dark-blue-1{
+  @include backgroundColor(#105C77);
+}
+
+.o-card--dark-blue-2{
+  @include backgroundColor(#0A536E);
+}
+
+.o-card--other-purple-1{
+  @include backgroundColor(#83518F);
+}
+
+.o-card--other-purple-2{
+  @include backgroundColor(#7B4987);
+}
+
+.o-card--other-purple-3{
+  @include backgroundColor(#734180);
+}
+
+.o-card--other-purple-4{
+  @include backgroundColor(#6B3A78);
+}
+
+.o-card--other-purple-5{
+  @include backgroundColor(#61306E);
+}
+
+.o-card--other-pink-1{
+  @include backgroundColor(#C561A1);
+}
+
+.o-card--other-pink-2{
+  @include backgroundColor(#BA5295);
+}
+
+.o-card--other-pink-3{
+  @include backgroundColor(#B3478C);
+}
+
+.o-card--other-pink-4{
+  @include backgroundColor(#AB3F84);
+}
+
+.o-card--other-pink-4{
+  @include backgroundColor(#af4188);
+}
+
+.o-card--other-red-1{
+  @include backgroundColor(#E35955);
+}
+
+.o-card--other-red-2{
+  @include backgroundColor(#DB4F4B);
+}
+
+.o-card--other-red-3{
+  @include backgroundColor(#D14541);
+}
+
+.o-card--other-red-4{
+  @include backgroundColor(#C93A36);
+}
+
+.o-card--grey-1{
+  @include backgroundColor(#808CC6);
+}
+
+.o-card--grey-2{
+  @include backgroundColor(#7983B8);
+}
+
+.o-card--grey-3{
+  @include backgroundColor(#727CAD);
+}
+
+.o-card--grey-4{
+  @include backgroundColor(#6C75A3);
+}
+
+.o-card--grey-5{
+  @include backgroundColor(#656E9A);
+}
+
+.o-card--grey-6{
+  @include backgroundColor(#5E6791);
+}
+
+.o-card--grey-7{
+  @include backgroundColor(#555F8A);
+}
+
+.o-card--grey-8{
+  @include backgroundColor(#4A5480);
+}
