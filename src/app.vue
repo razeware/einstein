@@ -16,11 +16,13 @@
     />
 
     <div class="l-grid l-grid--5">
-      <!-- CATEGORY START -->
-      <div class="o-card o-card--empty o-card--category" id="section-1">
-        <span class="l-color--light-green">Programming Language</span>
-      </div>
-      <!-- CATEGORY END -->
+
+      <Element
+        elementClass="o-card o-card--empty o-card--category l-color--light-green"
+        elementSectionID="section-1"
+        elementName="Programming Language"
+      />
+
       <Element
         elementClass="o-card--light-green-1"
         elementName="Kotlin"
@@ -41,18 +43,21 @@
         elementDescription="..."
         @show-message="changeData"
       />
-      <!-- EMPTY START -->
-      <div class="o-card o-card--fill-top-right"></div>
-      <!-- EMPTY END -->
-      <!-- EMPTY START -->
-      <div class="o-card o-card--empty"></div>
-      <!-- EMPTY END -->
-      <!-- CATEGORY START -->
-      <div class="o-card o-card--empty o-card--category" id="section-2">
-        <span class="l-color--green">Android Studio</span>
-      </div>
-      <!-- CATEGORY END -->
-      <!-- TUTORIAL START -->
+
+      <Element
+        elementClass="o-card o-card--fill-top-right"
+      />
+
+      <Element
+        elementClass="o-card o-card--empty"
+      />
+
+      <Element
+        elementClass="o-card o-card--empty o-card--category l-color--green"
+        elementSectionID="section-2"
+        elementName="Android Studio"
+      />
+
       <Element
         elementClass="o-card--dark-green-1"
         elementName="Android Studio"
@@ -66,22 +71,25 @@
         elementVideoClass="o-card--dark-green-3"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-      <!-- EMPTY START -->
-      <div class="o-card o-card--empty"></div>
-      <!-- EMPTY END -->
-      <!-- EMPTY START -->
-      <div class="o-card o-card--fill"></div>
-      <!-- EMPTY END -->
-      <!-- EMPTY START -->
-      <div class="o-card o-card--empty"></div>
-      <!-- EMPTY END -->
-      <!-- CATEGORY START -->
-      <div class="o-card o-card--empty o-card--category" id="section-3">
-        <span class="l-color--light-blue">Software Engineering</span>
-      </div>
-      <!-- CATEGORY END -->
-      <!-- TUTORIAL START -->
+
+     <Element
+        elementClass="o-card o-card--empty"
+      />
+
+      <Element
+        elementClass="o-card o-card--fill"
+      />
+
+      <Element
+        elementClass="o-card o-card--empty"
+      />
+
+      <Element
+        elementClass="o-card o-card--empty o-card--category l-color--light-blue"
+        elementSectionID="section-3"
+        elementName="Software Engineering"
+      />
+
       <Element
         elementClass="o-card--light-blue-1"
         elementName="Design Patterns"
@@ -92,22 +100,23 @@
         elementArticleClass="o-card--blue-1"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-      <!-- EMPTY START -->
-      <div class="o-card o-card--empty"></div>
-      <!-- EMPTY END -->
-       <!-- EMPTY START -->
-      <div class="o-card o-card--empty"></div>
-      <!-- EMPTY END -->
-       <!-- EMPTY START -->
+
+      <Element
+        elementClass="o-card o-card--empty"
+      />
+
+      <Element
+        elementClass="o-card o-card--empty"
+      />
+
       <div class="o-card o-card--fill-bottom-left"></div>
-      <!-- EMPTY END -->
-      <!-- CATEGORY START -->
-      <div class="o-card o-card--empty o-card--category" id="section-4">
-        <span class="l-color--blue">App Components</span>
-      </div>
-      <!-- CATEGORY END -->
-      <!-- TUTORIAL START -->
+
+      <Element
+        elementClass="o-card o-card--empty o-card--category l-color--blue"
+        elementSectionID="section-4"
+        elementName="App Components"
+      />
+
       <Element
         elementClass="o-card--blue-1"
         elementName="Activity"
@@ -118,8 +127,8 @@
         elementArticleClass="o-card--blue-2"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-      <!-- TUTORIAL START -->
+
+
       <Element
         elementClass="o-card--blue-2"
         elementName="Intents"
@@ -130,8 +139,8 @@
         elementArticleClass="o-card--blue-3"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-      <!-- TUTORIAL START -->
+
+
       <Element
         elementClass="o-card--blue-3"
         elementName="Services"
@@ -142,16 +151,17 @@
         elementVideoClass="o-card--blue-4"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-      <!-- EMPTY START -->
-      <div class="o-card o-card--empty"></div>
-      <!-- EMPTY END -->
-      <!-- CATEGORY START -->
-      <div class="o-card o-card--empty o-card--category" id="section-5">
-        <span class="l-color--purple">User Interface</span>
-      </div>
-      <!-- CATEGORY END -->
-      <!-- TUTORIAL START -->
+
+      <Element
+        elementClass="o-card o-card--empty"
+      />
+
+      <Element
+        elementClass="o-card o-card--empty o-card--category l-color--purple"
+        elementSectionID="section-5"
+        elementName="User Interface"
+      />
+
       <Element
         elementClass="o-card--purple-1"
         elementName="Material Design"
@@ -162,8 +172,8 @@
         elementArticleClass="o-card--purple-2"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-      <!-- TUTORIAL START -->
+
+
       <Element
         elementClass="o-card--purple-2"
         elementName="RecyclerView"
@@ -177,8 +187,8 @@
         elementVideoClass="o-card--purple-4"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-      <!-- TUTORIAL START -->
+
+
        <Element
         elementClass="o-card--purple-3"
         elementName="UI Layouts"
@@ -192,8 +202,8 @@
         elementVideoClass="o-card--purple-6"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-      <!-- TUTORIAL START -->
+
+
       <Element
         elementClass="o-card--purple-4"
         elementName="Fragments"
@@ -204,11 +214,11 @@
         elementArticleClass="o-card--purple-6"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-      <!-- FILL START -->
-      <div class="o-card o-card--fill"></div>
-      <!-- FILL END -->
-      <!-- TUTORIAL START -->
+
+      <Element
+        elementClass="o-card o-card--fill"
+      />
+
       <Element
         elementClass="o-card--purple-1"
         elementName="Custom Fonts"
@@ -219,8 +229,8 @@
         elementArticleClass="o-card--purple-2"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-      <!-- TUTORIAL START -->
+
+
       <Element
         elementClass="o-card--purple-2"
         elementName="Custom Views"
@@ -231,8 +241,8 @@
         elementArticleClass="o-card--purple-3"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-      <!-- TUTORIAL START -->
+
+
       <Element
         elementClass="o-card--purple-3"
         elementName="Constraint Layout"
@@ -243,14 +253,15 @@
         elementArticleClass="o-card--purple-5"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-      <!-- EMPTY START -->
-      <div class="o-card o-card--empty"></div>
-      <!-- EMPTY END -->
-      <!-- EMPTY START -->
-      <div class="o-card o-card--empty"></div>
-      <!-- EMPTY END -->
-      <!-- TUTORIAL START -->
+
+      <Element
+        elementClass="o-card o-card--empty"
+      />
+
+      <Element
+        elementClass="o-card o-card--empty"
+      />
+
       <Element
         elementClass="o-card--purple-1"
         elementName="Drawables"
@@ -261,8 +272,8 @@
         elementArticleClass="o-card--purple-2"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-      <!-- TUTORIAL START -->
+
+
       <Element
         elementClass="o-card--purple-2"
         elementName="ViewPager"
@@ -273,19 +284,21 @@
         elementArticleClass="o-card--purple-3"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-      <!-- EMPTY START -->
-      <div class="o-card o-card--empty"></div>
-      <!-- EMPTY END -->
-      <!-- EMPTY START -->
-      <div class="o-card o-card--empty"></div>
-      <!-- EMPTY END -->
-      <!-- CATEGORY START -->
-      <div class="o-card o-card--empty o-card--category" id="section-6">
-        <span class="l-color--pink">More User Interface</span>
-      </div>
-      <!-- CATEGORY END -->
-      <!-- TUTORIAL START -->
+
+      <Element
+        elementClass="o-card o-card--empty"
+      />
+
+      <Element
+        elementClass="o-card o-card--empty"
+      />
+
+      <Element
+        elementClass="o-card o-card--empty o-card--category l-color--pink"
+        elementSectionID="section-6"
+        elementName="More User Interface"
+      />
+
       <Element
         elementClass="o-card--pink-1"
         elementName="Animations"
@@ -299,8 +312,8 @@
         elementVideoClass="o-card--pink-2"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-      <!-- TUTORIAL START -->
+
+
       <Element
         elementClass="o-card--pink-2"
         elementName="Design Support Library"
@@ -311,8 +324,8 @@
         elementArticleClass="o-card--pink-3"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-      <!-- TUTORIAL START -->
+
+
       <Element
         elementClass="o-card--pink-3"
         elementName="Accessibility"
@@ -323,8 +336,8 @@
         elementArticleClass="o-card--pink-5"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-      <!-- TUTORIAL START -->
+
+
       <Element
         elementClass="o-card--pink-4"
         elementName="Widgets"
@@ -335,11 +348,11 @@
         elementArticleClass="o-card--pink-6"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-      <!-- EMPTY START -->
-      <div class="o-card o-card--fill-top-right"></div>
-      <!-- EMPTY END -->
-      <!-- TUTORIAL START -->
+
+      <Element
+        elementClass="o-card o-card--fill-top-right"
+      />
+
       <Element
         elementClass="o-card--pink-1"
         elementName="Transitions"
@@ -350,20 +363,25 @@
         elementArticleClass="o-card--pink-2"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-      <!-- EMPTY START -->
-      <div class="o-card o-card--empty"></div>
-      <div class="o-card o-card--empty"></div>
-      <!-- EMPTY END -->
-      <!-- EMPTY START -->
-      <div class="o-card o-card--empty"></div>
-      <!-- EMPTY END -->
-      <!-- CATEGORY START -->
-      <div class="o-card o-card--empty o-card--category" id="section-7">
-        <span class="l-color--red">Data Persistence</span>
-      </div>
-      <!-- CATEGORY END -->
-      <!-- TUTORIAL START -->
+
+      <Element
+        elementClass="o-card o-card--empty"
+      />
+
+      <Element
+        elementClass="o-card o-card--empty"
+      />
+
+      <Element
+        elementClass="o-card o-card--empty"
+      />
+
+      <Element
+        elementClass="o-card o-card--empty o-card--category l-color--red"
+        elementSectionID="section-7"
+        elementName="Data Persistence"
+      />
+
       <Element
         elementClass="o-card--red-1"
         elementName="Shared Preferences"
@@ -374,8 +392,8 @@
         elementVideoClass="o-card--red-3"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-      <!-- TUTORIAL START -->
+
+
       <Element
         elementClass="o-card--red-2"
         elementName="Filesystem"
@@ -386,8 +404,8 @@
         elementVideoClass="o-card--red-4"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-      <!-- TUTORIAL START -->
+
+
       <Element
         elementClass="o-card--red-3"
         elementName="SQLite"
@@ -398,8 +416,8 @@
         elementVideoClass="o-card--red-5"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-      <!-- TUTORIAL START -->
+
+
       <Element
         elementClass="o-card--red-4"
         elementName="Firebase"
@@ -410,17 +428,19 @@
         elementArticleClass="o-card--red-6"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-      <!-- EMPTY START -->
-      <div class="o-card o-card--empty"></div>
-      <!-- EMPTY END -->
-      <!-- EMPTY START -->
-      <div class="o-card o-card--empty"></div>
-      <!-- EMPTY END -->
-      <!-- EMPTY START -->
-      <div class="o-card o-card--empty"></div>
-      <!-- EMPTY END -->
-      <!-- TUTORIAL START -->
+
+      <Element
+        elementClass="o-card o-card--empty"
+      />
+
+      <Element
+        elementClass="o-card o-card--empty"
+      />
+
+      <Element
+        elementClass="o-card o-card--empty"
+      />
+
       <Element
         elementClass="o-card--red-3"
         elementName="Room"
@@ -434,16 +454,18 @@
         elementVideoClass="o-card--red-6"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-      <!-- EMPTY START -->
-      <div class="o-card o-card--empty"></div>
-      <!-- EMPTY END -->
-      <!-- CATEGORY START -->
-      <div class="o-card o-card--empty o-card--category" id="section-8">
-        <span class="l-color--orange">Network Handling</span>
-      </div>
-      <!-- CATEGORY END -->
-      <!-- TUTORIAL START -->
+
+
+      <Element
+        elementClass="o-card o-card--empty"
+      />
+
+      <Element
+        elementClass="o-card o-card--empty o-card--category l-color--orange"
+        elementSectionID="section-8"
+        elementName="Network Handling"
+      />
+
       <Element
         elementClass="o-card--orange-1"
         elementName="REST API's"
@@ -454,8 +476,8 @@
         elementVideoClass="o-card--orange-3"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-      <!-- TUTORIAL START -->
+
+
       <Element
         elementClass="o-card--orange-2"
         elementName="HTTP Basics"
@@ -466,8 +488,8 @@
         elementVideoClass="o-card--orange-4"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-      <!-- TUTORIAL START -->
+
+
       <Element
         elementClass="o-card--orange-3"
         elementName="JSON"
@@ -478,8 +500,8 @@
         elementVideoClass="o-card--orange-5"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-      <!-- TUTORIAL START -->
+
+
       <Element
         elementClass="o-card--orange-4"
         elementName="RetroFit"
@@ -490,13 +512,14 @@
         elementVideoClass="o-card--orange-6"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-      <!-- CATEGORY START -->
-      <div class="o-card o-card--empty o-card--category" id="section-9">
-        <span class="l-color--light-orange">Location</span>
-      </div>
-      <!-- CATEGORY END -->
-      <!-- TUTORIAL START -->
+
+
+      <Element
+        elementClass="o-card o-card--empty o-card--category l-color--light-orange"
+        elementSectionID="section-9"
+        elementName="Location"
+      />
+
       <Element
         elementClass="o-card--light-orange-1"
         elementName="Google Maps"
@@ -507,22 +530,25 @@
         elementArticleClass="o-card--light-orange-3"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-      <!-- EMPTY START -->
-      <div class="o-card o-card--empty"></div>
-      <!-- EMPTY END -->
-      <!-- EMPTY START -->
-      <div class="o-card o-card--empty"></div>
-      <!-- EMPTY END -->
-      <!-- EMPTY START -->
-      <div class="o-card o-card--empty"></div>
-      <!-- EMPTY END -->
-      <!-- CATEGORY START -->
-      <div class="o-card o-card--empty o-card--category" id="section-10">
-        <span class="l-color--yellow">Code Architecture</span>
-      </div>
-      <!-- CATEGORY END -->
-      <!-- TUTORIAL START -->
+
+      <Element
+        elementClass="o-card o-card--empty"
+      />
+
+      <Element
+        elementClass="o-card o-card--empty"
+      />
+
+      <Element
+        elementClass="o-card o-card--empty"
+      />
+
+      <Element
+        elementClass="o-card o-card--empty o-card--category l-color--yellow"
+        elementSectionID="section-10"
+        elementName="Code Architecture"
+      />
+
       <Element
         elementClass="o-card--yellow-1"
         elementName="MVP"
@@ -536,8 +562,8 @@
         elementVideoClass="o-card--yellow-3"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-      <!-- TUTORIAL START -->
+
+
       <Element
         elementClass="o-card--yellow-2"
         elementName="MVVM"
@@ -551,8 +577,8 @@
         elementVideoClass="o-card--yellow-4"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-      <!-- TUTORIAL START -->
+
+
       <Element
         elementClass="o-card--yellow-3"
         elementName="MVI"
@@ -566,16 +592,17 @@
         elementVideoClass="o-card--yellow-6"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-      <!-- EMPTY START -->
-      <div class="o-card o-card--empty"></div>
-      <!-- EMPTY END -->
-      <!-- CATEGORY START -->
-      <div class="o-card o-card--empty o-card--category" id="section-11">
-        <span class="l-color--turquoise">Dependency Injection</span>
-      </div>
-      <!-- CATEGORY END -->
-      <!-- TUTORIAL START -->
+
+      <Element
+        elementClass="o-card o-card--empty"
+      />
+
+      <Element
+        elementClass="o-card o-card--empty o-card--category l-color--turquoise"
+        elementSectionID="section-11"
+        elementName="Dependency Injection"
+      />
+
       <Element
         elementClass="o-card--turquoise-1"
         elementName="Dagger"
@@ -586,8 +613,8 @@
         elementVideoClass="o-card--turquoise-3"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-      <!-- TUTORIAL START -->
+
+
       <Element
         elementClass="o-card--turquoise-2"
         elementName="Koin"
@@ -601,19 +628,22 @@
         elementVideoClass="o-card--turquoise-5"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-      <!-- EMPTY START -->
-      <div class="o-card o-card--empty"></div>
-      <!-- EMPTY END -->
-      <!-- EMPTY START -->
-      <div class="o-card o-card--empty"></div>
-      <!-- EMPTY END -->
-      <!-- CATEGORY START -->
-      <div class="o-card o-card--empty o-card--category" id="section-12">
-        <span class="l-color--dark-green">Thread Handling</span>
-      </div>
-      <!-- CATEGORY END -->
-      <!-- TUTORIAL START -->
+
+
+      <Element
+        elementClass="o-card o-card--empty"
+      />
+
+      <Element
+        elementClass="o-card o-card--empty"
+      />
+
+      <Element
+        elementClass="o-card o-card--empty o-card--category l-color--dark-green"
+        elementSectionID="section-12"
+        elementName="Thread Handling"
+      />
+
        <Element
         elementClass="o-card--darker-green-1"
         elementName="Handlers"
@@ -627,8 +657,7 @@
         elementVideoClass="o-card--darker-green-4"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-      <!-- TUTORIAL START -->
+
       <Element
         elementClass="o-card--darker-green-2"
         elementName="AsyncTask"
@@ -639,8 +668,7 @@
         elementVideoClass="o-card--darker-green-4"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-      <!-- TUTORIAL START -->
+
       <Element
         elementClass="o-card--darker-green-3"
         elementName="Coroutines"
@@ -651,16 +679,17 @@
         elementArticleClass="o-card--darker-green-5"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-      <!-- EMPTY START -->
-      <div class="o-card o-card--empty"></div>
-      <!-- EMPTY END -->
-      <!-- CATEGORY START -->
-      <div class="o-card o-card--empty o-card--category" id="section-13">
-        <span class="l-color--turquoise-green">Architecture Components</span>
-      </div>
-      <!-- CATEGORY END -->
-      <!-- TUTORIAL START -->
+
+      <Element
+        elementClass="o-card o-card--empty"
+      />
+
+      <Element
+        elementClass="o-card o-card--empty o-card--category l-color--turquoise-green"
+        elementSectionID="section-13"
+        elementName="Architecture Components"
+      />
+
       <Element
         elementClass="o-card--turquoise-blue-1"
         elementName="Livedata"
@@ -671,8 +700,7 @@
         elementVideoClass="o-card--turquoise-blue-3"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-      <!-- TUTORIAL START -->
+
       <Element
         elementClass="o-card--turquoise-blue-2"
         elementName="ViewModel"
@@ -683,8 +711,7 @@
         elementVideoClass="o-card--turquoise-blue-4"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-      <!-- TUTORIAL START -->
+
       <Element
         elementClass="o-card--turquoise-blue-3"
         elementName="Paging Library"
@@ -695,8 +722,7 @@
         elementVideoClass="o-card--turquoise-blue-5"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-      <!-- TUTORIAL START -->
+
       <Element
         elementClass="o-card--turquoise-blue-4"
         elementName="WorkManager"
@@ -710,13 +736,13 @@
         elementVideoClass="o-card--turquoise-blue-6"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-      <!-- CATEGORY START -->
-      <div class="o-card o-card--empty o-card--category" id="section-14">
-        <span class="l-color--other-blue">Build Configuration</span>
-      </div>
-      <!-- CATEGORY END -->
-      <!-- TUTORIAL START -->
+
+      <Element
+        elementClass="o-card o-card--empty o-card--category l-color--other-blue"
+        elementSectionID="section-14"
+        elementName="Build Configuration"
+      />
+
       <Element
         elementClass="o-card--dark-blue-1"
         elementName="Gradle"
@@ -727,22 +753,25 @@
         elementArticleClass="o-card--dark-blue-2"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-      <!-- EMPTY START -->
-      <div class="o-card o-card--empty"></div>
-      <!-- EMPTY END -->
-      <!-- EMPTY START -->
-      <div class="o-card o-card--empty"></div>
-      <!-- EMPTY END -->
-      <!-- EMPTY START -->
-      <div class="o-card o-card--empty"></div>
-      <!-- EMPTY END -->
-      <!-- CATEGORY START -->
-      <div class="o-card o-card--empty o-card--category" id="section-15">
-        <span class="l-color--other-purple">Android Jetpack</span>
-      </div>
-      <!-- CATEGORY END -->
-      <!-- TUTORIAL START -->
+
+      <Element
+        elementClass="o-card o-card--empty"
+      />
+
+      <Element
+        elementClass="o-card o-card--empty"
+      />
+
+      <Element
+        elementClass="o-card o-card--empty"
+      />
+
+      <Element
+        elementClass="o-card o-card--empty o-card--category l-color--other-purple"
+        elementSectionID="section-15"
+        elementName="Android Jetpack"
+      />
+
       <Element
         elementClass="o-card--other-purple-1"
         elementName="Navigation"
@@ -756,8 +785,7 @@
         elementVideoClass="o-card--other-purple-4"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-      <!-- TUTORIAL START -->
+
        <Element
         elementClass="o-card--other-purple-2"
         elementName="Architecture Components"
@@ -768,8 +796,7 @@
         elementArticleClass="o-card--other-purple-4"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-      <!-- TUTORIAL START -->
+
       <Element
         elementClass="o-card--other-purple-3"
         elementName="KTX"
@@ -783,16 +810,17 @@
         elementVideoClass="o-card--other-purple-5"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-      <!-- EMPTY START -->
-      <div class="o-card o-card--fill"></div>
-      <!-- EMPTY END -->
-      <!-- CATEGORY START -->
-      <div class="o-card o-card--empty o-card--category" id="section-16">
-        <span class="l-color--other-pink">Testing</span>
-      </div>
-      <!-- CATEGORY END -->
-      <!-- TUTORIAL START -->
+
+      <Element
+        elementClass="o-card o-card--fill"
+      />
+
+      <Element
+        elementClass="o-card o-card--empty o-card--category l-color--other-pink"
+        elementSectionID="section-16"
+        elementName="Testing"
+      />
+
       <Element
         elementClass="o-card--other-pink-1"
         elementName="UI Tests"
@@ -803,8 +831,7 @@
         elementArticleClass="o-card--other-pink-2"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-      <!-- TUTORIAL START -->
+
       <Element
         elementClass="o-card--other-pink-2"
         elementName="Unit Tests"
@@ -815,18 +842,21 @@
         elementArticleClass="o-card--other-pink-4"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-      <!-- EMPTY START -->
-      <div class="o-card o-card--empty"></div>
-      <!-- EMPTY END -->
-      <!-- EMPTY START -->
-      <div class="o-card o-card--fill-bottom-right"></div>
-      <!-- EMPTY END -->
-      <!-- CATEGORY START -->
-      <div class="o-card o-card--empty o-card--category" id="section-17">
-        <span class="l-color--other-red">App Publishing</span>
-      </div>
-      <!-- CATEGORY END -->
+
+      <Element
+        elementClass="o-card o-card--empty"
+      />
+
+      <Element
+        elementClass="o-card o-card--fill-bottom-right"
+      />
+
+      <Element
+        elementClass="o-card o-card--empty o-card--category l-color--other-red"
+        elementSectionID="section-17"
+        elementName="App Publishing"
+      />
+
        <Element
         elementClass="o-card--other-red-1"
         elementName="Instant Apps"
@@ -837,7 +867,7 @@
         elementArticleClass="o-card--other-red-3"
         @show-message="changeData"
       />
-      <!-- TUTORIAL START -->
+
       <Element
         elementClass="o-card--other-red-2"
         elementName="App Bundles"
@@ -848,18 +878,19 @@
         elementArticleClass="o-card--other-red-4"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
+
     </div>
 
     <div class="l-space"></div>
 
     <div class="l-grid l-grid--5">
-       <!-- CATEGORY START -->
-      <div class="o-card o-card--empty o-card--category" id="section-18">
-        <span class="l-color--grey">Also Nice To Know</span>
-      </div>
-      <!-- CATEGORY END -->
-      <!-- TUTORIAL START -->
+
+      <Element
+        elementClass="o-card o-card--empty o-card--category l-color--grey"
+        elementSectionID="section-18"
+        elementName="Also Nice To Know"
+      />
+
       <Element
         elementClass="o-card--grey-1"
         elementName="Flutter"
@@ -873,8 +904,7 @@
         elementVideoClass="o-card--grey-4"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-       <!-- TUTORIAL START -->
+
       <Element
         elementClass="o-card--grey-2"
         elementName="Notifications"
@@ -885,8 +915,7 @@
         elementArticleClass="o-card--grey-4"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-       <!-- TUTORIAL START -->
+
       <Element
         elementClass="o-card--grey-3"
         elementName="RxKotlin"
@@ -900,8 +929,7 @@
         elementVideoClass="o-card--grey-6"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-       <!-- TUTORIAL START -->
+
        <Element
         elementClass="o-card--grey-4"
         elementName="Android Things"
@@ -912,11 +940,11 @@
         elementArticleClass="o-card--grey-6"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-      <!-- EMPTY START -->
-      <div class="o-card o-card--fill"></div>
-      <!-- EMPTY END -->
-      <!-- TUTORIAL START -->
+
+      <Element
+        elementClass="o-card o-card--fill"
+      />
+
       <Element
         elementClass="o-card--grey-5"
         elementName="ARCore"
@@ -927,8 +955,7 @@
         elementArticleClass="o-card--grey-7"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-       <!-- TUTORIAL START -->
+
       <Element
         elementClass="o-card--grey-6"
         elementName="TensorFlow"
@@ -939,13 +966,15 @@
         elementVideoClass="o-card--grey-8"
         @show-message="changeData"
       />
-      <!-- TUTORIAL END -->
-      <!-- EMPTY START -->
-      <div class="o-card o-card--empty"></div>
-      <!-- EMPTY END -->
-      <!-- EMPTY START -->
-      <div class="o-card o-card--fill"></div>
-      <!-- EMPTY END -->
+
+      <Element
+        elementClass="o-card o-card--empty"
+      />
+
+      <Element
+        elementClass="o-card o-card--fill"
+      />
+
     </div>
   </div>
 </template>
