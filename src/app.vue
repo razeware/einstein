@@ -18,6 +18,23 @@
     <div class="l-grid l-grid--5">
 
       <Element
+        v-for="data in elementData"
+        v-bind:key="data.id"
+        v-bind:elementSection="data.elementSection"
+        v-bind:elementClass="data.elementClass"
+        v-bind:elementName="data.elementName"
+        v-bind:elementCode="data.elementCode"
+        v-bind:elementDescription="data.elementDescription"
+        v-bind:elementArticleName="data.elementArticleName"
+        v-bind:elementArticleLink="data.elementArticleLink"
+        v-bind:elementArticleClass="data.elementArticleClass"
+        v-bind:elementVideoName="data.elementVideoName"
+        v-bind:elementVideoLink="data.elementVideoLink"
+        v-bind:elementVideoClass="data.elementVideoClass"
+        @show-message="changeData"
+      />
+
+      <!-- <Element
         elementClass="o-card o-card--empty o-card--category l-color--light-green"
         elementSectionID="section-1"
         elementName="Programming Language"
@@ -973,19 +990,21 @@
 
       <Element
         elementClass="o-card o-card--fill"
-      />
+      /> -->
 
     </div>
   </div>
 </template>
 
 <script>
+import content from './data/content.json';
 import Element from './components/Element.vue'
 import Popup from './components/Popup.vue'
 export default {
   name: 'app',
   data() {
     return {
+      elementData: content,
       elementClass: String,
       elementName: String,
       elementDescription: String,

@@ -1,15 +1,58 @@
-[
-  {
-    "id": "",
-    "elementClass": "",
-    "elementName": "",
-    "elementCode": "",
-    "elementDescription": "",
-    "elementArticleName": "",
-    "elementArticleLink": "",
-    "elementArticleClass": "",
-    "elementVideoName": "",
-    "elementVideoLink": "",
-    "elementVideoClass": "",
-  },
-]
+{
+    "0": {
+        "elementClass": "o-card o-card--empty o-card--category l-color--light-green",
+        "elementSection": "section-1",
+        "elementName": "Programming Language",
+        "elementCode": "",
+        "elementDescription": "",
+        "elementArticleName": "",
+        "elementArticleLink": "",
+        "elementArticleClass": "",
+        "elementVideoName": "",
+        "elementVideoLink": "",
+        "elementVideoClass": "",
+        "elementClickable": false
+    },
+    "1": {
+        "elementClass": "o-card--light-green-1",
+        "elementSection": "",
+        "elementName": "Kotlin",
+        "elementCode": "Kn",
+        "elementDescription": "Kotlin is a cross-platform, statically typed, general-purpose programming language with type inference. Kotlin has been Googles preferred language for Android app development since 7 May 2019.",
+        "elementArticleName": "Introduction To Kotlin",
+        "elementArticleLink": "https://www.raywenderlich.com/1144981-kotlin-for-android-an-introduction",
+        "elementArticleClass": "o-card--light-green-2",
+        "elementVideoName": "Programming in Kotlin",
+        "elementVideoLink": "https://www.raywenderlich.com/4736-programming-in-kotlin",
+        "elementVideoClass": "o-card--light-green-3",
+        "elementClickable": false
+    },
+    "2": {
+        "elementClass": "o-card o-card--empty o-card--category l-color--light-green",
+        "elementSection": "section-1",
+        "elementName": "Programming Language",
+        "elementCode": "",
+        "elementDescription": "",
+        "elementArticleName": "",
+        "elementArticleLink": "",
+        "elementArticleClass": "",
+        "elementVideoName": "",
+        "elementVideoLink": "",
+        "elementVideoClass": "",
+        "elementClickable": false
+    },
+    "103": {
+        "elementClass": "o-card o-card--empty o-card--category l-color--light-green",
+        "elementSection": "section-1",
+        "elementName": "Programming Language",
+        "elementCode": "",
+        "elementDescription": "",
+        "elementArticleName": "",
+        "elementArticleLink": "",
+        "elementArticleClass": "",
+        "elementVideoName": "",
+        "elementVideoLink": "",
+        "elementVideoClass": "",
+        "elementClickable": false
+    }
+}

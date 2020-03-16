@@ -1,5 +1,5 @@
 <template>
-  <div class="o-card" v-bind:class="elementClass" v-bind:id="elementSectionID">
+  <div class="o-card" v-bind:class="elementClass" v-bind:id="elementSection">
     <span class="o-card__click" @click="showMessage(elementClass, elementName, elementDescription, elementArticleName, elementArticleLink, elementArticleClass, elementVideoName, elementVideoLink, elementVideoClass)"></span>
     <div class="o-card__wrapper">
       <div class="o-card__content-main">
@@ -18,7 +18,7 @@ module.exports = {
   },
   props: [
           'elementClass',
-          'elementSectionID',
+          'elementSection',
           'elementName',
           'elementCode',
           'elementDescription',
