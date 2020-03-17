@@ -1,0 +1,92 @@
+{
+    "0": {
+        "sidebarClass": "l-color--light-green",
+        "sidebarSection": "section-1",
+        "sidebarName": "Programming Language"
+    },
+    "1": {
+        "sidebarClass": "l-color--green",
+        "sidebarSection": "section-2",
+        "sidebarName": "Android Studio"
+    },
+    "2": {
+        "sidebarClass": "l-color--light-blue",
+        "sidebarSection": "section-3",
+        "sidebarName": "Software Engineering"
+    },
+    "3": {
+        "sidebarClass": "l-color--blue",
+        "sidebarSection": "section-4",
+        "sidebarName": "App Components"
+    },
+    "4": {
+        "sidebarClass": "l-color--purple",
+        "sidebarSection": "section-5",
+        "sidebarName": "User Interface"
+    },
+    "5": {
+        "sidebarClass": "l-color--pink",
+        "sidebarSection": "section-6",
+        "sidebarName": "More User Interface"
+    },
+    "6": {
+        "sidebarClass": "l-color--red",
+        "sidebarSection": "section-7",
+        "sidebarName": "Data Persistence"
+    },
+    "7": {
+        "sidebarClass": "l-color--orange",
+        "sidebarSection": "section-8",
+        "sidebarName": "Network Handling"
+    },
+    "8": {
+        "sidebarClass": "l-color--light-orange",
+        "sidebarSection": "section-9",
+        "sidebarName": "Location"
+    },
+    "9": {
+        "sidebarClass": "l-color--yellow",
+        "sidebarSection": "section-10",
+        "sidebarName": "Code Architecture"
+    },
+    "10": {
+        "sidebarClass": "l-color--turquoise",
+        "sidebarSection": "section-11",
+        "sidebarName": "Dependency Injection"
+    },
+    "11": {
+        "sidebarClass": "l-color--dark-green",
+        "sidebarSection": "section-12",
+        "sidebarName": "Thread Handling"
+    },
+    "12": {
+        "sidebarClass": "l-color--turquoise-green",
+        "sidebarSection": "section-13",
+        "sidebarName": "Architecture Components"
+    },
+    "13": {
+        "sidebarClass": "l-color--other-blue",
+        "sidebarSection": "section-14",
+        "sidebarName": "Build Configuration"
+    },
+    "14": {
+        "sidebarClass": "l-color--other-purple",
+        "sidebarSection": "section-15",
+        "sidebarName": "Android Jetpack"
+    },
+    "15": {
+        "sidebarClass": "l-color--other-pink",
+        "sidebarSection": "section-16",
+        "sidebarName": "Testing"
+    },
+    "16": {
+        "sidebarClass": "l-color--other-red",
+        "sidebarSection": "section-17",
+        "sidebarName": "App Publishing"
+    },
+    "17": {
+        "sidebarClass": "l-color--grey",
+        "sidebarSection": "section-18",
+        "sidebarName": "Also Nice To Know"
+    }
+}

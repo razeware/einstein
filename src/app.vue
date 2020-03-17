@@ -1,6 +1,7 @@
 <template>
   <div>
 
+    <main>
     <Popup
       v-bind:elementClass="elementClass"
       v-bind:elementName="elementName"
@@ -58,10 +59,22 @@
       />
 
     </div>
+
+    </main>
+
+    <nav class="c-navigation">
+      <ul>
+        <li v-for="data in sidebarData" v-bind:key="data.id">
+          <a v-bind:href="'#' + data.sidebarSection" v-bind:class="data.sidebarClass">{{ data.sidebarName }}</a>
+        </li>
+      </ul>
+    </nav>
+
   </div>
 </template>
 
 <script>
+import sidebar from './data/sidebar-content.json';
 import content from './data/content.json';
 import extraContent from './data/extra-content.json';
 import Element from './components/Element.vue'
@@ -70,6 +83,7 @@ export default {
   name: 'app',
   data() {
     return {
+      sidebarData: sidebar,
       elementData: content,
       elementDataExtended: extraContent,
       elementClass: String,

@@ -16,14 +16,18 @@
 ========================================================================== */
 
 .l-grid-wrapper {
-  display: grid;
-  grid-template-columns: 83.33% 16.66%;
-  max-width: 1440px;
-  min-width: 720px;
-  margin: 0 auto;
 
-  @include breakpoint("tablet"){
+  > div {
+    display: grid;
+    grid-template-columns: 83.33% 16.66%;
+    max-width: 1440px;
+    min-width: 720px;
+    margin: 0 auto;
+
+    @include breakpoint("tablet"){
     grid-template-columns: 100%;
+  }
+
   }
 
 }
