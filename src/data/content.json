@@ -1,6 +1,6 @@
 {
     "0": {
-        "elementClass": "o-card--empty o-card--category l-color--light-green",
+        "elementClass": "o-card--category o-card--light-green-1",
         "elementSection": "section-1",
         "elementName": "Programming Language",
         "elementCode": "",
@@ -10,8 +10,7 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "1": {
         "elementClass": "o-card--light-green-1",
@@ -24,8 +23,7 @@
         "elementArticleClass": "o-card--light-green-2",
         "elementVideoName": "Programming in Kotlin",
         "elementVideoLink": "https://www.raywenderlich.com/4736-programming-in-kotlin",
-        "elementVideoClass": "o-card--light-green-3",
-        "elementClickable": false
+        "elementVideoClass": "o-card--light-green-3"
     },
     "2": {
         "elementClass": "o-card--light-green-2",
@@ -38,8 +36,7 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "3": {
         "elementClass": "o-card--fill-top-right",
@@ -52,8 +49,7 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "4": {
         "elementClass": "o-card--empty",
@@ -66,11 +62,10 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "5": {
-        "elementClass": "o-card--empty o-card--category l-color--green",
+        "elementClass": "o-card--category o-card--dark-green-1",
         "elementSection": "section-2",
         "elementName": "Android Studio",
         "elementCode": "",
@@ -80,8 +75,7 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "6": {
         "elementClass": "o-card--dark-green-1",
@@ -94,8 +88,7 @@
         "elementArticleClass": "o-card--darker-green-2",
         "elementVideoName": "Your First Kotlin Android App",
         "elementVideoLink": "https://www.raywenderlich.com/4936497-your-first-kotlin-android-app",
-        "elementVideoClass": "o-card--dark-green-3",
-        "elementClickable": false
+        "elementVideoClass": "o-card--dark-green-3"
     },
     "7": {
         "elementClass": "o-card--empty",
@@ -108,8 +101,7 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "8": {
         "elementClass": "o-card--fill",
@@ -122,8 +114,7 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "9": {
         "elementClass": "o-card--empty",
@@ -136,11 +127,10 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "10": {
-        "elementClass": "o-card--empty o-card--category l-color--light-blue",
+        "elementClass": "o-card--category o-card--light-blue-1",
         "elementSection": "section-3",
         "elementName": "Software Engineering",
         "elementCode": "",
@@ -150,8 +140,7 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "11": {
         "elementClass": "o-card--light-blue-1",
@@ -164,8 +153,7 @@
         "elementArticleClass": "o-card--blue-1",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "12": {
         "elementClass": "o-card--empty",
@@ -178,8 +166,7 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "13": {
         "elementClass": "o-card--empty",
@@ -192,8 +179,7 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "14": {
         "elementClass": "o-card--fill-bottom-left",
@@ -206,11 +192,10 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "15": {
-        "elementClass": "o-card--empty o-card--category l-color--blue",
+        "elementClass": "o-card--category o-card--blue-1",
         "elementSection": "section-4",
         "elementName": "App Components",
         "elementCode": "",
@@ -220,8 +205,7 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "16": {
         "elementClass": "o-card--blue-1",
@@ -234,8 +218,7 @@
         "elementArticleClass": "o-card--blue-2",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "17": {
         "elementClass": "o-card--blue-2",
@@ -248,8 +231,7 @@
         "elementArticleClass": "o-card--blue-3",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "18": {
         "elementClass": "o-card--blue-3",
@@ -262,8 +244,7 @@
         "elementArticleClass": "o-card--blue-4",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "19": {
         "elementClass": "o-card--empty",
@@ -276,11 +257,10 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "20": {
-        "elementClass": "o-card--empty o-card--category l-color--purple",
+        "elementClass": "o-card--category o-card--purple-1",
         "elementSection": "section-5",
         "elementName": "User Interface",
         "elementCode": "",
@@ -290,8 +270,7 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "21": {
         "elementClass": "o-card--purple-1",
@@ -304,8 +283,7 @@
         "elementArticleClass": "o-card--purple-2",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "22": {
         "elementClass": "o-card--purple-2",
@@ -318,8 +296,7 @@
         "elementArticleClass": "o-card--purple-3",
         "elementVideoName": "Beginning RecyclerView",
         "elementVideoLink": "https://www.raywenderlich.com/4568-beginning-recyclerview",
-        "elementVideoClass": "o-card--purple-4",
-        "elementClickable": false
+        "elementVideoClass": "o-card--purple-4"
     },
     "23": {
         "elementClass": "o-card--purple-3",
@@ -332,8 +309,7 @@
         "elementArticleClass": "o-card--purple-5",
         "elementVideoName": "Beginning Android Layouts",
         "elementVideoLink": "https://www.raywenderlich.com/4701-beginning-android-layouts",
-        "elementVideoClass": "o-card--purple-6",
-        "elementClickable": false
+        "elementVideoClass": "o-card--purple-6"
     },
     "24": {
         "elementClass": "o-card--purple-4",
@@ -346,8 +322,7 @@
         "elementArticleClass": "o-card--purple-6",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "25": {
         "elementClass": "o-card--fill",
@@ -360,8 +335,7 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "26": {
         "elementClass": "o-card--purple-1",
@@ -374,8 +348,7 @@
         "elementArticleClass": "o-card--purple-2",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "27": {
         "elementClass": "o-card--purple-2",
@@ -388,8 +361,7 @@
         "elementArticleClass": "o-card--purple-3",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "28": {
         "elementClass": "o-card--purple-3",
@@ -402,8 +374,7 @@
         "elementArticleClass": "o-card--purple-5",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "29": {
         "elementClass": "o-card--empty",
@@ -416,8 +387,7 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "30": {
         "elementClass": "o-card--empty",
@@ -430,8 +400,7 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "31": {
         "elementClass": "o-card--purple-1",
@@ -444,8 +413,7 @@
         "elementArticleClass": "o-card--purple-2",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "32": {
         "elementClass": "o-card--purple-2",
@@ -458,8 +426,7 @@
         "elementArticleClass": "o-card--purple-3",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "33": {
         "elementClass": "o-card--empty",
@@ -472,8 +439,7 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "34": {
         "elementClass": "o-card--empty",
@@ -486,11 +452,10 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "35": {
-        "elementClass": "o-card--empty o-card--category l-color--pink",
+        "elementClass": "o-card--category o-card--pink-1",
         "elementSection": "section-6",
         "elementName": "More User Interface",
         "elementCode": "",
@@ -500,8 +465,7 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "36": {
         "elementClass": "o-card--pink-1",
@@ -514,8 +478,7 @@
         "elementArticleClass": "o-card--pink-4",
         "elementVideoName": "Android Animations",
         "elementVideoLink": "https://www.raywenderlich.com/3355-android-animations",
-        "elementVideoClass": "o-card--pink-2",
-        "elementClickable": false
+        "elementVideoClass": "o-card--pink-2"
     },
     "37": {
         "elementClass": "o-card--pink-2",
@@ -528,8 +491,7 @@
         "elementArticleClass": "o-card--pink-3",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "38": {
         "elementClass": "o-card--pink-3",
@@ -542,8 +504,7 @@
         "elementArticleClass": "o-card--pink-5",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "39": {
         "elementClass": "o-card--pink-4",
@@ -556,8 +517,7 @@
         "elementArticleClass": "o-card--pink-6",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "40": {
         "elementClass": "o-card--fill-top-right",
@@ -570,8 +530,7 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "41": {
         "elementClass": "o-card--pink-1",
@@ -584,8 +543,7 @@
         "elementArticleClass": "o-card--pink-2",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "42": {
         "elementClass": "o-card--empty",
@@ -598,8 +556,7 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "43": {
         "elementClass": "o-card--empty",
@@ -612,8 +569,7 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "44": {
         "elementClass": "o-card--empty",
@@ -626,11 +582,10 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "45": {
-        "elementClass": "o-card--empty o-card--category l-color--red",
+        "elementClass": "o-card--category o-card--red-1",
         "elementSection": "section-7",
         "elementName": "Data Persistence",
         "elementCode": "",
@@ -640,8 +595,7 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "46": {
         "elementClass": "o-card--red-1",
@@ -654,8 +608,7 @@
         "elementArticleClass": "o-card--red-3",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "47": {
         "elementClass": "o-card--red-2",
@@ -668,8 +621,7 @@
         "elementArticleClass": "o-card--red-4",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "48": {
         "elementClass": "o-card--red-3",
@@ -682,8 +634,7 @@
         "elementArticleClass": "o-card--red-5",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "49": {
         "elementClass": "o-card--red-4",
@@ -696,8 +647,7 @@
         "elementArticleClass": "o-card--red-6",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "50": {
         "elementClass": "o-card--empty",
@@ -710,8 +660,7 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "51": {
         "elementClass": "o-card--empty",
@@ -724,8 +673,7 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "52": {
         "elementClass": "o-card--empty",
@@ -738,8 +686,7 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "53": {
         "elementClass": "o-card--red-3",
@@ -752,8 +699,7 @@
         "elementArticleClass": "o-card--red-5",
         "elementVideoName": "Saving Data on Android",
         "elementVideoLink": "https://www.raywenderlich.com/4561-saving-data-on-android",
-        "elementVideoClass": "o-card--red-6",
-        "elementClickable": false
+        "elementVideoClass": "o-card--red-6"
     },
     "54": {
         "elementClass": "o-card--empty",
@@ -766,11 +712,10 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "55": {
-        "elementClass": "o-card--empty o-card--category l-color--orange",
+        "elementClass": "o-card--category o-card--orange-1",
         "elementSection": "section-8",
         "elementName": "Network Handling",
         "elementCode": "",
@@ -780,8 +725,7 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "56": {
         "elementClass": "o-card--orange-1",
@@ -794,8 +738,7 @@
         "elementArticleClass": "o-card--orange-3",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "57": {
         "elementClass": "o-card--orange-2",
@@ -808,8 +751,7 @@
         "elementArticleClass": "o-card--orange-4",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "58": {
         "elementClass": "o-card--orange-3",
@@ -822,8 +764,7 @@
         "elementArticleClass": "o-card--orange-5",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "59": {
         "elementClass": "o-card--orange-4",
@@ -836,11 +777,10 @@
         "elementArticleClass": "o-card--orange-6",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "60": {
-        "elementClass": "o-card--empty o-card--category l-color--light-orange",
+        "elementClass": "o-card--category o-card--light-orange-1",
         "elementSection": "section-9",
         "elementName": "Location",
         "elementCode": "",
@@ -850,8 +790,7 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "61": {
         "elementClass": "o-card--light-orange-1",
@@ -864,8 +803,7 @@
         "elementArticleClass": "o-card--light-orange-3",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "62": {
         "elementClass": "o-card--empty",
@@ -878,8 +816,7 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "63": {
         "elementClass": "o-card--empty",
@@ -892,8 +829,7 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "64": {
         "elementClass": "o-card--empty",
@@ -906,11 +842,10 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "65": {
-        "elementClass": "o-card--empty o-card--category l-color--yellow",
+        "elementClass": "o-card--category o-card--yellow-1",
         "elementSection": "section-10",
         "elementName": "Code Architecture",
         "elementCode": "",
@@ -920,8 +855,7 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "66": {
         "elementClass": "o-card--yellow-1",
@@ -934,8 +868,7 @@
         "elementArticleClass": "o-card--yellow-2",
         "elementVideoName": "MVP on Android",
         "elementVideoLink": "https://www.raywenderlich.com/9216-mvp-on-android",
-        "elementVideoClass": "o-card--yellow-3",
-        "elementClickable": false
+        "elementVideoClass": "o-card--yellow-3"
     },
     "67": {
         "elementClass": "o-card--yellow-2",
@@ -948,8 +881,7 @@
         "elementArticleClass": "o-card--yellow-3",
         "elementVideoName": "MVVM on Android",
         "elementVideoLink": "https://www.raywenderlich.com/8984-mvvm-on-android",
-        "elementVideoClass": "o-card--yellow-4",
-        "elementClickable": false
+        "elementVideoClass": "o-card--yellow-4"
     },
     "68": {
         "elementClass": "o-card--yellow-3",
@@ -962,8 +894,7 @@
         "elementArticleClass": "o-card--yellow-5",
         "elementVideoName": "MVI on Android",
         "elementVideoLink": "https://www.raywenderlich.com/266607-mvi-on-android",
-        "elementVideoClass": "o-card--yellow-6",
-        "elementClickable": false
+        "elementVideoClass": "o-card--yellow-6"
     },
     "69": {
         "elementClass": "o-card--empty",
@@ -976,11 +907,10 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "70": {
-        "elementClass": "o-card--empty o-card--category l-color--turquoise",
+        "elementClass": "o-card--category o-card--turquoise-1",
         "elementSection": "section-11",
         "elementName": "Dependency Injection",
         "elementCode": "",
@@ -990,8 +920,7 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "71": {
         "elementClass": "o-card--turquoise-1",
@@ -1004,8 +933,7 @@
         "elementArticleClass": "o-card--turquoise-3",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "72": {
         "elementClass": "o-card--turquoise-2",
@@ -1018,8 +946,7 @@
         "elementArticleClass": "o-card--turquoise-4",
         "elementVideoName": "Dependency Injection With Koin",
         "elementVideoLink": "https://www.raywenderlich.com/5730-dependency-injection-with-koin",
-        "elementVideoClass": "o-card--turquoise-5",
-        "elementClickable": false
+        "elementVideoClass": "o-card--turquoise-5"
     },
     "73": {
         "elementClass": "o-card--empty",
@@ -1032,8 +959,7 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "74": {
         "elementClass": "o-card--empty",
@@ -1046,11 +972,10 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "75": {
-        "elementClass": "o-card--empty o-card--category l-color--dark-green",
+        "elementClass": "o-card--category o-card--darker-green-1",
         "elementSection": "section-12",
         "elementName": "Thread Handling",
         "elementCode": "",
@@ -1060,8 +985,7 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "76": {
         "elementClass": "o-card--darker-green-1",
@@ -1074,8 +998,7 @@
         "elementArticleClass": "o-card--darker-green-3",
         "elementVideoName": "Android Background Processing",
         "elementVideoLink": "https://www.raywenderlich.com/5306-android-background-processing",
-        "elementVideoClass": "o-card--darker-green-4",
-        "elementClickable": false
+        "elementVideoClass": "o-card--darker-green-4"
     },
     "77": {
         "elementClass": "o-card--darker-green-2",
@@ -1088,8 +1011,7 @@
         "elementArticleClass": "",
         "elementVideoName": "Android Background Processing",
         "elementVideoLink": "https://www.raywenderlich.com/5306-android-background-processing",
-        "elementVideoClass": "o-card--darker-green-4",
-        "elementClickable": false
+        "elementVideoClass": "o-card--darker-green-4"
     },
     "78": {
         "elementClass": "o-card--darker-green-3",
@@ -1102,8 +1024,7 @@
         "elementArticleClass": "o-card--darker-green-5",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "79": {
         "elementClass": "o-card--empty",
@@ -1116,11 +1037,10 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "80": {
-        "elementClass": "o-card--empty o-card--category l-color--turquoise-green",
+        "elementClass": "o-card--category o-card--turquoise-blue-1",
         "elementSection": "section-13",
         "elementName": "Architecture Components",
         "elementCode": "",
@@ -1130,8 +1050,7 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "81": {
         "elementClass": "o-card--turquoise-blue-1",
@@ -1144,8 +1063,7 @@
         "elementArticleClass": "",
         "elementVideoName": "Android Architecture Components: LiveData",
         "elementVideoLink": "https://www.raywenderlich.com/4980-android-architecture-components-livedata",
-        "elementVideoClass": "o-card--turquoise-blue-3",
-        "elementClickable": false
+        "elementVideoClass": "o-card--turquoise-blue-3"
     },
     "82": {
         "elementClass": "o-card--turquoise-blue-2",
@@ -1158,8 +1076,7 @@
         "elementArticleClass": "",
         "elementVideoName": "Android Architecture Components: ViewModel",
         "elementVideoLink": "https://www.raywenderlich.com/5046-android-architecture-components-viewmodel",
-        "elementVideoClass": "o-card--turquoise-blue-4",
-        "elementClickable": false
+        "elementVideoClass": "o-card--turquoise-blue-4"
     },
     "83": {
         "elementClass": "o-card--turquoise-blue-3",
@@ -1172,8 +1089,7 @@
         "elementArticleClass": "",
         "elementVideoName": "Android Architecture Components: Paging Library",
         "elementVideoLink": "https://www.raywenderlich.com/5189-android-architecture-components-paging-library",
-        "elementVideoClass": "o-card--turquoise-blue-5",
-        "elementClickable": false
+        "elementVideoClass": "o-card--turquoise-blue-5"
     },
     "84": {
         "elementClass": "o-card--turquoise-blue-4",
@@ -1186,11 +1102,10 @@
         "elementArticleClass": "o-card--turquoise-blue-5",
         "elementVideoName": "Android Background Processing",
         "elementVideoLink": "https://www.raywenderlich.com/5306-android-background-processing",
-        "elementVideoClass": "o-card--turquoise-blue-6",
-        "elementClickable": false
+        "elementVideoClass": "o-card--turquoise-blue-6"
     },
     "85": {
-        "elementClass": "o-card--empty o-card--category l-color--other-blue",
+        "elementClass": "o-card--category o-card--dark-blue-1",
         "elementSection": "section-14",
         "elementName": "Build Configuration",
         "elementCode": "",
@@ -1200,8 +1115,7 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "86": {
         "elementClass": "o-card--dark-blue-1",
@@ -1214,8 +1128,7 @@
         "elementArticleClass": "o-card--dark-blue-2",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "87": {
         "elementClass": "o-card--empty",
@@ -1228,8 +1141,7 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "88": {
         "elementClass": "o-card--empty",
@@ -1242,8 +1154,7 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "89": {
         "elementClass": "o-card--empty",
@@ -1256,11 +1167,10 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "90": {
-        "elementClass": "o-card--empty o-card--category l-color--other-purple",
+        "elementClass": "o-card--category o-card--other-purple-1",
         "elementSection": "section-15",
         "elementName": "Android Jetpack",
         "elementCode": "",
@@ -1270,8 +1180,7 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "91": {
         "elementClass": "o-card--other-purple-1",
@@ -1284,8 +1193,7 @@
         "elementArticleClass": "o-card--other-purple-3",
         "elementVideoName": "Jetpack: Navigation Controller",
         "elementVideoLink": "https://www.raywenderlich.com/5365-jetpack-navigation-controller",
-        "elementVideoClass": "o-card--other-purple-4",
-        "elementClickable": false
+        "elementVideoClass": "o-card--other-purple-4"
     },
     "92": {
         "elementClass": "o-card--other-purple-2",
@@ -1298,8 +1206,7 @@
         "elementArticleClass": "o-card--other-purple-4",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "93": {
         "elementClass": "o-card--other-purple-3",
@@ -1312,8 +1219,7 @@
         "elementArticleClass": "o-card--other-purple-4",
         "elementVideoName": "Android KTX",
         "elementVideoLink": "https://www.raywenderlich.com/3565197-android-ktx",
-        "elementVideoClass": "o-card--other-purple-5",
-        "elementClickable": false
+        "elementVideoClass": "o-card--other-purple-5"
     },
     "94": {
         "elementClass": "o-card--fill",
@@ -1326,11 +1232,10 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "95": {
-        "elementClass": "o-card--empty o-card--category l-color--other-pink",
+        "elementClass": "o-card--category o-card--other-pink-1",
         "elementSection": "section-16",
         "elementName": "Testing",
         "elementCode": "",
@@ -1340,8 +1245,7 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "96": {
         "elementClass": "o-card--other-pink-1",
@@ -1354,8 +1258,7 @@
         "elementArticleClass": "o-card--other-pink-2",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "97": {
         "elementClass": "o-card--other-pink-2",
@@ -1368,8 +1271,7 @@
         "elementArticleClass": "o-card--other-pink-4",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "98": {
         "elementClass": "o-card--empty",
@@ -1382,8 +1284,7 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "99": {
         "elementClass": "o-card--fill-bottom-right",
@@ -1396,11 +1297,10 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "100": {
-        "elementClass": "o-card--empty o-card--category l-color--other-red",
+        "elementClass": "o-card--category o-card--other-red-1",
         "elementSection": "section-17",
         "elementName": "App Publishing",
         "elementCode": "",
@@ -1410,8 +1310,7 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "101": {
         "elementClass": "o-card--other-red-1",
@@ -1424,8 +1323,7 @@
         "elementArticleClass": "o-card--other-red-3",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "102": {
         "elementClass": "o-card--other-red-2",
@@ -1438,8 +1336,7 @@
         "elementArticleClass": "o-card--other-red-4",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "103": {
         "elementClass": "o-card--empty",
@@ -1452,7 +1349,6 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     }
 }

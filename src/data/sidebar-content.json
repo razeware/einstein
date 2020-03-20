@@ -1,91 +1,91 @@
 {
     "0": {
-        "sidebarClass": "l-color--light-green",
+        "sidebarClass": "o-card--category o-card--light-green-1",
         "sidebarSection": "section-1",
         "sidebarName": "Programming Language"
     },
     "1": {
-        "sidebarClass": "l-color--green",
+        "sidebarClass": "o-card--category o-card--dark-green-1",
         "sidebarSection": "section-2",
         "sidebarName": "Android Studio"
     },
     "2": {
-        "sidebarClass": "l-color--light-blue",
+        "sidebarClass": "o-card--category o-card--light-blue-1",
         "sidebarSection": "section-3",
         "sidebarName": "Software Engineering"
     },
     "3": {
-        "sidebarClass": "l-color--blue",
+        "sidebarClass": "o-card--category o-card--blue-1",
         "sidebarSection": "section-4",
         "sidebarName": "App Components"
     },
     "4": {
-        "sidebarClass": "l-color--purple",
+        "sidebarClass": "o-card--category o-card--purple-1",
         "sidebarSection": "section-5",
         "sidebarName": "User Interface"
     },
     "5": {
-        "sidebarClass": "l-color--pink",
+        "sidebarClass": "o-card--category o-card--pink-1",
         "sidebarSection": "section-6",
         "sidebarName": "More User Interface"
     },
     "6": {
-        "sidebarClass": "l-color--red",
+        "sidebarClass": "o-card--category o-card--red-1",
         "sidebarSection": "section-7",
         "sidebarName": "Data Persistence"
     },
     "7": {
-        "sidebarClass": "l-color--orange",
+        "sidebarClass": "o-card--category o-card--orange-1",
         "sidebarSection": "section-8",
         "sidebarName": "Network Handling"
     },
     "8": {
-        "sidebarClass": "l-color--light-orange",
+        "sidebarClass": "o-card--category o-card--light-orange-1",
         "sidebarSection": "section-9",
         "sidebarName": "Location"
     },
     "9": {
-        "sidebarClass": "l-color--yellow",
+        "sidebarClass": "o-card--category o-card--yellow-1",
         "sidebarSection": "section-10",
         "sidebarName": "Code Architecture"
     },
     "10": {
-        "sidebarClass": "l-color--turquoise",
+        "sidebarClass": "o-card--category o-card--turquoise-1",
         "sidebarSection": "section-11",
         "sidebarName": "Dependency Injection"
     },
     "11": {
-        "sidebarClass": "l-color--dark-green",
+        "sidebarClass": "o-card--category o-card--darker-green-1",
         "sidebarSection": "section-12",
         "sidebarName": "Thread Handling"
     },
     "12": {
-        "sidebarClass": "l-color--turquoise-green",
+        "sidebarClass": "o-card--category o-card--turquoise-blue-1",
         "sidebarSection": "section-13",
         "sidebarName": "Architecture Components"
     },
     "13": {
-        "sidebarClass": "l-color--other-blue",
+        "sidebarClass": "o-card--category o-card--dark-blue-1",
         "sidebarSection": "section-14",
         "sidebarName": "Build Configuration"
     },
     "14": {
-        "sidebarClass": "l-color--other-purple",
+        "sidebarClass": "o-card--category o-card--other-purple-1",
         "sidebarSection": "section-15",
         "sidebarName": "Android Jetpack"
     },
     "15": {
-        "sidebarClass": "l-color--other-pink",
+        "sidebarClass": "o-card--category o-card--other-pink-1",
         "sidebarSection": "section-16",
         "sidebarName": "Testing"
     },
     "16": {
-        "sidebarClass": "l-color--other-red",
+        "sidebarClass": "o-card--category o-card--other-red-1",
         "sidebarSection": "section-17",
         "sidebarName": "App Publishing"
     },
     "17": {
-        "sidebarClass": "l-color--grey",
+        "sidebarClass": "o-card--category o-card--grey-1",
         "sidebarSection": "section-18",
         "sidebarName": "Also Nice To Know"
     }

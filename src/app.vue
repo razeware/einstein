@@ -19,12 +19,13 @@
     <div class="l-grid l-grid--5">
 
       <Element
-        v-for="data in elementData"
+        v-for="(data, index) in elementData"
         v-bind:key="data.id"
         v-bind:elementSection="data.elementSection"
         v-bind:elementClass="data.elementClass"
         v-bind:elementName="data.elementName"
         v-bind:elementCode="data.elementCode"
+        v-bind:elementNumber="index"
         v-bind:elementDescription="data.elementDescription"
         v-bind:elementArticleName="data.elementArticleName"
         v-bind:elementArticleLink="data.elementArticleLink"
@@ -42,12 +43,13 @@
     <div class="l-grid l-grid--5">
 
       <Element
-        v-for="data in elementDataExtended"
+        v-for="(data, index) in elementDataExtended"
         v-bind:key="data.id"
         v-bind:elementSection="data.elementSection"
         v-bind:elementClass="data.elementClass"
         v-bind:elementName="data.elementName"
         v-bind:elementCode="data.elementCode"
+        v-bind:elementNumber="index"
         v-bind:elementDescription="data.elementDescription"
         v-bind:elementArticleName="data.elementArticleName"
         v-bind:elementArticleLink="data.elementArticleLink"

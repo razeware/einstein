@@ -1,6 +1,6 @@
 {
     "0": {
-        "elementClass": "o-card--empty o-card--category l-color--grey",
+        "elementClass": "o-card--category o-card--grey-1",
         "elementSection": "section-18",
         "elementName": "Also Nice To Know",
         "elementCode": "",
@@ -10,8 +10,7 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "1": {
         "elementClass": "o-card--grey-1",
@@ -24,8 +23,7 @@
         "elementArticleClass": "o-card--grey-3",
         "elementVideoName": "Getting Started with Flutter in Android Studio",
         "elementVideoLink": "https://www.raywenderlich.com/4558-getting-started-with-flutter-in-android-studio",
-        "elementVideoClass": "o-card--grey-4",
-        "elementClickable": false
+        "elementVideoClass": "o-card--grey-4"
     },
     "2": {
         "elementClass": "o-card--grey-2",
@@ -38,8 +36,7 @@
         "elementArticleClass": "o-card--grey-4",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "3": {
         "elementClass": "o-card--grey-3",
@@ -52,8 +49,7 @@
         "elementArticleClass": "o-card--grey-5",
         "elementVideoName": "Beginning RxKotlin",
         "elementVideoLink": "https://www.raywenderlich.com/7419-beginning-rxkotlin",
-        "elementVideoClass": "o-card--grey-6",
-        "elementClickable": false
+        "elementVideoClass": "o-card--grey-6"
     },
     "4": {
         "elementClass": "o-card--grey-4",
@@ -66,8 +62,7 @@
         "elementArticleClass": "o-card--grey-6",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "5": {
         "elementClass": "o-card--fill",
@@ -80,8 +75,7 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "6": {
         "elementClass": "o-card--grey-5",
@@ -94,8 +88,7 @@
         "elementArticleClass": "o-card--grey-7",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "7": {
         "elementClass": "o-card--grey-6",
@@ -108,8 +101,7 @@
         "elementArticleClass": "",
         "elementVideoName": "Getting Started with TensorFlow",
         "elementVideoLink": "https://www.raywenderlich.com/4556-getting-started-with-tensorflow-on-android",
-        "elementVideoClass": "o-card--grey-8",
-        "elementClickable": false
+        "elementVideoClass": "o-card--grey-8"
     },
     "8": {
         "elementClass": "o-card--empty",
@@ -122,8 +114,7 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     },
     "9": {
         "elementClass": "o-card--fill",
@@ -136,7 +127,6 @@
         "elementArticleClass": "",
         "elementVideoName": "",
         "elementVideoLink": "",
-        "elementVideoClass": "",
-        "elementClickable": false
+        "elementVideoClass": ""
     }
 }

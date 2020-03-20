@@ -68,6 +68,20 @@
 
 }
 
+.o-card__number{
+  font-size: 1.3125rem !important; /* 21/16 */
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  opacity: .4;
+  display: none;
+
+  @include breakpoint("mobile-large"){
+    opacity: 0;
+  }
+
+}
+
 .o-card__title{
   width: 100%;
   font-size: 1rem;
@@ -360,6 +374,16 @@
 
   &:hover {
     background: darken($backgroundColor, 3%)
+  }
+
+  &.o-card--category {
+    background: none !important;
+    color: $backgroundColor !important;
+
+    &:hover {
+      background: none !important;
+    }
+
   }
 
 }

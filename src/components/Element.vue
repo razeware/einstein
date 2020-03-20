@@ -4,6 +4,7 @@
     <div class="o-card__wrapper">
       <div class="o-card__content-main">
         <span class="o-card__code">{{ elementCode }}</span>
+        <span class="o-card__number">{{ elementNumber }}</span>
         <span class="o-card__title">{{ elementName }}</span>
       </div>
     </div>
@@ -21,6 +22,7 @@ module.exports = {
           'elementSection',
           'elementName',
           'elementCode',
+          'elementNumber',
           'elementDescription',
           'elementArticleName',
           'elementArticleLink',
