@@ -400,6 +400,11 @@
   @include backgroundColor(#44A15D);
 }
 
+.o-card--light-green-4{
+  @include backgroundColor(#3B9C55);
+}
+
+
 .o-card--dark-green-1{
   @include backgroundColor(#0E8D52);
 }
@@ -646,6 +651,14 @@
 
 .o-card--dark-blue-2{
   @include backgroundColor(#0A536E);
+}
+
+.o-card--dark-blue-3{
+  @include backgroundColor(#09475E);
+}
+
+.o-card--dark-blue-4{
+  @include backgroundColor(#073E52);
 }
 
 .o-card--other-purple-1{

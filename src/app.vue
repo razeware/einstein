@@ -16,6 +16,17 @@
       @close-modal="closeModal"
     />
 
+    <div class="l-grid l-grid--colors">
+
+      <Element
+        v-for="(data, index) in colorData"
+        v-bind:key="data.id"
+        v-bind:elementClass="data.elementClass"
+        v-bind:elementName="data.elementClass"
+      />
+
+    </div>
+
     <div class="l-grid l-grid--5">
 
       <Element
@@ -76,15 +87,17 @@
 </template>
 
 <script>
-import sidebar from './data/sidebar-content.json';
+import colors from './data/colors.json';
 import content from './data/content.json';
 import extraContent from './data/extra-content.json';
+import sidebar from './data/sidebar-content.json';
 import Element from './components/Element.vue'
 import Popup from './components/Popup.vue'
 export default {
   name: 'app',
   data() {
     return {
+      colorData: colors,
       sidebarData: sidebar,
       elementData: content,
       elementDataExtended: extraContent,

@@ -19,10 +19,46 @@
 Global
 ========================================================================== */
 
-.l-developer-mode {
+.l-grid-mode {
   .o-card__number {
     display: block;
   }
+}
+
+.l-grid--colors {
+  display: none !important;
+}
+
+.l-color-mode {
+  body {
+    padding: 0;
+  }
+
+  .l-grid--colors {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .l-grid-wrapper {
+    > div {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .l-grid--5, .c-navigation {
+    display: none;
+  }
+
+  .o-card {
+    border-radius: 0;
+    cursor: auto;
+
+    .o-card__click {
+      display: none;
+    }
+
+  }
+
 }
 
 
