@@ -10,7 +10,7 @@
 *
 * 3. Hide Modal Button
 *
-* 4. Card Category
+* 4. Card Section
 *
 * 5. States
 *
@@ -121,14 +121,37 @@
     }
   }
 
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+
+    li {
+      margin-top: 9px;
+
+      a {
+        font-size: 0.875rem; /* 14/16 */
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: $white;
+      }
+
+    }
+  }
+
   .o-card__content-display-links{
-    height: 54px;
+    min-height: 54px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-content: center;
     text-align: center;
     margin-top: 36px;
+    background: inherit;
+
+    @include breakpoint("mobile-large"){
+      grid-template-columns: 1fr;
+    }
 
     a{
       font-size: 0.875rem; /* 14/16 */
@@ -140,6 +163,42 @@
       text-overflow: ellipsis;
       padding: 0 30px;
       text-transform: uppercase;
+      position: relative;
+      background: inherit;
+
+      &:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: inherit;
+      }
+
+      &:nth-child(4n) {
+        &:before {
+          filter: brightness(90%);
+        }
+      }
+
+      &:nth-child(4n+1) {
+        &:before {
+          filter: brightness(90%);
+        }
+      }
+
+      &:nth-child(4n+2) {
+        &:before {
+          filter: brightness(85%);
+        }
+      }
+
+      &:nth-child(4n+3) {
+        &:before {
+          filter: brightness(85%);
+        }
+      }
 
       @include breakpoint("mobile-large"){
         font-size: 12px;
@@ -169,12 +228,6 @@
 
       }
 
-    }
-
-    .o-card__content-display-links-title{
-      @include breakpoint("tablet"){
-        display: none;
-      }
     }
 
   }
@@ -213,10 +266,10 @@
 }
 
 /* ==========================================================================
-4. Card Category
+4. Card Section
 ========================================================================== */
 
-.o-card--category{
+.o-card--section{
   align-items: flex-start;
   justify-content: flex-start;
   transition: none !important;
@@ -376,7 +429,7 @@
     background: darken($backgroundColor, 3%)
   }
 
-  &.o-card--category {
+  &.o-card--section {
     background: none !important;
     color: $backgroundColor !important;
 

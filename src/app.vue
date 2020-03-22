@@ -6,6 +6,7 @@
       v-bind:elementClass="elementClass"
       v-bind:elementName="elementName"
       v-bind:elementDescription="elementDescription"
+      v-bind:elementTutorials="elementTutorials"
       v-bind:elementArticleName="elementArticleName"
       v-bind:elementArticleLink="elementArticleLink"
       v-bind:elementArticleClass="elementArticleClass"
@@ -38,6 +39,7 @@
         v-bind:elementCode="data.elementCode"
         v-bind:elementNumber="index"
         v-bind:elementDescription="data.elementDescription"
+        v-bind:elementTutorials="data.elementTutorials"
         v-bind:elementArticleName="data.elementArticleName"
         v-bind:elementArticleLink="data.elementArticleLink"
         v-bind:elementArticleClass="data.elementArticleClass"
@@ -77,8 +79,11 @@
 
     <nav class="c-navigation">
       <ul>
-        <li v-for="data in sidebarData" v-bind:key="data.id">
-          <a v-bind:href="'#' + data.sidebarSection" v-bind:class="data.sidebarClass">{{ data.sidebarName }}</a>
+        <li v-for="data in elementData" v-if="data.elementSection" v-bind:key="data.id">
+          <a v-bind:href="'#' + data.elementSection" v-bind:class="data.elementClass">{{ data.elementName }}</a>
+        </li>
+        <li v-for="data in elementDataExtended" v-if="data.elementSection" v-bind:key="data.id">
+          <a v-bind:href="'#' + data.elementSection" v-bind:class="data.elementClass">{{ data.elementName }}</a>
         </li>
       </ul>
     </nav>
@@ -90,9 +95,8 @@
 import colors from './data/colors.json';
 import content from './data/content.json';
 import extraContent from './data/extra-content.json';
-import sidebar from './data/sidebar-content.json';
-import Element from './components/Element.vue'
-import Popup from './components/Popup.vue'
+import Element from './components/Element.vue';
+import Popup from './components/Popup.vue';
 export default {
   name: 'app',
   data() {
@@ -104,6 +108,7 @@ export default {
       elementClass: String,
       elementName: String,
       elementDescription: String,
+      elementTutorials: String,
       elementArticleName: String,
       elementArticleLink: String,
       elementArticleClass: String,
@@ -118,16 +123,17 @@ export default {
     Popup
   },
   methods: {
-    changeData(a, b, c, d, e, f, g, h, i) {
+    changeData(a, b, c, d, e, f, g, h, i, j) {
       this.elementClass = a;
       this.elementName = b;
       this.elementDescription = c;
-      this.elementArticleName = d;
-      this.elementArticleLink = e;
-      this.elementArticleClass = f;
-      this.elementVideoName = g;
-      this.elementVideoLink = h;
-      this.elementVideoClass = i;
+      this.elementTutorials = d;
+      this.elementArticleName = e;
+      this.elementArticleLink = f;
+      this.elementArticleClass = g;
+      this.elementVideoName = h;
+      this.elementVideoLink = i;
+      this.elementVideoClass = j;
       this.showModal = true;
     },
     closeModal() {
