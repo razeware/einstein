@@ -30,12 +30,6 @@ module.exports = {
     'elementName',
     'elementDescription',
     'elementTutorials',
-    'elementArticleName',
-    'elementArticleLink',
-    'elementArticleClass',
-    'elementVideoName',
-    'elementVideoLink',
-    'elementVideoClass',
     'showModal',
    ],
 }
