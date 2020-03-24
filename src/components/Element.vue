@@ -1,6 +1,6 @@
 <template>
   <div class="o-card" v-bind:class="elementClass" v-bind:id="elementSection">
-    <span v-if="elementDescription || elementTutorials" class="o-card__click" @click="showMessage(elementClass, elementName, elementDescription, elementTutorials)"></span>
+    <span class="o-card__click" @click="showMessage(elementClass, elementName, elementDescription, elementTutorials)"></span>
     <div class="o-card__wrapper">
       <div class="o-card__content-main">
         <span class="o-card__code">{{ elementCode }}</span>

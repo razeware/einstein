@@ -274,10 +274,15 @@
   justify-content: flex-start;
   transition: none !important;
   padding: 0 15px 0 0;
+  cursor: default;
 
   &:hover{
     transform: scale(1) !important;
     z-index: 0;
+  }
+
+  > span.o-card__click{
+    display: none;
   }
 
   span{
@@ -305,8 +310,11 @@
   background: #222222;
   border-radius: 21px;
   cursor: default;
+  transition: none !important;
 
-   transition: none !important;
+  > span.o-card__click{
+    display: none;
+  }
 
   &:hover{
     transform: scale(1) !important;
@@ -319,12 +327,15 @@
   background: #2B2B2B;
   border-radius: 21px;
   cursor: default;
-
- transition: none !important;
+  transition: none !important;
 
   &:hover{
     transform: scale(1) !important;
     z-index: 0;
+  }
+
+  > span.o-card__click{
+    display: none;
   }
 
 }
@@ -349,6 +360,11 @@
     background: #2B2B2B;
     border-radius: 21px;
   }
+
+  > span.o-card__click{
+    display: none;
+  }
+
 }
 
 .o-card--fill-top-right{
@@ -370,6 +386,10 @@
     right: 0;
     background: #2B2B2B;
     border-radius: 21px;
+  }
+
+  > span.o-card__click{
+    display: none;
   }
 
 }
@@ -394,6 +414,11 @@
     background: #2B2B2B;
     border-radius: 21px;
   }
+
+  > span.o-card__click{
+    display: none;
+  }
+
 }
 
 .o-card--fill-bottom-left{
@@ -415,6 +440,10 @@
     left: 0;
     background: #2B2B2B;
     border-radius: 21px;
+  }
+
+  > span.o-card__click{
+    display: none;
   }
 }
 
