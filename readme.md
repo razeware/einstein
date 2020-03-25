@@ -51,15 +51,14 @@ An object can have the following attributes:
   "elementDescription": ""
   "elementTutorials": [ [“”, ””] ]
 }
-```
 
-```
-elementClass: Classes to adapt a square for a section, subject or fill (String)
-elementSection: Anchor for a section (String)
-elementName: Display name of a section or subject (String)
-elementCode: Code in the corner of a subject (String)
-elementDescription: Description of a subject (String)
-elementTutorials: Subject tutorials and links eg. Articles, Video Courses, Books (Array)
+//elementClass: Classes to adapt a square for a section, subject or fill (String)
+//elementSection: Anchor for a section (String)
+//elementName: Display name of a section or subject (String)
+//elementCode: Code in the corner of a subject (String)
+//elementDescription: Description of a subject (String)
+//elementTutorials: Subject tutorials and links eg. Articles, Video Courses, Books (Array)
+
 ```
 
 There are three types of elements that can be placed on the grid squares:
