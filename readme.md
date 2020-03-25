@@ -39,11 +39,11 @@ Squares on the grid are configurable through JSON objects. The JSON for the tabl
 An object can have the following attributes:
 
 ```
-elementClass (String): HTML classes to adapt a square for a section, subject or fill
-elementSection (String): HTML href anchor for a section
+elementClass (String): Classes to adapt a square for a section, subject or fill
+elementSection (String): href anchor for a section
 elementName (String): Display name of a section or subject
 elementCode (String): Code in the left hand corner of a subject (just for laughs)
-elementDescription (String): Description of the subject
+elementDescription (String): Description of a subject
 elementTutorials (Array): Subject tutorials and links (Articles, Video Courses, Books)
 ```
 ```
@@ -54,7 +54,7 @@ elementTutorials (Array): Subject tutorials and links (Articles, Video Courses, 
   "elementCode": "",
   "elementDescription": ""
   "elementTutorials": [ [“”, ””] ]
-  }
+}
 ```
 
 There are three types of elements that can be placed on the grid squares:
