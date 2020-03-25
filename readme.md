@@ -20,11 +20,11 @@ The table of elements is composed of sections and subjects.
 
 //Image
 
-**Subject:** Subjects represent a well-defined topic of Android development eg. Kotlin, RecyclerView or Firebase. Subjects within a section are organised from left to right.
+**Subject:** Subjects represent a well-defined topic of Android development eg. *Kotlin*, *RecyclerView* or *Firebase*. Subjects within a section are organised from left to right.
 
 //Image
 
-Subjects that are similar or represent an area of Android development that is closely related should be organised vertically in a column to create a sub-section eg. Animations and Transitions.
+Subjects that are similar or represent an area of Android development that is closely related should be organised vertically in a column to create a sub-section eg. *Animations* and *Transitions*.
 
 //Image
 
@@ -36,7 +36,9 @@ The table of elements is built on a 5 column square grid.
 
 Squares on the grid are configurable through JSON objects. The JSON for the table is stored in: ```/src/data/content.json```
 
-Objects are displayed on the grid according to their object number from left to right. To see the JSON object number of each corresponding square, use the grid view when configuring the table of elements ```/grid```.
+Objects are displayed on the grid according to their object number from left to right.
+
+̦To see the JSON object number of each corresponding square, use the grid view when configuring the table of elements ```/grid```.
 
 An object can have the following attributes:
 
