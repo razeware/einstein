@@ -70,7 +70,7 @@ There are three types of elements that can be placed on the grid squares:
 An explanation and example object configuration for each element is as follows:
 
 ```
-Section: Element to define the start of a group of subjects
+Section: Define the start of a group of subjects
 
 {
   "elementClass": "light-green-1",
@@ -80,7 +80,7 @@ Section: Element to define the start of a group of subjects
 ```
 
 ```
-Subject: Element to define a subject
+Subject: Define a subject
 
 {
   "elementClass": "light-green-1",
@@ -95,19 +95,16 @@ Subject: Element to define a subject
 ```
 
 ```
-Fill: Element (with background) to fill up empty squares at the end of a row
+Fill/Empty: Fill up empty squares at the end of a row
 
 {
   "elementClass": "fill",
 }
-```
-
-```
-Empty: Element to fill up empty squares at the end of a row
 
 {
   "elementClass": "empty",
 }
+
 ```
 
 ## Color Guide
