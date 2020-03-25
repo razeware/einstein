@@ -43,12 +43,12 @@ Objects are displayed on the grid according to their object number from left to 
 An object can have the following attributes:
 
 ```
-elementClass (String): Classes to adapt a square for a section, subject or fill
-elementSection (String): href anchor for a section
-elementName (String): Display name of a section or subject
-elementCode (String): Code in the left hand corner of a subject (just for laughs)
-elementDescription (String): Description of a subject
-elementTutorials (Array): Subject tutorials and links (Articles, Video Courses, Books)
+elementClass: Classes to adapt a square for a section, subject or fill (String)
+elementSection: href anchor for a section (String)
+elementName: Display name of a section or subject (String)
+elementCode: Code in the left hand corner of a subject (String)
+elementDescription: Description of a subject (String)
+elementTutorials: Subject tutorials and links eg. Articles, Video Courses, Books (Array)
 ```
 ```
 {
