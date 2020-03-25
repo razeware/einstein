@@ -18,21 +18,21 @@ The table of elements is composed of sections and subjects.
 
 **Section:** A section is simply a grouping of subjects and represents an area of Android development eg. Programming Language, User Interface or Networking. Every section has a base color. The base color and it’s shades are used to define the subjects within a section (see the color guide at the end of this readme for more details).
 
-!(https://raw.githubusercontent.com/razeware/einstein/master/javascript/images/sections.png "")
+![alt text](https://raw.githubusercontent.com/razeware/einstein/master/javascript/images/sections.png "")
 
 **Subject:** Subjects represent a well-defined topic of Android development eg. *Kotlin*, *RecyclerView* or *Firebase*. Subjects within a section are organised from left to right.
 
-!(https://raw.githubusercontent.com/razeware/einstein/master/javascript/images/subjects.png "")
+![alt text](https://raw.githubusercontent.com/razeware/einstein/master/javascript/images/subjects.png "")
 
 Subjects that are similar or represent an area of Android development that is closely related should be organised vertically in a column to create a sub-section eg. *Animations* and *Transitions*.
 
-!(https://raw.githubusercontent.com/razeware/einstein/master/javascript/images/sub-sections.png "")
+![alt text](https://raw.githubusercontent.com/razeware/einstein/master/javascript/images/sub-sections.png "")
 
 ## Configuring the Table of Elements
 
 The table of elements is built on a 5 column square grid.
 
-!(https://raw.githubusercontent.com/razeware/einstein/master/javascript/images/grid.png "")
+![alt text](https://raw.githubusercontent.com/razeware/einstein/master/javascript/images/grid.png "")
 
 Squares on the grid are configurable through JSON objects. The JSON for the table is stored in: ```/src/data/content.json```
 
