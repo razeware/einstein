@@ -95,7 +95,7 @@ Subject: Define a subject
 ```
 
 ```
-Fill/Empty: Fill up empty squares at the end of a row
+Fill/Empty: Fill up empty squares at the end of a row with fill (background) or empty (no background)
 
 {
   "elementClass": "fill",
