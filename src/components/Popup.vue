@@ -1,6 +1,6 @@
 <template>
   <transition name="slide-fade" >
-    <div class="o-card__content-display" v-bind:class="elementClass" v-if="showModal">
+    <div class="o-card__content-display" v-bind:class="'o-card--' + elementClass" v-if="showModal">
       <button class="o-card__content-display--hide" @click="closeModal(a)"><svg><use xlink:href="#close"/></svg></button>
       <div class="l-block--960 l-center l-padding-sides--30">
         <h3 style="margin-bottom: 15px">{{ elementName }}</h3>

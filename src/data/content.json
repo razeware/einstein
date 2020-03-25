@@ -1,6 +1,6 @@
 {
     "0": {
-        "elementClass": "o-card--section o-card--light-green-1",
+        "elementClass": "light-green-1",
         "elementSection": "section-1",
         "elementName": "Programming Language",
         "elementCode": "",
@@ -8,27 +8,26 @@
         "elementTutorials": []
     },
     "1": {
-        "elementClass": "o-card--light-green-1",
+        "elementClass": "light-green-1",
         "elementSection": "",
         "elementName": "Kotlin",
         "elementCode": "Kn",
         "elementDescription": "Kotlin is a cross-platform, statically typed, general-purpose programming language with type inference. Kotlin has been Googles preferred language for Android app development since 7 May 2019.",
         "elementTutorials": [
             ["Kotlin For Android: An Introduction (Article)", "https://www.raywenderlich.com/1144981-kotlin-for-android-an-introduction"],
-            ["Programming in Kotlin (Video Course)", "https://www.raywenderlich.com/4736-programming-in-kotlin"],
-            ["Kotlin Apprentice (Book)", "https://store.raywenderlich.com/products/kotlin-apprentice"]
+            ["Programming in Kotlin (Video)", "https://www.raywenderlich.com/4736-programming-in-kotlin"]
         ]
     },
     "2": {
-        "elementClass": "o-card--light-green-2",
+        "elementClass": "light-green-2",
         "elementSection": "",
         "elementName": "Java",
         "elementCode": "Jv",
-        "elementDescription": "...",
+        "elementDescription": "",
         "elementTutorials": []
     },
     "3": {
-        "elementClass": "o-card--fill-top-right",
+        "elementClass": "fill-top-right",
         "elementSection": "",
         "elementName": "",
         "elementCode": "",
@@ -36,7 +35,7 @@
         "elementTutorials": []
     },
     "4": {
-        "elementClass": "o-card--empty",
+        "elementClass": "empty",
         "elementSection": "",
         "elementName": "",
         "elementCode": "",
@@ -44,7 +43,7 @@
         "elementTutorials": []
     },
     "5": {
-        "elementClass": "o-card--section o-card--dark-green-1",
+        "elementClass": "dark-green-1",
         "elementSection": "section-2",
         "elementName": "Android Studio",
         "elementCode": "",
@@ -52,18 +51,18 @@
         "elementTutorials": []
     },
     "6": {
-        "elementClass": "o-card--dark-green-1",
+        "elementClass": "dark-green-1",
         "elementSection": "",
         "elementName": "Android Studio",
         "elementCode": "As",
         "elementDescription": "",
         "elementTutorials": [
             ["Installing Android Studio (Article)", "https://www.raywenderlich.com/478209-beginning-android-development-with-kotlin-part-one-installing-android-studio"],
-            ["Your First Kotlin Android App (Video Course)", "https://www.raywenderlich.com/4936497-your-first-kotlin-android-app"]
+            ["Your First Kotlin Android App (Video)", "https://www.raywenderlich.com/4936497-your-first-kotlin-android-app"]
         ]
     },
     "7": {
-        "elementClass": "o-card--empty",
+        "elementClass": "empty",
         "elementSection": "",
         "elementName": "",
         "elementCode": "",
@@ -71,7 +70,7 @@
         "elementTutorials": []
     },
     "8": {
-        "elementClass": "o-card--fill",
+        "elementClass": "fill",
         "elementSection": "",
         "elementName": "",
         "elementCode": "",
@@ -79,7 +78,7 @@
         "elementTutorials": []
     },
     "9": {
-        "elementClass": "o-card--empty",
+        "elementClass": "empty",
         "elementSection": "",
         "elementName": "",
         "elementCode": "",
@@ -87,7 +86,7 @@
         "elementTutorials": []
     },
     "10": {
-        "elementClass": "o-card--section o-card--light-blue-1",
+        "elementClass": "light-blue-1",
         "elementSection": "section-3",
         "elementName": "Software Engineering",
         "elementCode": "",
@@ -95,20 +94,17 @@
         "elementTutorials": []
     },
     "11": {
-        "elementClass": "o-card--light-blue-1",
+        "elementClass": "light-blue-1",
         "elementSection": "",
         "elementName": "Design Patterns",
         "elementCode": "Se",
         "elementDescription": "",
-        "elementArticleName": "Common Design Patterns",
-        "elementArticleLink": "https://www.raywenderlich.com/470-common-design-patterns-for-android-with-kotlin",
-        "elementArticleClass": "o-card--blue-1",
-        "elementVideoName": "",
-        "elementVideoLink": "",
-        "elementVideoClass": ""
+        "elementTutorials": [
+            ["Common Design Patterns (Article)", "https://www.raywenderlich.com/470-common-design-patterns-for-android-with-kotlin"]
+        ]
     },
     "12": {
-        "elementClass": "o-card--empty",
+        "elementClass": "empty",
         "elementSection": "",
         "elementName": "",
         "elementCode": "",
@@ -116,7 +112,7 @@
         "elementTutorials": []
     },
     "13": {
-        "elementClass": "o-card--empty",
+        "elementClass": "empty",
         "elementSection": "",
         "elementName": "",
         "elementCode": "",
@@ -124,7 +120,7 @@
         "elementTutorials": []
     },
     "14": {
-        "elementClass": "o-card--fill-bottom-left",
+        "elementClass": "fill-bottom-left",
         "elementSection": "",
         "elementName": "",
         "elementCode": "",
@@ -132,7 +128,7 @@
         "elementTutorials": []
     },
     "15": {
-        "elementClass": "o-card--section o-card--blue-1",
+        "elementClass": "blue-1",
         "elementSection": "section-4",
         "elementName": "App Components",
         "elementCode": "",
@@ -140,46 +136,37 @@
         "elementTutorials": []
     },
     "16": {
-        "elementClass": "o-card--blue-1",
+        "elementClass": "blue-1",
         "elementSection": "",
         "elementName": "Activity",
         "elementCode": "Ay",
         "elementDescription": "",
-        "elementArticleName": "Introduction to Android Activities",
-        "elementArticleLink": "https://www.raywenderlich.com/2705552-introduction-to-android-activities-with-kotlin",
-        "elementArticleClass": "o-card--blue-2",
-        "elementVideoName": "",
-        "elementVideoLink": "",
-        "elementVideoClass": ""
+        "elementTutorials": [
+            ["Introduction to Android Activities (Article)", "https://www.raywenderlich.com/2705552-introduction-to-android-activities-with-kotlin"]
+        ]
     },
     "17": {
-        "elementClass": "o-card--blue-2",
+        "elementClass": "blue-2",
         "elementSection": "",
         "elementName": "Intents",
         "elementCode": "In",
         "elementDescription": "",
-        "elementArticleName": "Android Intents",
-        "elementArticleLink": "https://www.raywenderlich.com/4700198-android-intents-tutorial-with-kotlin",
-        "elementArticleClass": "o-card--blue-3",
-        "elementVideoName": "",
-        "elementVideoLink": "",
-        "elementVideoClass": ""
+        "elementTutorials": [
+            ["Android Intents (Article)", "https://www.raywenderlich.com/4700198-android-intents-tutorial-with-kotlin"]
+        ]
     },
     "18": {
-        "elementClass": "o-card--blue-3",
+        "elementClass": "blue-3",
         "elementSection": "",
         "elementName": "Services",
         "elementCode": "Sv",
         "elementDescription": "",
-        "elementArticleName": "Android Background Processing",
-        "elementArticleLink": "https://www.raywenderlich.com/5306-android-background-processing",
-        "elementArticleClass": "o-card--blue-4",
-        "elementVideoName": "",
-        "elementVideoLink": "",
-        "elementVideoClass": ""
+        "elementTutorials": [
+            ["Android Background Processing (Video)", "https://www.raywenderlich.com/5306-android-background-processing"]
+        ]
     },
     "19": {
-        "elementClass": "o-card--empty",
+        "elementClass": "empty",
         "elementSection": "",
         "elementName": "",
         "elementCode": "",
@@ -187,7 +174,7 @@
         "elementTutorials": []
     },
     "20": {
-        "elementClass": "o-card--section o-card--purple-1",
+        "elementClass": "purple-1",
         "elementSection": "section-5",
         "elementName": "User Interface",
         "elementCode": "",
@@ -195,59 +182,49 @@
         "elementTutorials": []
     },
     "21": {
-        "elementClass": "o-card--purple-1",
+        "elementClass": "purple-1",
         "elementSection": "",
         "elementName": "Material Design",
         "elementCode": "Md",
         "elementDescription": "",
-        "elementArticleName": "Introduction to Material Design",
-        "elementArticleLink": "https://www.raywenderlich.com/2780045-android-an-introduction-to-material-design-with-kotlin",
-        "elementArticleClass": "o-card--purple-2",
-        "elementVideoName": "",
-        "elementVideoLink": "",
-        "elementVideoClass": ""
+        "elementTutorials": [
+            ["Introduction to Material Design (Article)", "https://www.raywenderlich.com/2780045-android-an-introduction-to-material-design-with-kotlin"]
+        ]
     },
     "22": {
-        "elementClass": "o-card--purple-2",
+        "elementClass": "purple-2",
         "elementSection": "",
         "elementName": "RecyclerView",
         "elementCode": "Ry",
         "elementDescription": "",
-        "elementArticleName": "Android RecyclerView",
-        "elementArticleLink": "https://www.raywenderlich.com/1560485-android-recyclerview-tutorial-with-kotlin",
-        "elementArticleClass": "o-card--purple-3",
-        "elementVideoName": "Beginning RecyclerView",
-        "elementVideoLink": "https://www.raywenderlich.com/4568-beginning-recyclerview",
-        "elementVideoClass": "o-card--purple-4"
+        "elementTutorials": [
+            ["Android RecyclerView (Article)", "https://www.raywenderlich.com/1560485-android-recyclerview-tutorial-with-kotlin"],
+            ["Beginning RecyclerView (Video)", "https://www.raywenderlich.com/4568-beginning-recyclerview"]
+        ]
     },
     "23": {
-        "elementClass": "o-card--purple-3",
+        "elementClass": "purple-3",
         "elementSection": "",
         "elementName": "UI Layouts",
         "elementCode": "Ui",
         "elementDescription": "",
-        "elementArticleName": "Adaptive UI",
-        "elementArticleLink": "https://www.raywenderlich.com/1560485-android-recyclerview-tutorial-with-kotlin",
-        "elementArticleClass": "o-card--purple-5",
-        "elementVideoName": "Beginning Android Layouts",
-        "elementVideoLink": "https://www.raywenderlich.com/4701-beginning-android-layouts",
-        "elementVideoClass": "o-card--purple-6"
+        "elementTutorials": [
+            ["Adaptive UI (Article)", "https://www.raywenderlich.com/1560485-android-recyclerview-tutorial-with-kotlin"],
+            ["Beginning Android Layouts (Video)", "https://www.raywenderlich.com/4701-beginning-android-layouts"]
+        ]
     },
     "24": {
-        "elementClass": "o-card--purple-4",
+        "elementClass": "purple-4",
         "elementSection": "",
         "elementName": "Fragments",
         "elementCode": "Fg",
         "elementDescription": "",
-        "elementArticleName": "Introduction to Android Fragments",
-        "elementArticleLink": "https://www.raywenderlich.com/1364094-android-fragments-tutorial-an-introduction-with-kotlin",
-        "elementArticleClass": "o-card--purple-6",
-        "elementVideoName": "",
-        "elementVideoLink": "",
-        "elementVideoClass": ""
+        "elementTutorials": [
+            ["Introduction to Android Fragments (Article)", "https://www.raywenderlich.com/1364094-android-fragments-tutorial-an-introduction-with-kotlin"]
+        ]
     },
     "25": {
-        "elementClass": "o-card--fill",
+        "elementClass": "fill",
         "elementSection": "",
         "elementName": "",
         "elementCode": "",
@@ -255,46 +232,37 @@
         "elementTutorials": []
     },
     "26": {
-        "elementClass": "o-card--purple-1",
+        "elementClass": "purple-1",
         "elementSection": "",
         "elementName": "Custom Fonts",
         "elementCode": "Cu",
         "elementDescription": "",
-        "elementArticleName": "Custom and Downloadable Fonts",
-        "elementArticleLink": "https://www.raywenderlich.com/213-custom-and-downloadable-fonts-on-android",
-        "elementArticleClass": "o-card--purple-2",
-        "elementVideoName": "",
-        "elementVideoLink": "",
-        "elementVideoClass": ""
+        "elementTutorials": [
+            ["Custom and Downloadable Fonts (Article)", "https://www.raywenderlich.com/213-custom-and-downloadable-fonts-on-android"]
+        ]
     },
     "27": {
-        "elementClass": "o-card--purple-2",
+        "elementClass": "purple-2",
         "elementSection": "",
         "elementName": "Custom Views",
         "elementCode": "Ci",
         "elementDescription": "",
-        "elementArticleName": "Custom View Tutorial",
-        "elementArticleLink": "https://www.raywenderlich.com/142-android-custom-view-tutorial",
-        "elementArticleClass": "o-card--purple-3",
-        "elementVideoName": "",
-        "elementVideoLink": "",
-        "elementVideoClass": ""
+        "elementTutorials": [
+            ["Custom View Tutorial (Article)", "https://www.raywenderlich.com/142-android-custom-view-tutorial"]
+        ]
     },
     "28": {
-        "elementClass": "o-card--purple-3",
+        "elementClass": "purple-3",
         "elementSection": "",
         "elementName": "Constraint Layout",
         "elementCode": "Co",
         "elementDescription": "",
-        "elementArticleName": "ConstraintLayout Tutorial: Getting Started",
-        "elementArticleLink": "https://www.raywenderlich.com/9193-constraintlayout-tutorial-for-android-getting-started",
-        "elementArticleClass": "o-card--purple-5",
-        "elementVideoName": "",
-        "elementVideoLink": "",
-        "elementVideoClass": ""
+        "elementTutorials": [
+            ["ConstraintLayout Tutorial: Getting Started (Article)", "https://www.raywenderlich.com/9193-constraintlayout-tutorial-for-android-getting-started"]
+        ]
     },
     "29": {
-        "elementClass": "o-card--empty",
+        "elementClass": "empty",
         "elementSection": "",
         "elementName": "",
         "elementCode": "",
@@ -302,7 +270,7 @@
         "elementTutorials": []
     },
     "30": {
-        "elementClass": "o-card--empty",
+        "elementClass": "empty",
         "elementSection": "",
         "elementName": "",
         "elementCode": "",
@@ -310,33 +278,27 @@
         "elementTutorials": []
     },
     "31": {
-        "elementClass": "o-card--purple-1",
+        "elementClass": "purple-1",
         "elementSection": "",
         "elementName": "Drawables",
         "elementCode": "Db",
         "elementDescription": "",
-        "elementArticleName": "Vector Graphics",
-        "elementArticleLink": "https://www.raywenderlich.com/3988300-vector-graphics-on-android",
-        "elementArticleClass": "o-card--purple-2",
-        "elementVideoName": "",
-        "elementVideoLink": "",
-        "elementVideoClass": ""
+        "elementTutorials": [
+            ["Vector Graphics (Article)", "https://www.raywenderlich.com/3988300-vector-graphics-on-android"]
+        ]
     },
     "32": {
-        "elementClass": "o-card--purple-2",
+        "elementClass": "purple-2",
         "elementSection": "",
         "elementName": "ViewPager",
         "elementCode": "Vi",
         "elementDescription": "",
-        "elementArticleName": "ViewPager: Getting Started",
-        "elementArticleLink": "https://www.raywenderlich.com/324-viewpager-tutorial-getting-started-in-kotlin",
-        "elementArticleClass": "o-card--purple-3",
-        "elementVideoName": "",
-        "elementVideoLink": "",
-        "elementVideoClass": ""
+        "elementTutorials": [
+            ["ViewPager: Getting Started (Article)", "https://www.raywenderlich.com/324-viewpager-tutorial-getting-started-in-kotlin"]
+        ]
     },
     "33": {
-        "elementClass": "o-card--empty",
+        "elementClass": "empty",
         "elementSection": "",
         "elementName": "",
         "elementCode": "",
@@ -344,7 +306,7 @@
         "elementTutorials": []
     },
     "34": {
-        "elementClass": "o-card--empty",
+        "elementClass": "empty",
         "elementSection": "",
         "elementName": "",
         "elementCode": "",
@@ -352,7 +314,7 @@
         "elementTutorials": []
     },
     "35": {
-        "elementClass": "o-card--section o-card--pink-1",
+        "elementClass": "pink-1",
         "elementSection": "section-6",
         "elementName": "More User Interface",
         "elementCode": "",
@@ -360,59 +322,48 @@
         "elementTutorials": []
     },
     "36": {
-        "elementClass": "o-card--pink-1",
+        "elementClass": "pink-1",
         "elementSection": "",
         "elementName": "Animations",
         "elementCode": "Ai",
         "elementDescription": "",
-        "elementArticleName": "Animation",
-        "elementArticleLink": "https://www.raywenderlich.com/2785491-android-animation-tutorial-with-kotlin",
-        "elementArticleClass": "o-card--pink-4",
-        "elementVideoName": "Android Animations",
-        "elementVideoLink": "https://www.raywenderlich.com/3355-android-animations",
-        "elementVideoClass": "o-card--pink-2"
+        "elementTutorials": [
+            ["Animation (Article)", "https://www.raywenderlich.com/2785491-android-animation-tutorial-with-kotlin"],
+            ["Android Animations (Video)", "https://www.raywenderlich.com/3355-android-animations"]
+        ]
     },
     "37": {
-        "elementClass": "o-card--pink-2",
+        "elementClass": "pink-2",
         "elementSection": "",
         "elementName": "Design Support Library",
         "elementCode": "Su",
         "elementDescription": "",
-        "elementArticleName": "Design Support Library: Getting Started",
-        "elementArticleLink": "https://www.raywenderlich.com/5299-android-design-support-library-getting-started",
-        "elementArticleClass": "o-card--pink-3",
-        "elementVideoName": "",
-        "elementVideoLink": "",
-        "elementVideoClass": ""
+        "elementTutorials": [
+            ["Design Support Library: Getting Started (Article)", "https://www.raywenderlich.com/5299-android-design-support-library-getting-started"]
+        ]
     },
     "38": {
-        "elementClass": "o-card--pink-3",
+        "elementClass": "pink-3",
         "elementSection": "",
         "elementName": "Accessibility",
         "elementCode": "As",
         "elementDescription": "",
-        "elementArticleName": "Accessibility: Getting Started",
-        "elementArticleLink": "https://www.raywenderlich.com/240-android-accessibility-tutorial-getting-started",
-        "elementArticleClass": "o-card--pink-5",
-        "elementVideoName": "",
-        "elementVideoLink": "",
-        "elementVideoClass": ""
+        "elementTutorials": [
+            ["Accessibility: Getting Started (Article)", "https://www.raywenderlich.com/240-android-accessibility-tutorial-getting-started"]
+        ]
     },
     "39": {
-        "elementClass": "o-card--pink-4",
+        "elementClass": "pink-4",
         "elementSection": "",
         "elementName": "Widgets",
         "elementCode": "Wi",
         "elementDescription": "",
-        "elementArticleName": "Android App Widgets",
-        "elementArticleLink": "https://www.raywenderlich.com/33-android-app-widgets-tutorial",
-        "elementArticleClass": "o-card--pink-6",
-        "elementVideoName": "",
-        "elementVideoLink": "",
-        "elementVideoClass": ""
+        "elementTutorials": [
+            ["Android App Widgets (Article)", "https://www.raywenderlich.com/33-android-app-widgets-tutorial"]
+        ]
     },
     "40": {
-        "elementClass": "o-card--fill-top-right",
+        "elementClass": "fill-top-right",
         "elementSection": "",
         "elementName": "",
         "elementCode": "",
@@ -420,20 +371,17 @@
         "elementTutorials": []
     },
     "41": {
-        "elementClass": "o-card--pink-1",
+        "elementClass": "pink-1",
         "elementSection": "",
         "elementName": "Transitions",
         "elementCode": "Ti",
         "elementDescription": "",
-        "elementArticleName": "Transition Framework: Getting Started",
-        "elementArticleLink": "https://www.raywenderlich.com/1376936-android-transition-framework-getting-started",
-        "elementArticleClass": "o-card--pink-2",
-        "elementVideoName": "",
-        "elementVideoLink": "",
-        "elementVideoClass": ""
+        "elementTutorials": [
+            ["Transition Framework: Getting Started (Article)", "https://www.raywenderlich.com/1376936-android-transition-framework-getting-started"]
+        ]
     },
     "42": {
-        "elementClass": "o-card--empty",
+        "elementClass": "empty",
         "elementSection": "",
         "elementName": "",
         "elementCode": "",
@@ -441,7 +389,7 @@
         "elementTutorials": []
     },
     "43": {
-        "elementClass": "o-card--empty",
+        "elementClass": "empty",
         "elementSection": "",
         "elementName": "",
         "elementCode": "",
@@ -449,7 +397,7 @@
         "elementTutorials": []
     },
     "44": {
-        "elementClass": "o-card--empty",
+        "elementClass": "empty",
         "elementSection": "",
         "elementName": "",
         "elementCode": "",
@@ -457,7 +405,7 @@
         "elementTutorials": []
     },
     "45": {
-        "elementClass": "o-card--section o-card--red-1",
+        "elementClass": "red-1",
         "elementSection": "section-7",
         "elementName": "Data Persistence",
         "elementCode": "",
@@ -465,59 +413,47 @@
         "elementTutorials": []
     },
     "46": {
-        "elementClass": "o-card--red-1",
+        "elementClass": "red-1",
         "elementSection": "",
         "elementName": "Shared Preferences",
         "elementCode": "Sd",
         "elementDescription": "",
-        "elementArticleName": "Saving Data on Android",
-        "elementArticleLink": "https://www.raywenderlich.com/4561-saving-data-on-android",
-        "elementArticleClass": "o-card--red-3",
-        "elementVideoName": "",
-        "elementVideoLink": "",
-        "elementVideoClass": ""
+        "elementTutorials": [
+            ["Saving Data on Android (Video)", "https://www.raywenderlich.com/4561-saving-data-on-android"]
+        ]
     },
     "47": {
-        "elementClass": "o-card--red-2",
+        "elementClass": "red-2",
         "elementSection": "",
         "elementName": "Filesystem",
         "elementCode": "Fe",
         "elementDescription": "",
-        "elementArticleName": "Saving Data on Android",
-        "elementArticleLink": "https://www.raywenderlich.com/4561-saving-data-on-android",
-        "elementArticleClass": "o-card--red-4",
-        "elementVideoName": "",
-        "elementVideoLink": "",
-        "elementVideoClass": ""
+        "elementTutorials": [
+            ["Saving Data on Android (Video)", "https://www.raywenderlich.com/4561-saving-data-on-android"]
+        ]
     },
     "48": {
-        "elementClass": "o-card--red-3",
+        "elementClass": "red-3",
         "elementSection": "",
         "elementName": "SQLite",
         "elementCode": "Sq",
         "elementDescription": "",
-        "elementArticleName": "Saving Data on Android",
-        "elementArticleLink": "https://www.raywenderlich.com/4561-saving-data-on-android",
-        "elementArticleClass": "o-card--red-5",
-        "elementVideoName": "",
-        "elementVideoLink": "",
-        "elementVideoClass": ""
+        "elementTutorials": [
+            ["Saving Data on Android (Video)", "https://www.raywenderlich.com/4561-saving-data-on-android"]
+        ]
     },
     "49": {
-        "elementClass": "o-card--red-4",
+        "elementClass": "red-4",
         "elementSection": "",
         "elementName": "Firebase",
         "elementCode": "Fb",
         "elementDescription": "",
-        "elementArticleName": "Firebase: Getting Started",
-        "elementArticleLink": "https://www.raywenderlich.com/5114-firebase-tutorial-for-android-getting-started",
-        "elementArticleClass": "o-card--red-6",
-        "elementVideoName": "",
-        "elementVideoLink": "",
-        "elementVideoClass": ""
+        "elementTutorials": [
+            ["Firebase: Getting Started (Article)", "https://www.raywenderlich.com/5114-firebase-tutorial-for-android-getting-started"]
+        ]
     },
     "50": {
-        "elementClass": "o-card--empty",
+        "elementClass": "empty",
         "elementSection": "",
         "elementName": "",
         "elementCode": "",
@@ -525,7 +461,7 @@
         "elementTutorials": []
     },
     "51": {
-        "elementClass": "o-card--empty",
+        "elementClass": "empty",
         "elementSection": "",
         "elementName": "",
         "elementCode": "",
@@ -533,7 +469,7 @@
         "elementTutorials": []
     },
     "52": {
-        "elementClass": "o-card--empty",
+        "elementClass": "empty",
         "elementSection": "",
         "elementName": "",
         "elementCode": "",
@@ -541,20 +477,17 @@
         "elementTutorials": []
     },
     "53": {
-        "elementClass": "o-card--red-3",
+        "elementClass": "red-3",
         "elementSection": "",
         "elementName": "Room",
         "elementCode": "Ro",
         "elementDescription": "",
-        "elementArticleName": "Room DB: Advanced Data Persistence",
-        "elementArticleLink": "https://www.raywenderlich.com/5686-room-db-advanced-data-persistence",
-        "elementArticleClass": "o-card--red-5",
-        "elementVideoName": "Saving Data on Android",
-        "elementVideoLink": "https://www.raywenderlich.com/4561-saving-data-on-android",
-        "elementVideoClass": "o-card--red-6"
+        "elementTutorials": [
+            ["Room DB: Advanced Data Persistence (Article)", "https://www.raywenderlich.com/5686-room-db-advanced-data-persistence"]
+        ]
     },
     "54": {
-        "elementClass": "o-card--empty",
+        "elementClass": "empty",
         "elementSection": "",
         "elementName": "",
         "elementCode": "",
@@ -562,7 +495,7 @@
         "elementTutorials": []
     },
     "55": {
-        "elementClass": "o-card--section o-card--orange-1",
+        "elementClass": "orange-1",
         "elementSection": "section-8",
         "elementName": "Network Handling",
         "elementCode": "",
@@ -570,59 +503,47 @@
         "elementTutorials": []
     },
     "56": {
-        "elementClass": "o-card--orange-1",
+        "elementClass": "orange-1",
         "elementSection": "",
         "elementName": "REST API's",
         "elementCode": "N",
         "elementDescription": "",
-        "elementArticleName": "Android Networking",
-        "elementArticleLink": "https://www.raywenderlich.com/4539-android-networking",
-        "elementArticleClass": "o-card--orange-3",
-        "elementVideoName": "",
-        "elementVideoLink": "",
-        "elementVideoClass": ""
+        "elementTutorials": [
+            ["Android Networking (Video)", "https://www.raywenderlich.com/4539-android-networking"]
+        ]
     },
     "57": {
-        "elementClass": "o-card--orange-2",
+        "elementClass": "orange-2",
         "elementSection": "",
         "elementName": "HTTP Basics",
         "elementCode": "Hi",
         "elementDescription": "",
-        "elementArticleName": "Android Networking",
-        "elementArticleLink": "https://www.raywenderlich.com/4539-android-networking",
-        "elementArticleClass": "o-card--orange-4",
-        "elementVideoName": "",
-        "elementVideoLink": "",
-        "elementVideoClass": ""
+        "elementTutorials": [
+            ["Android Networking (Video)", "https://www.raywenderlich.com/4539-android-networking"]
+        ]
     },
     "58": {
-        "elementClass": "o-card--orange-3",
+        "elementClass": "orange-3",
         "elementSection": "",
         "elementName": "JSON",
         "elementCode": "Jo",
         "elementDescription": "",
-        "elementArticleName": "Android Networking",
-        "elementArticleLink": "https://www.raywenderlich.com/4539-android-networking",
-        "elementArticleClass": "o-card--orange-5",
-        "elementVideoName": "",
-        "elementVideoLink": "",
-        "elementVideoClass": ""
+        "elementTutorials": [
+            ["Android Networking (Video)", "https://www.raywenderlich.com/4539-android-networking"]
+        ]
     },
     "59": {
-        "elementClass": "o-card--orange-4",
+        "elementClass": "orange-4",
         "elementSection": "",
         "elementName": "RetroFit",
         "elementCode": "Re",
         "elementDescription": "",
-        "elementArticleName": "Android Networking",
-        "elementArticleLink": "https://www.raywenderlich.com/4539-android-networking",
-        "elementArticleClass": "o-card--orange-6",
-        "elementVideoName": "",
-        "elementVideoLink": "",
-        "elementVideoClass": ""
+        "elementTutorials": [
+            ["Android Networking (Video)", "https://www.raywenderlich.com/4539-android-networking"]
+        ]
     },
     "60": {
-        "elementClass": "o-card--section o-card--light-orange-1",
+        "elementClass": "light-orange-1",
         "elementSection": "section-9",
         "elementName": "Location",
         "elementCode": "",
@@ -630,20 +551,17 @@
         "elementTutorials": []
     },
     "61": {
-        "elementClass": "o-card--light-orange-1",
+        "elementClass": "light-orange-1",
         "elementSection": "",
         "elementName": "Google Maps",
         "elementCode": "L",
         "elementDescription": "",
-        "elementArticleName": "Introduction to the Google Maps API",
-        "elementArticleLink": "https://www.raywenderlich.com/230-introduction-to-google-maps-api-for-android-with-kotlin",
-        "elementArticleClass": "o-card--light-orange-3",
-        "elementVideoName": "",
-        "elementVideoLink": "",
-        "elementVideoClass": ""
+        "elementTutorials": [
+            ["Google Maps API (Article)", "https://www.raywenderlich.com/230-introduction-to-google-maps-api-for-android-with-kotlin"]
+        ]
     },
     "62": {
-        "elementClass": "o-card--empty",
+        "elementClass": "empty",
         "elementSection": "",
         "elementName": "",
         "elementCode": "",
@@ -651,7 +569,7 @@
         "elementTutorials": []
     },
     "63": {
-        "elementClass": "o-card--empty",
+        "elementClass": "empty",
         "elementSection": "",
         "elementName": "",
         "elementCode": "",
@@ -659,7 +577,7 @@
         "elementTutorials": []
     },
     "64": {
-        "elementClass": "o-card--empty",
+        "elementClass": "empty",
         "elementSection": "",
         "elementName": "",
         "elementCode": "",
@@ -667,7 +585,7 @@
         "elementTutorials": []
     },
     "65": {
-        "elementClass": "o-card--section o-card--yellow-1",
+        "elementClass": "yellow-1",
         "elementSection": "section-10",
         "elementName": "Code Architecture",
         "elementCode": "",
@@ -675,46 +593,40 @@
         "elementTutorials": []
     },
     "66": {
-        "elementClass": "o-card--yellow-1",
+        "elementClass": "yellow-1",
         "elementSection": "",
         "elementName": "MVP",
         "elementCode": "Vp",
         "elementDescription": "",
-        "elementArticleName": "Getting Started with MVP (Model View Presenter)",
-        "elementArticleLink": "https://www.raywenderlich.com/7026-getting-started-with-mvp-model-view-presenter-on-android",
-        "elementArticleClass": "o-card--yellow-2",
-        "elementVideoName": "MVP on Android",
-        "elementVideoLink": "https://www.raywenderlich.com/9216-mvp-on-android",
-        "elementVideoClass": "o-card--yellow-3"
+        "elementTutorials": [
+            ["MVP - Model View Presenter (Article)", "https://www.raywenderlich.com/7026-getting-started-with-mvp-model-view-presenter-on-android"],
+            ["MVP on Android (Video)", "https://www.raywenderlich.com/9216-mvp-on-android"]
+        ]
     },
     "67": {
-        "elementClass": "o-card--yellow-2",
+        "elementClass": "yellow-2",
         "elementSection": "",
         "elementName": "MVVM",
         "elementCode": "Vm",
         "elementDescription": "",
-        "elementArticleName": "MVVM and DataBinding: Android Design Patterns",
-        "elementArticleLink": "https://www.raywenderlich.com/636803-mvvm-and-databinding-android-design-patterns",
-        "elementArticleClass": "o-card--yellow-3",
-        "elementVideoName": "MVVM on Android",
-        "elementVideoLink": "https://www.raywenderlich.com/8984-mvvm-on-android",
-        "elementVideoClass": "o-card--yellow-4"
+        "elementTutorials": [
+            ["MVVM and DataBinding (Article)", "https://www.raywenderlich.com/636803-mvvm-and-databinding-android-design-patterns"],
+            ["MVVM on Android (Video)", "https://www.raywenderlich.com/8984-mvvm-on-android"]
+        ]
     },
     "68": {
-        "elementClass": "o-card--yellow-3",
+        "elementClass": "yellow-3",
         "elementSection": "",
         "elementName": "MVI",
         "elementCode": "Vi",
         "elementDescription": "",
-        "elementArticleName": "MVI Architecture: Getting Started",
-        "elementArticleLink": "https://www.raywenderlich.com/817602-mvi-architecture-for-android-tutorial-getting-started",
-        "elementArticleClass": "o-card--yellow-5",
-        "elementVideoName": "MVI on Android",
-        "elementVideoLink": "https://www.raywenderlich.com/266607-mvi-on-android",
-        "elementVideoClass": "o-card--yellow-6"
+        "elementTutorials": [
+            ["MVI Architecture: Getting Started (Article)", "https://www.raywenderlich.com/817602-mvi-architecture-for-android-tutorial-getting-started"],
+            ["MVI on Android (Video)", "https://www.raywenderlich.com/266607-mvi-on-android"]
+        ]
     },
     "69": {
-        "elementClass": "o-card--empty",
+        "elementClass": "empty",
         "elementSection": "",
         "elementName": "",
         "elementCode": "",
@@ -722,7 +634,7 @@
         "elementTutorials": []
     },
     "70": {
-        "elementClass": "o-card--section o-card--turquoise-1",
+        "elementClass": "turquoise-1",
         "elementSection": "section-11",
         "elementName": "Dependency Injection",
         "elementCode": "",
@@ -730,33 +642,28 @@
         "elementTutorials": []
     },
     "71": {
-        "elementClass": "o-card--turquoise-1",
+        "elementClass": "turquoise-1",
         "elementSection": "",
         "elementName": "Dagger",
         "elementCode": "Dr",
         "elementDescription": "",
-        "elementArticleName": "Getting Started With Dagger",
-        "elementArticleLink": "https://www.raywenderlich.com/265010-getting-started-with-dagger",
-        "elementArticleClass": "o-card--turquoise-3",
-        "elementVideoName": "",
-        "elementVideoLink": "",
-        "elementVideoClass": ""
+        "elementTutorials": [
+            ["Getting Started With Dagger (Article)", "https://www.raywenderlich.com/265010-getting-started-with-dagger"]
+        ]
     },
     "72": {
-        "elementClass": "o-card--turquoise-2",
+        "elementClass": "turquoise-2",
         "elementSection": "",
         "elementName": "Koin",
         "elementCode": "Ki",
         "elementDescription": "",
-        "elementArticleName": "Dependency Injection With Koin",
-        "elementArticleLink": "https://www.raywenderlich.com/9457-dependency-injection-with-koin",
-        "elementArticleClass": "o-card--turquoise-4",
-        "elementVideoName": "Dependency Injection With Koin",
-        "elementVideoLink": "https://www.raywenderlich.com/5730-dependency-injection-with-koin",
-        "elementVideoClass": "o-card--turquoise-5"
+        "elementTutorials": [
+            ["Dependency Injection With Koin (Article)", "https://www.raywenderlich.com/9457-dependency-injection-with-koin"],
+            ["Dependency Injection With Koin (Video)", "https://www.raywenderlich.com/5730-dependency-injection-with-koin"]
+        ]
     },
     "73": {
-        "elementClass": "o-card--empty",
+        "elementClass": "empty",
         "elementSection": "",
         "elementName": "",
         "elementCode": "",
@@ -764,7 +671,7 @@
         "elementTutorials": []
     },
     "74": {
-        "elementClass": "o-card--empty",
+        "elementClass": "empty",
         "elementSection": "",
         "elementName": "",
         "elementCode": "",
@@ -772,7 +679,7 @@
         "elementTutorials": []
     },
     "75": {
-        "elementClass": "o-card--section o-card--darker-green-1",
+        "elementClass": "darker-green-1",
         "elementSection": "section-12",
         "elementName": "Thread Handling",
         "elementCode": "",
@@ -780,46 +687,38 @@
         "elementTutorials": []
     },
     "76": {
-        "elementClass": "o-card--darker-green-1",
+        "elementClass": "darker-green-1",
         "elementSection": "",
         "elementName": "Handlers",
         "elementCode": "Hl",
         "elementDescription": "",
-        "elementArticleName": "Threading With HandlerThread",
-        "elementArticleLink": "https://www.raywenderlich.com/5466-threading-with-handlerthread-in-android",
-        "elementArticleClass": "o-card--darker-green-3",
-        "elementVideoName": "Android Background Processing",
-        "elementVideoLink": "https://www.raywenderlich.com/5306-android-background-processing",
-        "elementVideoClass": "o-card--darker-green-4"
+        "elementTutorials": [
+            ["Threading With HandlerThread (Article)", "https://www.raywenderlich.com/5466-threading-with-handlerthread-in-android"],
+            ["Android Background Processing (Video)", "https://www.raywenderlich.com/5306-android-background-processing"]
+        ]
     },
     "77": {
-        "elementClass": "o-card--darker-green-2",
+        "elementClass": "darker-green-2",
         "elementSection": "",
         "elementName": "AsyncTask",
         "elementCode": "As",
         "elementDescription": "",
-        "elementArticleName": "",
-        "elementArticleLink": "",
-        "elementArticleClass": "",
-        "elementVideoName": "Android Background Processing",
-        "elementVideoLink": "https://www.raywenderlich.com/5306-android-background-processing",
-        "elementVideoClass": "o-card--darker-green-4"
+        "elementTutorials": [
+            ["Android Background Processing (Video)", "https://www.raywenderlich.com/5306-android-background-processing"]
+        ]
     },
     "78": {
-        "elementClass": "o-card--darker-green-3",
+        "elementClass": "darker-green-3",
         "elementSection": "",
         "elementName": "Coroutines",
         "elementCode": "Co",
         "elementDescription": "",
-        "elementArticleName": "Coroutines: Getting Started",
-        "elementArticleLink": "https://www.raywenderlich.com/1423941-kotlin-coroutines-tutorial-for-android-getting-started",
-        "elementArticleClass": "o-card--darker-green-5",
-        "elementVideoName": "",
-        "elementVideoLink": "",
-        "elementVideoClass": ""
+        "elementTutorials": [
+            ["Coroutines: Getting Started (Article)", "https://www.raywenderlich.com/1423941-kotlin-coroutines-tutorial-for-android-getting-started"]
+        ]
     },
     "79": {
-        "elementClass": "o-card--empty",
+        "elementClass": "empty",
         "elementSection": "",
         "elementName": "",
         "elementCode": "",
@@ -827,7 +726,7 @@
         "elementTutorials": []
     },
     "80": {
-        "elementClass": "o-card--section o-card--turquoise-blue-1",
+        "elementClass": "turquoise-blue-1",
         "elementSection": "section-13",
         "elementName": "Architecture Components",
         "elementCode": "",
@@ -835,59 +734,48 @@
         "elementTutorials": []
     },
     "81": {
-        "elementClass": "o-card--turquoise-blue-1",
+        "elementClass": "turquoise-blue-1",
         "elementSection": "",
         "elementName": "Livedata",
         "elementCode": "La",
         "elementDescription": "",
-        "elementArticleName": "",
-        "elementArticleLink": "",
-        "elementArticleClass": "",
-        "elementVideoName": "Android Architecture Components: LiveData",
-        "elementVideoLink": "https://www.raywenderlich.com/4980-android-architecture-components-livedata",
-        "elementVideoClass": "o-card--turquoise-blue-3"
+        "elementTutorials": [
+            ["Android Architecture Components: LiveData (Video)", "https://www.raywenderlich.com/4980-android-architecture-components-livedata"]
+        ]
     },
     "82": {
-        "elementClass": "o-card--turquoise-blue-2",
+        "elementClass": "turquoise-blue-2",
         "elementSection": "",
         "elementName": "ViewModel",
         "elementCode": "Ve",
         "elementDescription": "",
-        "elementArticleName": "",
-        "elementArticleLink": "",
-        "elementArticleClass": "",
-        "elementVideoName": "Android Architecture Components: ViewModel",
-        "elementVideoLink": "https://www.raywenderlich.com/5046-android-architecture-components-viewmodel",
-        "elementVideoClass": "o-card--turquoise-blue-4"
+        "elementTutorials": [
+            ["Android Architecture Components: ViewModel (Video)", "https://www.raywenderlich.com/5046-android-architecture-components-viewmodel"]
+        ]
     },
     "83": {
-        "elementClass": "o-card--turquoise-blue-3",
+        "elementClass": "turquoise-blue-3",
         "elementSection": "",
         "elementName": "Paging Library",
         "elementCode": "Pi",
         "elementDescription": "",
-        "elementArticleName": "",
-        "elementArticleLink": "",
-        "elementArticleClass": "",
-        "elementVideoName": "Android Architecture Components: Paging Library",
-        "elementVideoLink": "https://www.raywenderlich.com/5189-android-architecture-components-paging-library",
-        "elementVideoClass": "o-card--turquoise-blue-5"
+        "elementTutorials": [
+            ["Android Architecture Components: Paging Library (Video)", "https://www.raywenderlich.com/5189-android-architecture-components-paging-library"]
+        ]
     },
     "84": {
-        "elementClass": "o-card--turquoise-blue-4",
+        "elementClass": "turquoise-blue-4",
         "elementSection": "",
         "elementName": "WorkManager",
         "elementCode": "Wo",
         "elementDescription": "",
-        "elementArticleName": "WorkManager: Getting Started",
-        "elementArticleLink": "https://www.raywenderlich.com/6040-workmanager-tutorial-for-android-getting-started",
-        "elementArticleClass": "o-card--turquoise-blue-5",
-        "elementVideoName": "Android Background Processing",
-        "elementVideoLink": "https://www.raywenderlich.com/5306-android-background-processing",
-        "elementVideoClass": "o-card--turquoise-blue-6"
+        "elementTutorials": [
+            ["WorkManager: Getting Started (Article)", "https://www.raywenderlich.com/6040-workmanager-tutorial-for-android-getting-started"],
+            ["Android Background Processing (Video)", "https://www.raywenderlich.com/5306-android-background-processing"]
+        ]
     },
     "85": {
-        "elementClass": "o-card--section o-card--dark-blue-1",
+        "elementClass": "dark-blue-1",
         "elementSection": "section-14",
         "elementName": "Build Configuration",
         "elementCode": "",
@@ -895,20 +783,17 @@
         "elementTutorials": []
     },
     "86": {
-        "elementClass": "o-card--dark-blue-1",
+        "elementClass": "dark-blue-1",
         "elementSection": "",
         "elementName": "Gradle",
         "elementCode": "Ga",
         "elementDescription": "",
-        "elementArticleName": "Gradle: Getting Started",
-        "elementArticleLink": "https://www.raywenderlich.com/249-gradle-tutorial-for-android-getting-started",
-        "elementArticleClass": "o-card--dark-blue-2",
-        "elementVideoName": "",
-        "elementVideoLink": "",
-        "elementVideoClass": ""
+        "elementTutorials": [
+            ["Gradle: Getting Started (Article)", "https://www.raywenderlich.com/249-gradle-tutorial-for-android-getting-started"]
+        ]
     },
     "87": {
-        "elementClass": "o-card--empty",
+        "elementClass": "empty",
         "elementSection": "",
         "elementName": "",
         "elementCode": "",
@@ -916,7 +801,7 @@
         "elementTutorials": []
     },
     "88": {
-        "elementClass": "o-card--empty",
+        "elementClass": "empty",
         "elementSection": "",
         "elementName": "",
         "elementCode": "",
@@ -924,7 +809,7 @@
         "elementTutorials": []
     },
     "89": {
-        "elementClass": "o-card--empty",
+        "elementClass": "empty",
         "elementSection": "",
         "elementName": "",
         "elementCode": "",
@@ -932,7 +817,7 @@
         "elementTutorials": []
     },
     "90": {
-        "elementClass": "o-card--section o-card--other-purple-1",
+        "elementClass": "other-purple-1",
         "elementSection": "section-15",
         "elementName": "Android Jetpack",
         "elementCode": "",
@@ -940,46 +825,39 @@
         "elementTutorials": []
     },
     "91": {
-        "elementClass": "o-card--other-purple-1",
+        "elementClass": "other-purple-1",
         "elementSection": "",
         "elementName": "Navigation",
         "elementCode": "Na",
         "elementDescription": "",
-        "elementArticleName": "Jetpack Navigation: Getting Started",
-        "elementArticleLink": "https://www.raywenderlich.com/6014-the-navigation-architecture-component-tutorial-getting-started",
-        "elementArticleClass": "o-card--other-purple-3",
-        "elementVideoName": "Jetpack: Navigation Controller",
-        "elementVideoLink": "https://www.raywenderlich.com/5365-jetpack-navigation-controller",
-        "elementVideoClass": "o-card--other-purple-4"
+        "elementTutorials": [
+            ["Jetpack Navigation: Getting Started (Article)", "https://www.raywenderlich.com/6014-the-navigation-architecture-component-tutorial-getting-started"],
+            ["Jetpack: Navigation Controller (Video)", "https://www.raywenderlich.com/5365-jetpack-navigation-controller"]
+        ]
     },
     "92": {
-        "elementClass": "o-card--other-purple-2",
+        "elementClass": "other-purple-2",
         "elementSection": "",
         "elementName": "Architecture Components",
         "elementCode": "Ar",
         "elementDescription": "",
-        "elementArticleName": "Jetpack Architecture Components: Getting Started",
-        "elementArticleLink": "https://www.raywenderlich.com/6729-android-jetpack-architecture-components-getting-started",
-        "elementArticleClass": "o-card--other-purple-4",
-        "elementVideoName": "",
-        "elementVideoLink": "",
-        "elementVideoClass": ""
+        "elementTutorials": [
+            ["Jetpack Architecture Components: Getting Started (Article)", "https://www.raywenderlich.com/6729-android-jetpack-architecture-components-getting-started"]
+        ]
     },
     "93": {
-        "elementClass": "o-card--other-purple-3",
+        "elementClass": "other-purple-3",
         "elementSection": "",
         "elementName": "KTX",
         "elementCode": "Kx",
         "elementDescription": "",
-        "elementArticleName": "KTX: Getting Started",
-        "elementArticleLink": "https://www.raywenderlich.com/5576-android-ktx-tutorial-getting-started",
-        "elementArticleClass": "o-card--other-purple-4",
-        "elementVideoName": "Android KTX",
-        "elementVideoLink": "https://www.raywenderlich.com/3565197-android-ktx",
-        "elementVideoClass": "o-card--other-purple-5"
+        "elementTutorials": [
+            ["KTX: Getting Started (Article)", "https://www.raywenderlich.com/5576-android-ktx-tutorial-getting-started"],
+            ["Android KTX (Video)", "https://www.raywenderlich.com/3565197-android-ktx"]
+        ]
     },
     "94": {
-        "elementClass": "o-card--fill",
+        "elementClass": "fill",
         "elementSection": "",
         "elementName": "",
         "elementCode": "",
@@ -987,7 +865,7 @@
         "elementTutorials": []
     },
     "95": {
-        "elementClass": "o-card--section o-card--other-pink-1",
+        "elementClass": "other-pink-1",
         "elementSection": "section-16",
         "elementName": "Testing",
         "elementCode": "",
@@ -995,33 +873,27 @@
         "elementTutorials": []
     },
     "96": {
-        "elementClass": "o-card--other-pink-1",
+        "elementClass": "other-pink-1",
         "elementSection": "",
         "elementName": "UI Tests",
         "elementCode": "Te",
         "elementDescription": "",
-        "elementArticleName": "UI Testing with Kakao: Getting Started",
-        "elementArticleLink": "https://www.raywenderlich.com/1505688-ui-testing-with-kakao-tutorial-for-android-getting-started",
-        "elementArticleClass": "o-card--other-pink-2",
-        "elementVideoName": "",
-        "elementVideoLink": "",
-        "elementVideoClass": ""
+        "elementTutorials": [
+            ["UI Testing with Kakao: Getting Started (Article)", "https://www.raywenderlich.com/1505688-ui-testing-with-kakao-tutorial-for-android-getting-started"]
+        ]
     },
     "97": {
-        "elementClass": "o-card--other-pink-2",
+        "elementClass": "other-pink-2",
         "elementSection": "",
         "elementName": "Unit Tests",
         "elementCode": "Ue",
         "elementDescription": "",
-        "elementArticleName": "Unit Testing with Mockito",
-        "elementArticleLink": "https://www.raywenderlich.com/195-android-unit-testing-with-mockito",
-        "elementArticleClass": "o-card--other-pink-4",
-        "elementVideoName": "",
-        "elementVideoLink": "",
-        "elementVideoClass": ""
+        "elementTutorials": [
+            ["Unit Testing with Mockito (Article)", "https://www.raywenderlich.com/195-android-unit-testing-with-mockito"]
+        ]
     },
     "98": {
-        "elementClass": "o-card--empty",
+        "elementClass": "empty",
         "elementSection": "",
         "elementName": "",
         "elementCode": "",
@@ -1029,7 +901,7 @@
         "elementTutorials": []
     },
     "99": {
-        "elementClass": "o-card--fill-bottom-right",
+        "elementClass": "fill-bottom-right",
         "elementSection": "",
         "elementName": "",
         "elementCode": "",
@@ -1037,40 +909,34 @@
         "elementTutorials": []
     },
     "100": {
-        "elementClass": "o-card--section o-card--other-red-1",
+        "elementClass": "other-red-1",
         "elementSection": "section-17",
         "elementName": "App Publishing",
         "elementCode": "",
         "elementDescription": ""
     },
     "101": {
-        "elementClass": "o-card--other-red-1",
+        "elementClass": "other-red-1",
         "elementSection": "",
         "elementName": "Instant Apps",
         "elementCode": "In",
         "elementDescription": "",
-        "elementArticleName": "Instant Apps: Getting Started",
-        "elementArticleLink": "https://www.raywenderlich.com/9519-instant-apps-getting-started",
-        "elementArticleClass": "o-card--other-red-3",
-        "elementVideoName": "",
-        "elementVideoLink": "",
-        "elementVideoClass": ""
+        "elementTutorials": [
+            ["Instant Apps: Getting Started (Article)", "https://www.raywenderlich.com/9519-instant-apps-getting-started"]
+        ]
     },
     "102": {
-        "elementClass": "o-card--other-red-2",
+        "elementClass": "other-red-2",
         "elementSection": "",
         "elementName": "App Bundles",
         "elementCode": "Au",
         "elementDescription": "",
-        "elementArticleName": "Android App Bundles: Getting Started",
-        "elementArticleLink": "https://www.raywenderlich.com/9043-android-app-bundles-getting-started",
-        "elementArticleClass": "o-card--other-red-4",
-        "elementVideoName": "",
-        "elementVideoLink": "",
-        "elementVideoClass": ""
+        "elementTutorials": [
+            ["Android App Bundles: Getting Started (Article)", "https://www.raywenderlich.com/9043-android-app-bundles-getting-started"]
+        ]
     },
     "103": {
-        "elementClass": "o-card--empty",
+        "elementClass": "empty",
         "elementSection": "",
         "elementName": "",
         "elementCode": "",
@@ -1078,7 +944,7 @@
         "elementTutorials": []
     },
     "104": {
-        "elementClass": "o-card--empty",
+        "elementClass": "empty",
         "elementSection": "",
         "elementName": "",
         "elementCode": "",
@@ -1086,11 +952,11 @@
         "elementTutorials": []
     },
     "105": {
-        "elementClass": "o-card--empty",
+        "elementClass": "empty",
         "elementSection": "",
         "elementName": "",
         "elementCode": "",
-        "elementDescription": "...",
+        "elementDescription": "",
         "elementArticleName": "",
         "elementArticleLink": "",
         "elementArticleClass": "",
@@ -1099,11 +965,11 @@
         "elementVideoClass": ""
     },
     "106": {
-        "elementClass": "o-card--empty",
+        "elementClass": "empty",
         "elementSection": "",
         "elementName": "",
         "elementCode": "",
-        "elementDescription": "...",
+        "elementDescription": "",
         "elementArticleName": "",
         "elementArticleLink": "",
         "elementArticleClass": "",
@@ -1112,11 +978,11 @@
         "elementVideoClass": ""
     },
     "107": {
-        "elementClass": "o-card--empty",
+        "elementClass": "empty",
         "elementSection": "",
         "elementName": "",
         "elementCode": "",
-        "elementDescription": "...",
+        "elementDescription": "",
         "elementArticleName": "",
         "elementArticleLink": "",
         "elementArticleClass": "",
@@ -1125,11 +991,11 @@
         "elementVideoClass": ""
     },
     "108": {
-        "elementClass": "o-card--empty",
+        "elementClass": "empty",
         "elementSection": "",
         "elementName": "",
         "elementCode": "",
-        "elementDescription": "...",
+        "elementDescription": "",
         "elementArticleName": "",
         "elementArticleLink": "",
         "elementArticleClass": "",
@@ -1138,11 +1004,11 @@
         "elementVideoClass": ""
     },
     "109": {
-        "elementClass": "o-card--empty",
+        "elementClass": "empty",
         "elementSection": "",
         "elementName": "",
         "elementCode": "",
-        "elementDescription": "...",
+        "elementDescription": "",
         "elementArticleName": "",
         "elementArticleLink": "",
         "elementArticleClass": "",
@@ -1151,7 +1017,7 @@
         "elementVideoClass": ""
     },
     "110": {
-        "elementClass": "o-card--section o-card--grey-1",
+        "elementClass": "grey-1",
         "elementSection": "section-18",
         "elementName": "Also Nice To Know",
         "elementCode": "",
@@ -1164,63 +1030,53 @@
         "elementVideoClass": ""
     },
     "111": {
-        "elementClass": "o-card--grey-1",
+        "elementClass": "grey-1",
         "elementSection": "",
         "elementName": "Flutter",
         "elementCode": "Fu",
-        "elementDescription": "...",
-        "elementArticleName": "Getting Started with Flutter",
-        "elementArticleLink": "https://www.raywenderlich.com/4529993-getting-started-with-flutter",
-        "elementArticleClass": "o-card--grey-3",
-        "elementVideoName": "Getting Started with Flutter in Android Studio",
-        "elementVideoLink": "https://www.raywenderlich.com/4558-getting-started-with-flutter-in-android-studio",
-        "elementVideoClass": "o-card--grey-4"
+        "elementDescription": "",
+        "elementTutorials": [
+            ["Getting Started with Flutter (Article)", "https://www.raywenderlich.com/4529993-getting-started-with-flutter"],
+            ["Flutter in Android Studio (Video)", "https://www.raywenderlich.com/4558-getting-started-with-flutter-in-android-studio"]
+        ]
     },
     "112": {
-        "elementClass": "o-card--grey-2",
+        "elementClass": "grey-2",
         "elementSection": "",
         "elementName": "Notifications",
         "elementCode": "No",
-        "elementDescription": "...",
-        "elementArticleName": "Notifications: Getting Started",
-        "elementArticleLink": "https://www.raywenderlich.com/1214490-android-notifications-tutorial-getting-startedd",
-        "elementArticleClass": "o-card--grey-4",
-        "elementVideoName": "",
-        "elementVideoLink": "",
-        "elementVideoClass": ""
+        "elementDescription": "",
+        "elementTutorials": [
+            ["Notifications: Getting Started (Article)", "https://www.raywenderlich.com/1214490-android-notifications-tutorial-getting-startedd"]
+        ]
     },
     "113": {
-        "elementClass": "o-card--grey-3",
+        "elementClass": "grey-3",
         "elementSection": "",
         "elementName": "RxKotlin",
         "elementCode": "Rx",
-        "elementDescription": "...",
-        "elementArticleName": "Reactive Programming RxAndroid: An Introduction",
-        "elementArticleLink": "https://www.raywenderlich.com/2071847-reactive-programming-with-rxandroid-in-kotlin-an-introduction",
-        "elementArticleClass": "o-card--grey-5",
-        "elementVideoName": "Beginning RxKotlin",
-        "elementVideoLink": "https://www.raywenderlich.com/7419-beginning-rxkotlin",
-        "elementVideoClass": "o-card--grey-6"
+        "elementDescription": "",
+        "elementTutorials": [
+            ["Reactive Programming RxAndroid: An Introduction (Article)", "https://www.raywenderlich.com/2071847-reactive-programming-with-rxandroid-in-kotlin-an-introduction"],
+            ["Beginning RxKotlin (Video)", "https://www.raywenderlich.com/7419-beginning-rxkotlin"]
+        ]
     },
     "114": {
-        "elementClass": "o-card--grey-4",
+        "elementClass": "grey-4",
         "elementSection": "",
         "elementName": "Android Things",
         "elementCode": "Ad",
-        "elementDescription": "...",
-        "elementArticleName": "Android Things: Getting Started",
-        "elementArticleLink": "https://www.raywenderlich.com/545672-android-things-tutorial-getting-started",
-        "elementArticleClass": "o-card--grey-6",
-        "elementVideoName": "",
-        "elementVideoLink": "",
-        "elementVideoClass": ""
+        "elementDescription": "",
+        "elementTutorials": [
+            ["Android Things: Getting Started (Article)", "https://www.raywenderlich.com/545672-android-things-tutorial-getting-started"]
+        ]
     },
     "115": {
-        "elementClass": "o-card--fill",
+        "elementClass": "fill",
         "elementSection": "",
         "elementName": "",
         "elementCode": "",
-        "elementDescription": "...",
+        "elementDescription": "",
         "elementArticleName": "",
         "elementArticleLink": "",
         "elementArticleClass": "",
@@ -1229,37 +1085,31 @@
         "elementVideoClass": ""
     },
     "116": {
-        "elementClass": "o-card--grey-5",
+        "elementClass": "grey-5",
         "elementSection": "",
         "elementName": "ARCore",
         "elementCode": "Ao",
-        "elementDescription": "...",
-        "elementArticleName": "Getting Started with ARCore",
-        "elementArticleLink": "https://www.raywenderlich.com/408-getting-started-with-arcore-with-kotlin",
-        "elementArticleClass": "o-card--grey-7",
-        "elementVideoName": "",
-        "elementVideoLink": "",
-        "elementVideoClass": ""
+        "elementDescription": "",
+        "elementTutorials": [
+            ["Getting Started with ARCore (Article)", "https://www.raywenderlich.com/408-getting-started-with-arcore-with-kotlin"]
+        ]
     },
     "117": {
-        "elementClass": "o-card--grey-6",
+        "elementClass": "grey-6",
         "elementSection": "",
         "elementName": "TensorFlow",
         "elementCode": "Ts",
-        "elementDescription": "...",
-        "elementArticleName": "",
-        "elementArticleLink": "",
-        "elementArticleClass": "",
-        "elementVideoName": "Getting Started with TensorFlow",
-        "elementVideoLink": "https://www.raywenderlich.com/4556-getting-started-with-tensorflow-on-android",
-        "elementVideoClass": "o-card--grey-8"
+        "elementDescription": "",
+        "elementTutorials": [
+            ["Getting Started with TensorFlow (Video)", "https://www.raywenderlich.com/4556-getting-started-with-tensorflow-on-android"]
+        ]
     },
     "118": {
-        "elementClass": "o-card--empty",
+        "elementClass": "empty",
         "elementSection": "",
         "elementName": "",
         "elementCode": "",
-        "elementDescription": "...",
+        "elementDescription": "",
         "elementArticleName": "",
         "elementArticleLink": "",
         "elementArticleClass": "",
@@ -1268,11 +1118,11 @@
         "elementVideoClass": ""
     },
     "119": {
-        "elementClass": "o-card--fill",
+        "elementClass": "fill",
         "elementSection": "",
         "elementName": "",
         "elementCode": "",
-        "elementDescription": "...",
+        "elementDescription": "",
         "elementArticleName": "",
         "elementArticleLink": "",
         "elementArticleClass": "",

@@ -34,6 +34,10 @@ Global
     padding: 0;
   }
 
+  h1, p, .l-space {
+    display: none;
+  }
+
   .l-grid--colors {
     display: grid !important;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -146,6 +150,10 @@ Global
 /* ==========================================================================
 4. Color
 ========================================================================== */
+
+.l-color--white{
+  color: #ffffff;
+}
 
 .l-color--light-green{
   color: #6CBB6E;
