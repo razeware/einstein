@@ -18,7 +18,7 @@ The table of elements is composed of sections and subjects.
 
 **Section:** A section is simply a grouping of subjects and represents an area of Android development eg. Programming Language, User Interface or Networking. Every section has a base color. The base color and it’s shades are used to define the subjects within a section (see the color guide at the end of this readme for more details).
 
-![alt text](/javscript/images/sections.png "")
+![alt text](https://github.com/razeware/einstein//javscript/images/sections.png "")
 
 **Subject:** Subjects represent a well-defined topic of Android development eg. *Kotlin*, *RecyclerView* or *Firebase*. Subjects within a section are organised from left to right.
 
