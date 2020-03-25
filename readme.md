@@ -38,7 +38,7 @@ Squares on the grid are configurable through JSON objects. JSON for the table is
 
 Objects are displayed on the grid according to their object number.
 
-To see the JSON object number of each corresponding square, use the grid-mode view when configuring the table ```/grid.html```.
+To see the JSON object number of every square, use the grid-mode view when configuring content ```/grid.html```.
 
 An object can have the following attributes:
 
