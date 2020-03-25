@@ -16,7 +16,7 @@ The site auto deploys when merging to master.
 
 The table of elements is composed of sections and subjects.
 
-**Section:** A section is simply a grouping of subjects and represents an area of Android development eg. *Programming Language*, *User Interface* or *Networking*. Every section has a base color. The base color and it’s shades are used to define the subjects within a section (see the color guide at the end for more details).
+**Section:** A section is simply a grouping of subjects and represents an area of Android development eg. *Programming Language*, *User Interface* or *Networking*. Every section has a base color. The base color and it’s shades are used to define the subjects within a section (see the Color Guide at the end for more details).
 
 ![alt text](https://raw.githubusercontent.com/razeware/einstein/master/javascript/images/sections.png "")
 
