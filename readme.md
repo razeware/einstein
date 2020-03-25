@@ -42,7 +42,7 @@ An object can have the following attributes:
 elementClass (String): HTML classes to adapt a square for a section, subject or fill
 elementSection (String): HTML href anchor for a section
 elementName (String): Display name of a section or subject
-elementCode (String): Code in the left hand corner of a subject (just for fun)
+elementCode (String): Code in the left hand corner of a subject (just for laughs)
 elementDescription (String): Description of the subject
 elementTutorials (Array): Subject tutorials and links (Articles, Video Courses, Books)
 ```
@@ -66,7 +66,7 @@ There are three types of elements that can be placed on the grid squares:
 An explanation and example object configuration for each element is as follows:
 
 ```
-//Section: Element to define the start of a group of subjects
+**Section: Element to define the start of a group of subjects**
 
 {
   "elementClass": "light-green-1",
