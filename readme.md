@@ -4,13 +4,13 @@ A collection of ordered subjects and curated tutorials for learning Android deve
 
 ## Local Development
 
-To develop the site locally use the following command:
+To develop the site locally use:
 
 ```npm run build -- --watch```
 
 ## Deployment
 
-The site auto deploys when merging to master.
+Auto deploys when merging to master.
 
 ## Content
 
@@ -20,11 +20,11 @@ The table of elements is composed of sections and subjects.
 
 ![alt text](https://raw.githubusercontent.com/razeware/einstein/master/javascript/images/sections.png "")
 
-**Subject:** Subjects represent a well-defined topic of Android development eg. *Kotlin*, *RecyclerView* or *Firebase*. Subjects within a section are organised from left to right.
+**Subject:** Subjects represent a well-defined topic of Android development eg. *Kotlin*, *RecyclerView* or *Firebase*. Subjects are organised from left to right.
 
 ![alt text](https://raw.githubusercontent.com/razeware/einstein/master/javascript/images/subjects.png "")
 
-In sections with > 4 subjects. Subjects that are similar or represent an area of Android development that is closely related should be organised vertically in a column to create a sub-section eg. *Material Design*, *Custom Fonts* and *Drawables* are all related to UI styling.
+In sections with more than 4 subjects. Subjects that are similar or represent an area of Android development that is closely related. Should be organised vertically in a column to create a sub-section eg. *Material Design*, *Custom Fonts* and *Drawables* are all related to UI styling.
 
 ![alt text](https://raw.githubusercontent.com/razeware/einstein/master/javascript/images/sub-sections.png "")
 
@@ -34,11 +34,11 @@ The table of elements is built on a 5 column square grid.
 
 ![alt text](https://raw.githubusercontent.com/razeware/einstein/master/javascript/images/grid.png "")
 
-Squares on the grid are configurable through JSON objects. The JSON for the table is stored in: ```/src/data/content.json```
+Squares on the grid are configurable through JSON objects. JSON for the table is stored in: ```/src/data/content.json```
 
 Objects are displayed on the grid according to their object number.
 
-To see the JSON object number of each corresponding square, use the grid view when configuring the table ```/grid```.
+To see the JSON object number of each corresponding square, use the grid-mode view when configuring the table ```/grid.html```.
 
 An object can have the following attributes:
 
@@ -109,9 +109,9 @@ Fill/Empty: Fill up empty squares at the end of a row with fill (background) or 
 
 ## Color Guide
 
-Sections and subjects on the grid are colored through special classes. To create harmony between sections, organise them vertically according to the color wheel. You can use the color page to quickly reference color class names ```/colors```.
+Sections and subjects on the grid are colored through special classes. To create harmony between sections, organise them vertically according to the color wheel. You can use the color page to quickly reference color class names ```/colors.html```.
 
-When choosing a base color for a section start with the left-most shade. The section name and first column of subjects use the base color. Subsequent columns of subjects use the next shade of the base color. The color classes are added to the ```elementClass``` of an object to color the text for the section and the background of the subject square.
+When choosing a base color for a section start with the left-most shade. The section name and first column of subjects use the base color. Subsequent columns of subjects use the next shade of the base color. The color classes are added to the ```elementClass``` of an object. Classes color the text for the section and the background of the subject square.
 
 
 
