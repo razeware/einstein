@@ -34,7 +34,7 @@ The table of elements is built on a 5 column square grid.
 
 //Image
 
-Squares on the grid are configurable through JSON objects. The JSON for the table is stored in: ```/src/data/content.json``` Objects are displayed on the grid according to their object number from left to right. To see the JSON object number of each corresponding square, use the grid view when configuring the table of elements /grid.
+Squares on the grid are configurable through JSON objects. The JSON for the table is stored in: ```/src/data/content.json``` Objects are displayed on the grid according to their object number from left to right. To see the JSON object number of each corresponding square, use the grid view when configuring the table of elements ```/grid```.
 
 An object can have the following attributes:
 
@@ -66,7 +66,7 @@ There are three types of elements that can be placed on the grid squares:
 An explanation and example object configuration for each element is as follows:
 
 ```
-**Section: Element to define the start of a group of subjects**
+Section: Element to define the start of a group of subjects
 
 {
   "elementClass": "light-green-1",
@@ -76,7 +76,7 @@ An explanation and example object configuration for each element is as follows:
 ```
 
 ```
-//Subject: Element to define a subject
+Subject: Element to define a subject
 
 {
   "elementClass": "light-green-1",
@@ -91,7 +91,7 @@ An explanation and example object configuration for each element is as follows:
 ```
 
 ```
-//Fill: Element to fill up empty squares at the end of a row
+Fill: Element (with background) to fill up empty squares at the end of a row
 
 {
   "elementClass": "fill",
@@ -99,7 +99,7 @@ An explanation and example object configuration for each element is as follows:
 ```
 
 ```
-//Empty: Element to fill up empty squares at the end of a row
+Empty: Element to fill up empty squares at the end of a row
 
 {
   "elementClass": "empty",
@@ -108,7 +108,7 @@ An explanation and example object configuration for each element is as follows:
 
 ## Color Guide
 
-Sections and subjects on the grid are colored through special classes. To create harmony between sections, organise them vertically according to the color wheel. You can use the color page to quickly reference color class names /colors.
+Sections and subjects on the grid are colored through special classes. To create harmony between sections, organise them vertically according to the color wheel. You can use the color page to quickly reference color class names ```/colors```.
 
 When choosing a base color for a section start with the left-most shade. The section name and first column of subjects use the base color. Subsequent columns of subjects use the next shade of the base color. The color classes are added to the elementClass of an object to color the text for the section and the background of the subject square.
 
