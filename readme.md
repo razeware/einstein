@@ -75,6 +75,7 @@ An explanation and example object configuration for each element is as follows:
 }
 ```
 
+```
 //Subject: Element to define a subject
 
 {
@@ -87,19 +88,25 @@ An explanation and example object configuration for each element is as follows:
 [“Programming in Kotlin (Video Course)”, “https://www.raywenderlich.com/...”]
 ]
 }
+```
+
+```
 //Fill: Element with a slight background color to fill up empty squares at the end of a row
 
 {
         "elementClass": "fill",
 }
+```
 
+```
 //Empty: Element to fill up empty squares at the end of a row
 
 {
         "elementClass": "empty",
 }
+```
 
-Color Guide
+## Color Guide
 
 Sections and subjects on the grid are colored through special classes. To create harmony between sections, organise them vertically according to the color wheel. You can use the color page to quickly reference color class names /colors.
 
