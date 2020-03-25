@@ -79,22 +79,22 @@ An explanation and example object configuration for each element is as follows:
 //Subject: Element to define a subject
 
 {
-        "elementClass": "light-green-1",
-        "elementName": "Kotlin",
-        "elementCode": "Kn",
-        "elementDescription": "...",
-"elementTutorials": [
+  "elementClass": "light-green-1",
+  "elementName": "Kotlin",
+  "elementCode": "Kn",
+  "elementDescription": "...",
+  "elementTutorials": [
     [“Programming in Kotlin (Article)”, “https://www.raywenderlich.com/...”],
-[“Programming in Kotlin (Video Course)”, “https://www.raywenderlich.com/...”]
-]
+    [“Programming in Kotlin (Video Course)”, “https://www.raywenderlich.com/...”]
+  ]
 }
 ```
 
 ```
-//Fill: Element with a slight background color to fill up empty squares at the end of a row
+//Fill: Element to fill up empty squares at the end of a row
 
 {
-        "elementClass": "fill",
+  "elementClass": "fill",
 }
 ```
 
@@ -102,7 +102,7 @@ An explanation and example object configuration for each element is as follows:
 //Empty: Element to fill up empty squares at the end of a row
 
 {
-        "elementClass": "empty",
+  "elementClass": "empty",
 }
 ```
 
