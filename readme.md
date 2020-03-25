@@ -34,7 +34,7 @@ The table of elements is built on a 5 column square grid.
 
 //Image
 
-Squares on the grid are configurable through JSON objects. The JSON for the table is stored in the data folder /src/data/content.json. Objects are displayed on the grid according to their object number from left to right. To see the JSON object number of each corresponding square, use the grid view when configuring the table of elements /grid.
+Squares on the grid are configurable through JSON objects. The JSON for the table is stored in: ```/src/data/content.json``` Objects are displayed on the grid according to their object number from left to right. To see the JSON object number of each corresponding square, use the grid view when configuring the table of elements /grid.
 
 An object can have the following attributes:
 
@@ -66,7 +66,7 @@ There are three types of elements that can be placed on the grid squares:
 An explanation and example object configuration for each element is as follows:
 
 ```
-//Section: Element to define the start of a group of subjects.
+//Section: Element to define the start of a group of subjects
 
 {
   "elementClass": "light-green-1",
