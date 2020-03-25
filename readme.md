@@ -111,6 +111,8 @@ Fill/Empty: Fill up empty squares at the end of a row with fill (background) or 
 
 Sections and subjects on the grid are colored through special classes. To create harmony between sections, organise them vertically according to the color wheel. You can use the color page to quickly reference color class names ```/colors.html```.
 
+![alt text](https://raw.githubusercontent.com/razeware/einstein/master/javascript/images/colors.png "")
+
 When choosing a base color for a section start with the left-most shade. The section name and first column of subjects use the base color. Subsequent columns of subjects use the next shade of the base color. The color classes are added to the ```elementClass``` of an object. Classes color the text for the section and the background of the subject square.
 
 
