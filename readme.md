@@ -34,11 +34,11 @@ The table of elements is built on a 5 column square grid.
 
 ![alt text](https://raw.githubusercontent.com/razeware/einstein/master/javascript/images/grid.png "")
 
-Squares on the grid are configurable through JSON objects. JSON for the table is found in: ```/src/data/content.json```
+Squares on the grid are configurable through JSON objects. JSON configuration for the table: ```/src/data/content.json```
 
 Objects are displayed on the grid according to their object number.
 
-To see the JSON object number of every square, use the grid-mode view when configuring content ```/grid.html```.
+To see the JSON object number of every square, use the grid-mode view when configuring content locally ```/grid.html```.
 
 An object can have the following attributes:
 
