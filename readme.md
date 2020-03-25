@@ -16,7 +16,7 @@ Auto deploys when merging to master.
 
 The table of elements is composed of sections and subjects.
 
-**Section:** A section is simply a grouping of subjects and represents an area of Android development eg. *Programming Language*, *User Interface* or *Networking*. Every section has a base color. The base color and it’s shades are used to define the subjects within a section (see the Color Guide at the end for more details).
+**Section:** A section is a grouping of subjects and represents an area of Android development eg. *Programming Language*, *User Interface* or *Networking*. Every section has a base color. The base color and it’s shades are used to define the subjects within a section (see the Color Guide at the end for more details).
 
 ![alt text](https://raw.githubusercontent.com/razeware/einstein/master/javascript/images/sections.png "")
 
@@ -24,7 +24,7 @@ The table of elements is composed of sections and subjects.
 
 ![alt text](https://raw.githubusercontent.com/razeware/einstein/master/javascript/images/subjects.png "")
 
-In sections with more than 4 subjects. Subjects that are similar or represent an area of Android development that is closely related. Should be organised vertically in a column to create a sub-section eg. *Material Design*, *Custom Fonts* and *Drawables* are all related to UI styling.
+In sections with more than 4 subjects. Subjects that are closely-related should be organised vertically in a column to create a sub-section eg. *Material Design*, *Custom Fonts* and *Drawables* are all related to UI styling.
 
 ![alt text](https://raw.githubusercontent.com/razeware/einstein/master/javascript/images/sub-sections.png "")
 
@@ -34,7 +34,7 @@ The table of elements is built on a 5 column square grid.
 
 ![alt text](https://raw.githubusercontent.com/razeware/einstein/master/javascript/images/grid.png "")
 
-Squares on the grid are configurable through JSON objects. JSON for the table is stored in: ```/src/data/content.json```
+Squares on the grid are configurable through JSON objects. JSON for the table is found in: ```/src/data/content.json```
 
 Objects are displayed on the grid according to their object number.
 
