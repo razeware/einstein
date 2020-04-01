@@ -4,13 +4,21 @@ A collection of ordered subjects and curated tutorials for learning Android deve
 
 ## Local Development
 
-To develop the site locally use:
+To develop the site locally, ensure you have docker installed, navigate in terminal to the repo, and run:
 
-```npm run build -- --watch```
+```bin/start```
+
+This will build a docker container, and start webpack-dev-server. You can preview the site at:
+
+http://localhost:4000/
+
+This will hot-reload as you make changes to the code in `src`.
 
 ## Deployment
 
-Auto deploys when merging to master.
+_WORK IN PROGRESS_
+
+(It will autodeploy).
 
 ## Content
 
@@ -18,27 +26,27 @@ The table of elements is composed of sections and subjects.
 
 **Section:** A section is a grouping of subjects and represents an area of Android development eg. *Programming Language*, *User Interface* or *Networking*. Every section has a base color. The base color and it’s shades are used to define the subjects within a section (see the Color Guide at the end for more details).
 
-![alt text](https://raw.githubusercontent.com/razeware/einstein/master/javascript/images/sections.png "")
+![alt text](https://raw.githubusercontent.com/razeware/einstein/master/src/images/sections.png "")
 
 **Subject:** Subjects represent a well-defined topic of Android development eg. *Kotlin*, *RecyclerView* or *Firebase*. Subjects are organised from left to right.
 
-![alt text](https://raw.githubusercontent.com/razeware/einstein/master/javascript/images/subjects.png "")
+![alt text](https://raw.githubusercontent.com/razeware/einstein/master/src/images/subjects.png "")
 
 In sections with more than 4 subjects. Subjects that are closely-related should be organised vertically in a column to create a sub-section eg. *Material Design*, *Custom Fonts* and *Drawables* are all related to UI styling.
 
-![alt text](https://raw.githubusercontent.com/razeware/einstein/master/javascript/images/sub-sections.png "")
+![alt text](https://raw.githubusercontent.com/razeware/einstein/master/src/images/sub-sections.png "")
 
 ## Configuring the Table of Elements
 
 The table of elements is built on a 5 column square grid.
 
-![alt text](https://raw.githubusercontent.com/razeware/einstein/master/javascript/images/grid.png "")
+![alt text](https://raw.githubusercontent.com/razeware/einstein/master/src/images/grid.png "")
 
 Squares on the grid are configurable through JSON objects. JSON configuration for the table: ```/src/data/content.json```
 
 Objects are displayed on the grid according to their object number.
 
-To see the JSON object number of every square, use the grid-mode view when configuring content locally ```/grid.html```.
+To see the JSON object number of every square, use the grid-mode view when configuring content locally by clicking on the __Grid View__ link at the top whilst running in development mode.
 
 An object can have the following attributes:
 
@@ -109,9 +117,9 @@ Fill/Empty: Fill up empty squares at the end of a row with fill (background) or 
 
 ## Color Guide
 
-Sections and subjects on the grid are colored through special classes. To create harmony between sections, organise them vertically according to the color wheel. You can use the color page to quickly reference color class names ```/colors.html```.
+Sections and subjects on the grid are colored through special classes. To create harmony between sections, organise them vertically according to the color wheel. You can use the color page to quickly reference color class names by clicking on the __Colors View__ link at the top whilst running in development mode.
 
-![alt text](https://raw.githubusercontent.com/razeware/einstein/master/javascript/images/colors.png "")
+![alt text](https://raw.githubusercontent.com/razeware/einstein/master/src/images/colors.png "")
 
 When choosing a base color for a section start with the left-most shade. The section name and first column of subjects use the base color. Subsequent columns of subjects use the next shade of the base color. The color classes are added to the ```elementClass``` of an object. Classes color the text for the section and the background of the subject square.
 

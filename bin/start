@@ -1,0 +1,5 @@
+#!/bin/bash
+
+docker build -t einstein-atoe .
+docker run -p 4000:4000 -v "$(pwd):/var/www/einstein" -it --rm einstein-atoe yarn run start
+#docker run -p 4000:4000 -v "$(pwd):/var/www/einstein" -it --rm einstein-atoe bash
