@@ -21,7 +21,7 @@ WORKDIR /var/www/einstein
 COPY . ./
 
 # Install JS dependencies
-RUN yarn install
+RUN yarn install --production=false
 
 # Build the app
 RUN yarn run build
