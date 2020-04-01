@@ -5,7 +5,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { VueLoaderPlugin } = require('vue-loader');
 
 module.exports = {
-  mode: 'production',
+  mode: 'development',
 
   entry: {
     app: [

@@ -1,5 +1,11 @@
 <template>
   <div>
+    <div v-if="devMode">
+      <h6>Development Mode</h6>
+      <a @click="setHtmlClass()">Home</a>
+      <a @click="setHtmlClass('l-grid-mode')">Grid View</a>
+      <a @click="setHtmlClass('l-color-mode')">Colors View</a>
+    </div>
 
     <div class="l-space"></div>
 
@@ -116,6 +122,18 @@ export default {
     closeModal() {
       this.showModal = false;
     },
+    setHtmlClass(newClass) {
+      const htmlElement = document.getElementsByTagName('html')[0];
+
+      htmlElement.classList.remove('l-color-mode', 'l-grid-mode');
+      htmlElement.classList.add(newClass);
+    },
   },
+  computed: {
+    devMode() {
+      console.log(process.env.NODE_ENV);
+      return process.env.NODE_ENV === 'development';
+    }
+  }
 }
 </script>
