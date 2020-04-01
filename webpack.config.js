@@ -9,8 +9,7 @@ module.exports = {
 
   entry: {
     app: [
-      './javascript/src/main.js',
-      './javascript/styles/main.scss',
+      './src/styles/main.scss',
       './src/app.js',
     ],
   },
