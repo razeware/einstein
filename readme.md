@@ -4,13 +4,21 @@ A collection of ordered subjects and curated tutorials for learning Android deve
 
 ## Local Development
 
-To develop the site locally use:
+To develop the site locally, ensure you have docker installed, navigate in terminal to the repo, and run:
 
-```npm run build -- --watch```
+```bin/start```
+
+This will build a docker container, and start webpack-dev-server. You can preview the site at:
+
+http://localhost:4000/
+
+This will hot-reload as you make changes to the code in `src`.
 
 ## Deployment
 
-Auto deploys when merging to master.
+_WORK IN PROGRESS_
+
+(It will autodeploy).
 
 ## Content
 
@@ -38,7 +46,7 @@ Squares on the grid are configurable through JSON objects. JSON configuration fo
 
 Objects are displayed on the grid according to their object number.
 
-To see the JSON object number of every square, use the grid-mode view when configuring content locally ```/grid.html```.
+To see the JSON object number of every square, use the grid-mode view when configuring content locally by clicking on the __Grid View__ link at the top whilst running in development mode.
 
 An object can have the following attributes:
 
@@ -109,7 +117,7 @@ Fill/Empty: Fill up empty squares at the end of a row with fill (background) or 
 
 ## Color Guide
 
-Sections and subjects on the grid are colored through special classes. To create harmony between sections, organise them vertically according to the color wheel. You can use the color page to quickly reference color class names ```/colors.html```.
+Sections and subjects on the grid are colored through special classes. To create harmony between sections, organise them vertically according to the color wheel. You can use the color page to quickly reference color class names by clicking on the __Colors View__ link at the top whilst running in development mode.
 
 ![alt text](https://raw.githubusercontent.com/razeware/einstein/master/src/images/colors.png "")
 
