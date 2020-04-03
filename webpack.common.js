@@ -1,24 +1,14 @@
-var webpack = require('webpack');
 var path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { VueLoaderPlugin } = require('vue-loader');
 
 module.exports = {
-  mode: 'development',
-
   entry: {
     app: [
       './src/styles/main.scss',
       './src/app.js',
     ],
-  },
-
-  devServer: {
-    contentBase: '.',
-    port: 4000,
-    compress: true,
-    host: '0.0.0.0',
   },
 
   output: {
@@ -66,5 +56,4 @@ module.exports = {
     new VueLoaderPlugin(),
     new HtmlWebpackPlugin(),
   ],
-
 };
