@@ -19,6 +19,26 @@
 Global
 ========================================================================== */
 
+.l-development-mode {
+  position: absolute;
+  top: 15px;
+  z-index: 1;
+
+  span, a {
+    font-size: 0.875rem; /* 14/16 */
+    font-weight: 600;
+  }
+
+  span {
+    opacity: .5;
+  }
+
+  a {
+    cursor: pointer;
+  }
+
+}
+
 .l-grid-mode {
   .o-card__number {
     display: block;

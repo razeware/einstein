@@ -1,15 +1,20 @@
 <template>
   <div>
-    <div v-if="devMode">
-      <h6>Development Mode</h6>
-      <a @click="setHtmlClass()">Home</a>
-      <a @click="setHtmlClass('l-grid-mode')">Grid View</a>
-      <a @click="setHtmlClass('l-color-mode')">Colors View</a>
-    </div>
 
     <div class="l-space"></div>
 
     <div class="l-center l-block--1200">
+
+      <div v-if="devMode" class="l-development-mode">
+        <span>[Development Mode]</span>
+        <span> · </span>
+        <a @click="setHtmlClass()">Home</a>
+        <span> · </span>
+        <a @click="setHtmlClass('l-grid-mode')">Grid (Numbers)</a>
+        <span> · </span>
+        <a @click="setHtmlClass('l-color-mode')">Colors</a>
+      </div>
+
       <h1 class="l-page-title l-color-white">{{ tableTitle }}</h1>
       <p class="l-block--690 l-font--15 l-line-height--125">{{ tableDescription1 }}</p>
       <p class="l-font--15 l-line-height--125 l-margin--26">{{ tableDescription2 }}</p>
