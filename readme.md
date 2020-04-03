@@ -14,11 +14,21 @@ http://localhost:4000/
 
 This will hot-reload as you make changes to the code in `src`.
 
+> __WARNING:__ It is not recommended to ever run any `npm` or `yarn` commands outside of a docker container. To change dependencies, use a shell inside the container.
+
+To get a __bash__ shell running inside the container, run the following:
+
+```sh
+$ docker run -p 4000:4000 -v "$(pwd):/var/www/einstein" -it --rm einstein-atoe bash
+```
+
+Once you've made changes, you will need to restart the dev server, with `bin/start` as above.
+
 ## Deployment
 
-_WORK IN PROGRESS_
+The `gh-pages` branch is served by GitHub via GitHub Pages at https://www.androidelements.com/. Merging to the `master` branch will trigger a CI build of the app, in __production__ mode, which will then be auto-deployed to this branch. You should never need to edit this branch directly.
 
-(It will autodeploy).
+CI is performed by GitHub Actions, and is configured in __.github/deploy.yml__. The build script is in __bin/build_prod.sh__.
 
 ## Content
 
