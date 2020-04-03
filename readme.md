@@ -16,9 +16,9 @@ This will hot-reload as you make changes to the code in `src`.
 
 ## Deployment
 
-_WORK IN PROGRESS_
+The `gh-pages` branch is served by Github via Github Pages at https://www.androidelements.com/. Merging to the `master` branch will trigger a CI build of the app, in __production__ mode, which will then be auto-deployed to this branch. You should never need to edit this branch directly.
 
-(It will autodeploy).
+CI is performed by Github Actions, and is configured in __.github/deploy.yml__. The build script is in __bin/build_prod.sh__.
 
 ## Content
 
