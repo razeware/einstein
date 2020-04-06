@@ -18,6 +18,8 @@
       <h1 class="l-page-title l-color-white">{{ tableTitle }}</h1>
       <p class="l-block--690 l-font--15 l-line-height--125">{{ tableDescription1 }}</p>
       <p class="l-font--15 l-line-height--125 l-margin--26">{{ tableDescription2 }}</p>
+      <p class="l-font--15 l-line-height--125 l-margin--26">{{ tableDescription3 }}</p>
+      <p class="l-font--15 l-line-height--125 l-margin--26">{{ tableDescription4 }}</p>
     </div>
 
     <div class="l-space"></div>
@@ -107,6 +109,8 @@ export default {
       tableFooter: copy.footer,
       tableDescription1: copy.description1,
       tableDescription2: copy.description2,
+      tableDescription3: copy.description3,
+      tableDescription4: copy.description4,
       tableFooterQuote: copy.footerQuote,
       tableFooterQuoteOwner: copy.footerQuoteOwner,
       showModal: false,

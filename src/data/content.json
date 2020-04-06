@@ -14,10 +14,10 @@
         "elementCode": "An",
         "elementDescription": "",
         "elementTutorials": [
-			["Beginning Android Development with Kotlin, Part One: Installing Android Studio (Article)", "https://www.raywenderlich.com/478209-beginning-android-development-with-kotlin-part-one-installing-android-studio"],
-			["Beginning Android Development with Kotlin, Part Two: Using Android Studio (Article)", "https://www.raywenderlich.com/738946-beginning-android-development-with-kotlin-part-two-using-android-studio"],
-			["Your First Kotlin Android App (Video)", "https://www.raywenderlich.com/4936497-your-first-kotlin-android-app"],
-			["Your Second Kotlin Android App (Video)", "https://www.raywenderlich.com/7503473-your-second-kotlin-android-app"]
+			["[FREE] Beginning Android Development with Kotlin, Part One: Installing Android Studio (Article)", "https://www.raywenderlich.com/478209-beginning-android-development-with-kotlin-part-one-installing-android-studio"],
+			["[FREE] Beginning Android Development with Kotlin, Part Two: Using Android Studio (Article)", "https://www.raywenderlich.com/738946-beginning-android-development-with-kotlin-part-two-using-android-studio"],
+			["[FREE] Your First Kotlin Android App (Video)", "https://www.raywenderlich.com/4936497-your-first-kotlin-android-app"],
+			["[PREMIUM] Your Second Kotlin Android App (Video)", "https://www.raywenderlich.com/7503473-your-second-kotlin-android-app"]
 		]
     },
     "2": {
@@ -27,8 +27,8 @@
         "elementCode": "Kt",
         "elementDescription": "Kotlin is a cross-platform, statically typed, general-purpose programming language with type inference. Kotlin has been Google's preferred language for Android app development since Google I/O 2019.",
         "elementTutorials": [
-        	["Kotlin For Android: An Introduction (Article)", "https://www.raywenderlich.com/1144981-kotlin-for-android-an-introduction"],
-			["Programming in Kotlin (Video)",  "https://www.raywenderlich.com/4736-programming-in-kotlin"]
+        	["[FREE] Kotlin For Android: An Introduction (Article)", "https://www.raywenderlich.com/1144981-kotlin-for-android-an-introduction"],
+			["[PREMIUM] Programming in Kotlin (Video)",  "https://www.raywenderlich.com/4736-programming-in-kotlin"]
         ]
     },
     "3": {
@@ -62,7 +62,7 @@
         "elementCode": "Cs",
         "elementDescription": "",
         "elementTutorials": [
-            ["Kotlin Cheat Sheet and Quick Reference (Article)", "https://www.raywenderlich.com/6362971-kotlin-cheat-sheet-and-quick-reference"]
+            ["[FREE] Kotlin Cheat Sheet and Quick Reference (Article)", "https://www.raywenderlich.com/6362971-kotlin-cheat-sheet-and-quick-reference"]
         ]
     },
     "7": {
@@ -71,7 +71,7 @@
         "elementName": "Collections",
         "elementCode": "Cl",
         "elementDescription": "",
-        "elementTutorials": [["Kotlin Collections: Getting Started (Article)", "https://www.raywenderlich.com/4131729-kotlin-collections-getting-started"]]
+        "elementTutorials": [["[FREE] Kotlin Collections: Getting Started (Article)", "https://www.raywenderlich.com/4131729-kotlin-collections-getting-started"]]
     },
     "8": {
         "elementClass": "dark-green-3",
@@ -79,7 +79,7 @@
         "elementName": "Nullability",
         "elementCode": "Nu",
         "elementDescription": "",
-        "elementTutorials": [["Null Safety Tutorial in Kotlin: Best Practices (Article)", "https://www.raywenderlich.com/436090-null-safety-tutorial-in-kotlin-best-practices"]]
+        "elementTutorials": [["[FREE] Null Safety Tutorial in Kotlin: Best Practices (Article)", "https://www.raywenderlich.com/436090-null-safety-tutorial-in-kotlin-best-practices"]]
     },
     "9": {
         "elementClass": "dark-green-4",
@@ -87,7 +87,7 @@
         "elementName": "Generics",
         "elementCode": "Gn",
         "elementDescription": "",
-        "elementTutorials": [["Kotlin Generics Tutorial: Getting Started (Article)", "https://www.raywenderlich.com/3634394-kotlin-generics-tutorial-getting-started"]]
+        "elementTutorials": [["[FREE] Kotlin Generics Tutorial: Getting Started (Article)", "https://www.raywenderlich.com/3634394-kotlin-generics-tutorial-getting-started"]]
     },
     "10": {
         "elementClass": "fill-top-left",
@@ -104,8 +104,8 @@
         "elementCode": "Sc",
         "elementDescription": "",
         "elementTutorials": [
-        	["Kotlin Sealed Classes (Article)", "https://www.raywenderlich.com/75657-kotlin-sealed-classes"],
-			["Kotlin and Android: Beyond the Basics with Sealed Classes (Article)", "https://www.raywenderlich.com/7547739-kotlin-and-android-beyond-the-basics-with-sealed-classes"]
+        	["[FREE] Kotlin Sealed Classes (Article)", "https://www.raywenderlich.com/75657-kotlin-sealed-classes"],
+			["[FREE] Kotlin and Android: Beyond the Basics with Sealed Classes (Article)", "https://www.raywenderlich.com/7547739-kotlin-and-android-beyond-the-basics-with-sealed-classes"]
         ]
     },
     "12": {
@@ -115,9 +115,9 @@
         "elementCode": "Fp",
         "elementDescription": "",
         "elementTutorials": [
-			["Introduction to Kotlin Lambdas: Getting Started (Article)", "https://www.raywenderlich.com/2268700-introduction-to-kotlin-lambdas-getting-started"],
-			["Functional Programming with Kotlin and Arrow: Getting Started (Article)", "https://www.raywenderlich.com/9527-functional-programming-with-kotlin-and-arrow-getting-started"],
-			["Functional Programming with Kotlin and Arrow Part 2: Categories and Functors (Article)", "https://www.raywenderlich.com/324105-functional-programming-with-kotlin-and-arrow-part-2-categories-and-functors"]
+			["[FREE] Introduction to Kotlin Lambdas: Getting Started (Article)", "https://www.raywenderlich.com/2268700-introduction-to-kotlin-lambdas-getting-started"],
+			["[FREE] Functional Programming with Kotlin and Arrow: Getting Started (Article)", "https://www.raywenderlich.com/9527-functional-programming-with-kotlin-and-arrow-getting-started"],
+			["[FREE] Functional Programming with Kotlin and Arrow Part 2: Categories and Functors (Article)", "https://www.raywenderlich.com/324105-functional-programming-with-kotlin-and-arrow-part-2-categories-and-functors"]
         ]
     },
     "13": {
@@ -127,9 +127,9 @@
         "elementCode": "Ok",
         "elementDescription": "",
         "elementTutorials": [
-			["What’s New in Kotlin 1.3 (Article)", "https://www.raywenderlich.com/3871338-what-s-new-in-kotlin-1-3"],
-			["Domain-Specific Languages In Kotlin: Getting Started (Article)", "https://www.raywenderlich.com/2780058-domain-specific-languages-in-kotlin-getting-started"],
-			["A Comparison of Swift and Kotlin Languages (Article)", "https://www.raywenderlich.com/6754-a-comparison-of-swift-and-kotlin-languages"]        	
+			["[FREE] What’s New in Kotlin 1.3 (Article)", "https://www.raywenderlich.com/3871338-what-s-new-in-kotlin-1-3"],
+			["[FREE] Domain-Specific Languages In Kotlin: Getting Started (Article)", "https://www.raywenderlich.com/2780058-domain-specific-languages-in-kotlin-getting-started"],
+			["[FREE] A Comparison of Swift and Kotlin Languages (Article)", "https://www.raywenderlich.com/6754-a-comparison-of-swift-and-kotlin-languages"]        	
         ]
     },
     "14": {
@@ -155,7 +155,7 @@
         "elementCode": "Tt",
         "elementDescription": "",
         "elementTutorials": [
-            ["Android Studio Tips and Tricks (Article)", "https://www.raywenderlich.com/2807578-android-studio-tips-and-tricks"]
+            ["[FREE] Android Studio Tips and Tricks (Article)", "https://www.raywenderlich.com/2807578-android-studio-tips-and-tricks"]
         ]
     },
     "17": {
@@ -165,7 +165,7 @@
         "elementCode": "Tp",
         "elementDescription": "",
         "elementTutorials": [
-            ["Live Templates in Android Studio: Getting Started (Article)", "https://www.raywenderlich.com/4979242-live-templates-in-android-studio-getting-started"]
+            ["[FREE] Live Templates in Android Studio: Getting Started (Article)", "https://www.raywenderlich.com/4979242-live-templates-in-android-studio-getting-started"]
         ]
     },
     "18": {
@@ -199,8 +199,8 @@
         "elementCode": "Ac",
         "elementDescription": "",
         "elementTutorials": [
-            ["Introduction to Android Activities with Kotlin (Article)", "https://www.raywenderlich.com/2705552-introduction-to-android-activities-with-kotlin"],
-			["Android Fragments Tutorial: An Introduction with Kotlin (Article)", "https://www.raywenderlich.com/1364094-android-fragments-tutorial-an-introduction-with-kotlin"]
+            ["[FREE] Introduction to Android Activities with Kotlin (Article)", "https://www.raywenderlich.com/2705552-introduction-to-android-activities-with-kotlin"],
+			["[FREE] Android Fragments Tutorial: An Introduction with Kotlin (Article)", "https://www.raywenderlich.com/1364094-android-fragments-tutorial-an-introduction-with-kotlin"]
         ]
     },
     "22": {
@@ -210,7 +210,7 @@
         "elementCode": "In",
         "elementDescription": "",
         "elementTutorials": [
-            ["Android Intents Tutorial with Kotlin (Article)", "https://www.raywenderlich.com/4700198-android-intents-tutorial-with-kotlin"]
+            ["[FREE] Android Intents Tutorial with Kotlin (Article)", "https://www.raywenderlich.com/4700198-android-intents-tutorial-with-kotlin"]
         ]
     },
     "23": {
@@ -220,7 +220,7 @@
         "elementCode": "Sv",
         "elementDescription": "",
         "elementTutorials": [
-            ["Android Background Processing (Video)",  "https://www.raywenderlich.com/5306-android-background-processing"]
+            ["[PREMIUM] Android Background Processing (Video)",  "https://www.raywenderlich.com/5306-android-background-processing"]
         ]
     },
     "24": {
@@ -246,8 +246,8 @@
         "elementCode": "Md",
         "elementDescription": "",
         "elementTutorials": [
-            ["An Introduction to Material Design with Kotlin (Article)", "https://www.raywenderlich.com/2780045-android-an-introduction-to-material-design-with-kotlin"],
-			["Introduction to Google's Material Design (Video)", "https://www.raywenderlich.com/7908751-introduction-to-google-s-material-design"]
+            ["[FREE] An Introduction to Material Design with Kotlin (Article)", "https://www.raywenderlich.com/2780045-android-an-introduction-to-material-design-with-kotlin"],
+			["[PREMIUM] Introduction to Google's Material Design (Video)", "https://www.raywenderlich.com/7908751-introduction-to-google-s-material-design"]
         ]
     },
     "27": {
@@ -257,8 +257,8 @@
         "elementCode": "Rv",
         "elementDescription": "",
         "elementTutorials": [
-			["Android RecyclerView Tutorial with Kotlin (Article)", "https://www.raywenderlich.com/1560485-android-recyclerview-tutorial-with-kotlin"],
-			["Beginning RecyclerView (Video)", "https://www.raywenderlich.com/4568-beginning-recyclerview"]
+			["[FREE] Android RecyclerView Tutorial with Kotlin (Article)", "https://www.raywenderlich.com/1560485-android-recyclerview-tutorial-with-kotlin"],
+			["[PREMIUM] Beginning RecyclerView (Video)", "https://www.raywenderlich.com/4568-beginning-recyclerview"]
 		]
     },
     "28": {
@@ -268,7 +268,7 @@
         "elementCode": "Ul",
         "elementDescription": "",
         "elementTutorials": [
-            ["Beginning Android Layouts (Video)", "https://www.raywenderlich.com/8080493-beginning-android-layouts"]
+            ["[PREMIUM] Beginning Android Layouts (Video)", "https://www.raywenderlich.com/8080493-beginning-android-layouts"]
         ]
     },
     "29": {
@@ -277,7 +277,7 @@
         "elementName": "Custom Views",
         "elementCode": "Cv",
         "elementDescription": "",
-        "elementTutorials": [["Android Custom View Tutorial (Article)", "https://www.raywenderlich.com/142-android-custom-view-tutorial"]]
+        "elementTutorials": [["[FREE] Android Custom View Tutorial (Article)", "https://www.raywenderlich.com/142-android-custom-view-tutorial"]]
     },
     "30": {
         "elementClass": "fill",
@@ -294,7 +294,7 @@
         "elementCode": "Ay",
         "elementDescription": "",
         "elementTutorials": [
-            ["Android Accessibility Tutorial: Getting Started (Article)", "https://www.raywenderlich.com/240-android-accessibility-tutorial-getting-started"]
+            ["[FREE] Android Accessibility Tutorial: Getting Started (Article)", "https://www.raywenderlich.com/240-android-accessibility-tutorial-getting-started"]
         ]
     },
     "32": {
@@ -304,8 +304,8 @@
         "elementCode": "Bi",
         "elementDescription": "",
         "elementTutorials": [
-			["Data Binding in Android: Getting Started (Article)", "https://www.raywenderlich.com/7711166-data-binding-in-android-getting-started"],
-			["View Binding Tutorial for Android: Getting Started (Article)", "https://www.raywenderlich.com/6430697-view-binding-tutorial-for-android-getting-started"]
+			["[FREE] Data Binding in Android: Getting Started (Article)", "https://www.raywenderlich.com/7711166-data-binding-in-android-getting-started"],
+			["[FREE] View Binding Tutorial for Android: Getting Started (Article)", "https://www.raywenderlich.com/6430697-view-binding-tutorial-for-android-getting-started"]
         ]
     },
     "33": {
@@ -315,8 +315,8 @@
         "elementCode": "Cl",
         "elementDescription": "",
         "elementTutorials": [
-			["ConstraintLayout Tutorial for Android: Getting Started", "https://www.raywenderlich.com/9193-constraintlayout-tutorial-for-android-getting-started"],
-			["ConstraintLayout Tutorial for Android: Complex Layouts (Article)", "https://www.raywenderlich.com/9475-constraintlayout-tutorial-for-android-complex-layouts"]        	
+			["[FREE] ConstraintLayout Tutorial for Android: Getting Started", "https://www.raywenderlich.com/9193-constraintlayout-tutorial-for-android-getting-started"],
+			["[FREE] ConstraintLayout Tutorial for Android: Complex Layouts (Article)", "https://www.raywenderlich.com/9475-constraintlayout-tutorial-for-android-complex-layouts"]        	
         ]
     },
     "34": {
@@ -325,7 +325,7 @@
         "elementName": "Custom Fonts",
         "elementCode": "Cf",
         "elementDescription": "",
-        "elementTutorials": [["Custom and Downloadable Fonts on Android (Article)", "https://www.raywenderlich.com/213-custom-and-downloadable-fonts-on-android"]]
+        "elementTutorials": [["[FREE] Custom and Downloadable Fonts on Android (Article)", "https://www.raywenderlich.com/213-custom-and-downloadable-fonts-on-android"]]
     },
     "35": {
         "elementClass": "empty",
@@ -342,8 +342,8 @@
         "elementCode": "Ts",
         "elementDescription": "",
         "elementTutorials": [
-			["Android 10 Dark Theme: Getting Started (Article)", "https://www.raywenderlich.com/6488033-android-10-dark-theme-getting-started"],
-			["Supporting Dark Theme (Video)", "https://www.raywenderlich.com/5697228-supporting-dark-theme"]
+			["[FREE] Android 10 Dark Theme: Getting Started (Article)", "https://www.raywenderlich.com/6488033-android-10-dark-theme-getting-started"],
+			["[PREMIUM] Supporting Dark Theme (Video)", "https://www.raywenderlich.com/5697228-supporting-dark-theme"]
         ]
     },
     "37": {
@@ -353,7 +353,7 @@
         "elementCode": "Vp",
         "elementDescription": "",
         "elementTutorials": [
-            ["ViewPager2 in Android: Getting Started (Article)", "https://www.raywenderlich.com/8192680-viewpager2-in-android-getting-started"]
+            ["[FREE] ViewPager2 in Android: Getting Started (Article)", "https://www.raywenderlich.com/8192680-viewpager2-in-android-getting-started"]
         ]
     },
     "38": {
@@ -387,7 +387,7 @@
         "elementCode": "Ln",
         "elementDescription": "",
         "elementTutorials": [
-			["Android Localization: Getting Started (Article)", "https://www.raywenderlich.com/4878024-android-localization-getting-started"]        ]
+			["[FREE] Android Localization: Getting Started (Article)", "https://www.raywenderlich.com/4878024-android-localization-getting-started"]        ]
     },
     "42": {
         "elementClass": "pink-2",
@@ -395,7 +395,7 @@
         "elementName": "Notifications",
         "elementCode": "No",
         "elementDescription": "",
-        "elementTutorials": [["Android Notifications Tutorial: Getting Started (Article)", "https://www.raywenderlich.com/1214490-android-notifications-tutorial-getting-started"]
+        "elementTutorials": [["[FREE] Android Notifications Tutorial: Getting Started (Article)", "https://www.raywenderlich.com/1214490-android-notifications-tutorial-getting-started"]
 ]
     },
     "43": {
@@ -405,10 +405,10 @@
         "elementCode": "Ou",
         "elementDescription": "",
         "elementTutorials": [
-			["Autosizing TextView Tutorial for Android: Getting Started (Article)", "https://www.raywenderlich.com/7930-autosizing-textview-tutorial-for-android-getting-started"],
-			["Gesture Navigation Tutorial for Android (Article)", "https://www.raywenderlich.com/4638393-gesture-navigation-tutorial-for-android"],
-			["Sharing in Android 10: Getting Started (Article)", "https://www.raywenderlich.com/6613761-sharing-in-android-10-getting-started"],
-			["Android Tutorial for GeckoView: Getting Started (Article)", "https://www.raywenderlich.com/1381698-android-tutorial-for-geckoview-getting-started"]        	
+			["[FREE] Autosizing TextView Tutorial for Android: Getting Started (Article)", "https://www.raywenderlich.com/7930-autosizing-textview-tutorial-for-android-getting-started"],
+			["[FREE] Gesture Navigation Tutorial for Android (Article)", "https://www.raywenderlich.com/4638393-gesture-navigation-tutorial-for-android"],
+			["[FREE] Sharing in Android 10: Getting Started (Article)", "https://www.raywenderlich.com/6613761-sharing-in-android-10-getting-started"],
+			["[FREE] Android Tutorial for GeckoView: Getting Started (Article)", "https://www.raywenderlich.com/1381698-android-tutorial-for-geckoview-getting-started"]        	
         ]
     },
     "44": {
@@ -434,8 +434,8 @@
         "elementCode": "Ca",
         "elementDescription": "",
         "elementTutorials": [
-            ["CameraX: Getting Started (Article)", "https://www.raywenderlich.com/6748203-camerax-getting-started"],
-			["CameraX: Getting Started (Video)", "https://www.raywenderlich.com/7005190-camerax-getting-started"]
+            ["[FREE] CameraX: Getting Started (Article)", "https://www.raywenderlich.com/6748203-camerax-getting-started"],
+			["[PREMIUM] CameraX: Getting Started (Video)", "https://www.raywenderlich.com/7005190-camerax-getting-started"]
         ]
     },
     "47": {
@@ -445,8 +445,8 @@
         "elementCode": "Me",
         "elementDescription": "",
         "elementTutorials": [
-			["Android Memory Profiler: Getting Started (Article)", "https://www.raywenderlich.com/4557771-android-memory-profiler-getting-started"],
-			["Memory Leaks in Android (Article)", "https://www.raywenderlich.com/4690472-memory-leaks-in-android"]        ]
+			["[FREE] Android Memory Profiler: Getting Started (Article)", "https://www.raywenderlich.com/4557771-android-memory-profiler-getting-started"],
+			["[FREE] Memory Leaks in Android (Article)", "https://www.raywenderlich.com/4690472-memory-leaks-in-android"]        ]
     },
     "48": {
         "elementClass": "red-3",
@@ -455,8 +455,8 @@
         "elementCode": "To",
         "elementDescription": "",
         "elementTutorials": [
-			["Media Playback on Android with ExoPlayer: Getting Started (Article)", "https://www.raywenderlich.com/5573-media-playback-on-android-with-exoplayer-getting-started"],
-			["Android Debug Bridge (ADB): Beyond the Basics (Article)", "https://www.raywenderlich.com/621437-android-debug-bridge-adb-beyond-the-basics"]        ]
+			["[FREE] Media Playback on Android with ExoPlayer: Getting Started (Article)", "https://www.raywenderlich.com/5573-media-playback-on-android-with-exoplayer-getting-started"],
+			["[FREE] Android Debug Bridge (ADB): Beyond the Basics (Article)", "https://www.raywenderlich.com/621437-android-debug-bridge-adb-beyond-the-basics"]        ]
     },
     "49": {
         "elementClass": "fill-top-right",
@@ -481,10 +481,10 @@
         "elementCode": "Im",
         "elementDescription": "",
         "elementTutorials": [
-			["Picasso Tutorial for Android: Getting Started (Article)", "https://www.raywenderlich.com/3658341-picasso-tutorial-for-android-getting-started"],
-			["Image Handling with Picasso (Video)", "https://www.raywenderlich.com/8213611-image-handling-with-picasso"],
-			["Glide Tutorial for Android: Getting Started (Article)", "Video"],
-			["Vector Graphics on Android (Article)", "https://www.raywenderlich.com/3988300-vector-graphics-on-android"]        	
+			["[FREE] Picasso Tutorial for Android: Getting Started (Article)", "https://www.raywenderlich.com/3658341-picasso-tutorial-for-android-getting-started"],
+			["[PREMIUM] Image Handling with Picasso (Video)", "https://www.raywenderlich.com/8213611-image-handling-with-picasso"],
+			["[FREE] Glide Tutorial for Android: Getting Started (Article)", "https://www.raywenderlich.com/2945946-glide-tutorial-for-android-getting-started"],
+			["[FREE] Vector Graphics on Android (Article)", "https://www.raywenderlich.com/3988300-vector-graphics-on-android"]        	
         ]
     },
     "52": {
@@ -494,8 +494,8 @@
         "elementCode": "An",
         "elementDescription": "",
         "elementTutorials": [
-        	["Android Animation Tutorial with Kotlin (Article)", "https://www.raywenderlich.com/2785491-android-animation-tutorial-with-kotlin"],
-			["Android Animations (Video)", "https://www.raywenderlich.com/3355-android-animations"]
+        	["[FREE] Android Animation Tutorial with Kotlin (Article)", "https://www.raywenderlich.com/2785491-android-animation-tutorial-with-kotlin"],
+			["[PREMIUM] Android Animations (Video)", "https://www.raywenderlich.com/3355-android-animations"]
 		]
     },
     "53": {
@@ -505,8 +505,8 @@
         "elementCode": "Mo",
         "elementDescription": "",
         "elementTutorials": [
-            ["MotionLayout Tutorial For Android: Getting Started (Article)", "https://www.raywenderlich.com/8883-motionlayout-tutorial-for-android-getting-started"],
-			["Animation with MotionLayout (Video)", "https://www.raywenderlich.com/6374398-animation-with-motionlayout"]
+            ["[FREE] MotionLayout Tutorial For Android: Getting Started (Article)", "https://www.raywenderlich.com/8883-motionlayout-tutorial-for-android-getting-started"],
+			["[PREMIUM] Animation with MotionLayout (Video)", "https://www.raywenderlich.com/6374398-animation-with-motionlayout"]
         ]
     },
     "54": {
@@ -515,7 +515,7 @@
         "elementName": "Transitions",
         "elementCode": "Tr",
         "elementDescription": "",
-        "elementTutorials": [["Android Transition Framework: Getting Started (Article)", "https://www.raywenderlich.com/1376936-android-transition-framework-getting-started"]]
+        "elementTutorials": [["[FREE] Android Transition Framework: Getting Started (Article)", "https://www.raywenderlich.com/1376936-android-transition-framework-getting-started"]]
     },
     "55": {
         "elementClass": "light-orange-1",
@@ -531,7 +531,7 @@
         "elementName": "SharedPreferences and Filesystem",
         "elementCode": "Sp",
         "elementDescription": "",
-        "elementTutorials": [["Saving Data on Android (Video)", "https://www.raywenderlich.com/4561-saving-data-on-android"]]
+        "elementTutorials": [["[PREMIUM] Saving Data on Android (Video)", "https://www.raywenderlich.com/4561-saving-data-on-android"]]
     },
     "57": {
         "elementClass": "light-orange-2",
@@ -540,10 +540,10 @@
         "elementCode": "Rs",
         "elementDescription": "",
         "elementTutorials": [
-			["Room DB: Advanced Data Persistence (Article)", "https://www.raywenderlich.com/5686-room-db-advanced-data-persistence"],
-			["Saving Data on Android (Video)", "https://www.raywenderlich.com/4561-saving-data-on-android"],
-			["Coroutines With Room Persistence Library (Article)","https://www.raywenderlich.com/7414647-coroutines-with-room-persistence-library" ],
-			["Saving Data with an ObjectBox Database on Android (Article)", "https://www.raywenderlich.com/5364375-saving-data-with-an-objectbox-database-on-android"]
+			["[FREE] Room DB: Advanced Data Persistence (Article)", "https://www.raywenderlich.com/5686-room-db-advanced-data-persistence"],
+			["[PREMIUM] Saving Data on Android (Video)", "https://www.raywenderlich.com/4561-saving-data-on-android"],
+			["[FREE] Coroutines With Room Persistence Library (Article)","https://www.raywenderlich.com/7414647-coroutines-with-room-persistence-library" ],
+			["[FREE] Saving Data with an ObjectBox Database on Android (Article)", "https://www.raywenderlich.com/5364375-saving-data-with-an-objectbox-database-on-android"]
         ]
     },
     "58": {
@@ -553,9 +553,9 @@
         "elementCode": "Fb",
         "elementDescription": "",
         "elementTutorials": [
-			["Firebase Tutorial for Android: Getting Started (Article)", "https://www.raywenderlich.com/5114-firebase-tutorial-for-android-getting-started"],
-			["Firebase Authentication (Video)",  "https://www.raywenderlich.com/6096-firebase-for-android-authentication"],
-			["Firebase Realtime Database (Video)",  "https://www.raywenderlich.com/6397-firebase-for-android-realtime-database"]
+			["[FREE] Firebase Tutorial for Android: Getting Started (Article)", "https://www.raywenderlich.com/5114-firebase-tutorial-for-android-getting-started"],
+			["[PREMIUM] Firebase Authentication (Video)",  "https://www.raywenderlich.com/6096-firebase-for-android-authentication"],
+			["[PREMIUM] Firebase Realtime Database (Video)",  "https://www.raywenderlich.com/6397-firebase-for-android-realtime-database"]
         ]
     },
     "59": {
@@ -581,7 +581,7 @@
         "elementCode": "Rt",
         "elementDescription": "",
         "elementTutorials": [
-            ["Android Networking (Video)", "https://www.raywenderlich.com/4539-android-networking"]
+            ["[PREMIUM] Android Networking (Video)", "https://www.raywenderlich.com/4539-android-networking"]
         ]
     },
     "62": {
@@ -590,7 +590,7 @@
         "elementName": "Other Networking",
         "elementCode": "On",
         "elementDescription": "",
-        "elementTutorials": [["Getting Started with Fuel (Video)", "https://www.raywenderlich.com/3698257-getting-started-with-fuel"]]
+        "elementTutorials": [["[PREMIUM] Getting Started with Fuel (Video)", "https://www.raywenderlich.com/3698257-getting-started-with-fuel"]]
     },
     "63": {
         "elementClass": "empty",
@@ -623,7 +623,7 @@
         "elementCode": "Gm",
         "elementDescription": "",
         "elementTutorials": [
-            ["Introduction to Google Maps API for Android with Kotlin (Article)", "https://www.raywenderlich.com/230-introduction-to-google-maps-api-for-android-with-kotlin"]
+            ["[FREE] Introduction to Google Maps API for Android with Kotlin (Article)", "https://www.raywenderlich.com/230-introduction-to-google-maps-api-for-android-with-kotlin"]
         ]
     },
     "67": {
@@ -633,8 +633,8 @@
         "elementCode": "Lo",
         "elementDescription": "",
         "elementTutorials": [
-			["Geofencing API Tutorial for Android (Article)", "https://www.raywenderlich.com/7372-geofencing-api-tutorial-for-android"],
-			["Mapbox Tutorial For Android: Getting Started (Article)", "https://www.raywenderlich.com/378151-mapbox-tutorial-for-android-getting-started"]
+			["[FREE] Geofencing API Tutorial for Android (Article)", "https://www.raywenderlich.com/7372-geofencing-api-tutorial-for-android"],
+			["[FREE] Mapbox Tutorial For Android: Getting Started (Article)", "https://www.raywenderlich.com/378151-mapbox-tutorial-for-android-getting-started"]
         ]
     },
     "68": {
@@ -668,8 +668,8 @@
         "elementCode": "Mp",
         "elementDescription": "",
         "elementTutorials": [
-			["Getting Started with MVP (Model View Presenter) on Android (Article)", "https://www.raywenderlich.com/7026-getting-started-with-mvp-model-view-presenter-on-android"],
-			["MVP on Android (Video)", "https://www.raywenderlich.com/9216-mvp-on-android"]        ]
+			["[FREE] Getting Started with MVP (Model View Presenter) on Android (Article)", "https://www.raywenderlich.com/7026-getting-started-with-mvp-model-view-presenter-on-android"],
+			["[PREMIUM] MVP on Android (Video)", "https://www.raywenderlich.com/9216-mvp-on-android"]        ]
     },
     "72": {
         "elementClass": "darker-green-2",
@@ -678,8 +678,8 @@
         "elementCode": "Mv",
         "elementDescription": "",
         "elementTutorials": [
-			["MVVM and DataBinding: Android Design Patterns (Article)", "https://www.raywenderlich.com/636803-mvvm-and-databinding-android-design-patterns"],
-			["MVVM on Android (Video)", "https://www.raywenderlich.com/8984-mvvm-on-android"]
+			["[FREE] MVVM and DataBinding: Android Design Patterns (Article)", "https://www.raywenderlich.com/636803-mvvm-and-databinding-android-design-patterns"],
+			["[PREMIUM] MVVM on Android (Video)", "https://www.raywenderlich.com/8984-mvvm-on-android"]
         ]
     },
     "73": {
@@ -689,8 +689,8 @@
         "elementCode": "Mi",
         "elementDescription": "",
         "elementTutorials": [
-        	["MVI Architecture for Android Tutorial: Getting Started (Article)", "https://www.raywenderlich.com/817602-mvi-architecture-for-android-tutorial-getting-started"],
-			["MVI on Android (Video)", "https://www.raywenderlich.com/266607-mvi-on-android"]
+        	["[FREE] MVI Architecture for Android Tutorial: Getting Started (Article)", "https://www.raywenderlich.com/817602-mvi-architecture-for-android-tutorial-getting-started"],
+			["[PREMIUM] MVI on Android (Video)", "https://www.raywenderlich.com/266607-mvi-on-android"]
         ]
     },
     "74": {
@@ -700,8 +700,8 @@
         "elementCode": "Ca",
         "elementDescription": "",
         "elementTutorials": [
-        	["Clean Architecture Tutorial for Android: Getting Started (Article)", "https://www.raywenderlich.com/3595916-clean-architecture-tutorial-for-android-getting-started"],
-			["Android VIPER Tutorial (Article)", "https://www.raywenderlich.com/5192-android-viper-tutorial"]
+        	["[FREE] Clean Architecture Tutorial for Android: Getting Started (Article)", "https://www.raywenderlich.com/3595916-clean-architecture-tutorial-for-android-getting-started"],
+			["[FREE] Android VIPER Tutorial (Article)", "https://www.raywenderlich.com/5192-android-viper-tutorial"]
         ]
     },
     "75": {
@@ -719,8 +719,8 @@
         "elementCode": "Dg",
         "elementDescription": "",
         "elementTutorials": [
-			["Dagger 2 Tutorial For Android: Advanced (Article)", "https://www.raywenderlich.com/6583167-dagger-2-tutorial-for-android-advanced"],
-			["Dagger 2 Tutorial for Android: Advanced – Part 2 (Article)", "https://www.raywenderlich.com/7337181-dagger-2-tutorial-for-android-advanced-part-2"]
+			["[FREE] Dagger 2 Tutorial For Android: Advanced (Article)", "https://www.raywenderlich.com/6583167-dagger-2-tutorial-for-android-advanced"],
+			["[FREE] Dagger 2 Tutorial for Android: Advanced – Part 2 (Article)", "https://www.raywenderlich.com/7337181-dagger-2-tutorial-for-android-advanced-part-2"]
         ]
     },
     "77": {
@@ -730,8 +730,8 @@
         "elementCode": "Ko",
         "elementDescription": "",
         "elementTutorials": [
-			["Dependency Injection With Koin (Article)", "https://www.raywenderlich.com/9457-dependency-injection-with-koin"],
-			["Dependency Injection with Koin (Video)", "https://www.raywenderlich.com/7042416-dependency-injection-with-koin"]
+			["[FREE] Dependency Injection With Koin (Article)", "https://www.raywenderlich.com/9457-dependency-injection-with-koin"],
+			["[PREMIUM] Dependency Injection with Koin (Video)", "https://www.raywenderlich.com/7042416-dependency-injection-with-koin"]
         ]
     },
     "78": {
@@ -765,8 +765,8 @@
         "elementCode": "Jc",
         "elementDescription": "",
         "elementTutorials": [
-			["Jetpack Compose Tutorial for Android: Getting Started (Article)", "https://www.raywenderlich.com/7032631-jetpack-compose-tutorial-for-android-getting-started"],
-			["Jetpack Compose Primer (Video)", "https://www.raywenderlich.com/7111549-jetpack-compose-primer"]
+			["[FREE] Jetpack Compose Tutorial for Android: Getting Started (Article)", "https://www.raywenderlich.com/7032631-jetpack-compose-tutorial-for-android-getting-started"],
+			["[PREMIUM] Jetpack Compose Primer (Video)", "https://www.raywenderlich.com/7111549-jetpack-compose-primer"]
         ]
     },
     "82": {
@@ -776,9 +776,9 @@
         "elementCode": "Vm",
         "elementDescription": "",
         "elementTutorials": [
-        	["Android Jetpack Architecture Components: Getting Started (Article)", "https://www.raywenderlich.com/6729-android-jetpack-architecture-components-getting-started"],
-            ["Android Architecture Components: ViewModel (Video)", "https://www.raywenderlich.com/5046-android-architecture-components-viewmodel"],
-            ["Android Architecture Components: LiveData (Video)", "https://www.raywenderlich.com/4980-android-architecture-components-livedata"]
+        	["[FREE] Android Jetpack Architecture Components: Getting Started (Article)", "https://www.raywenderlich.com/6729-android-jetpack-architecture-components-getting-started"],
+            ["[PREMIUM] Android Architecture Components: ViewModel (Video)", "https://www.raywenderlich.com/5046-android-architecture-components-viewmodel"],
+            ["[PREMIUM] Android Architecture Components: LiveData (Video)", "https://www.raywenderlich.com/4980-android-architecture-components-livedata"]
         ]
     },
     "83": {
@@ -788,8 +788,8 @@
         "elementCode": "Pi",
         "elementDescription": "",
         "elementTutorials": [
-        	["Paging Library for Android With Kotlin: Creating Infinite Lists (Article)", "https://www.raywenderlich.com/6948-paging-library-for-android-with-kotlin-creating-infinite-lists"],
-            ["Android Architecture Components: Paging Library (Video)", "https://www.raywenderlich.com/5189-android-architecture-components-paging-library"]
+        	["[FREE] Paging Library for Android With Kotlin: Creating Infinite Lists (Article)", "https://www.raywenderlich.com/6948-paging-library-for-android-with-kotlin-creating-infinite-lists"],
+            ["[PREMIUM] Android Architecture Components: Paging Library (Video)", "https://www.raywenderlich.com/5189-android-architecture-components-paging-library"]
         ]
     },
     "84": {
@@ -799,9 +799,9 @@
         "elementCode": "Jn",
         "elementDescription": "",
         "elementTutorials": [
-			["Navigation and Dynamic Features (Article)", "https://www.raywenderlich.com/7023243-navigation-and-dynamic-features"],
-			["Navigation Component for Android Part 2: Graphs and Deep Links (Article)", "https://www.raywenderlich.com/4332831-navigation-component-for-android-part-2-graphs-and-deep-links"],
-			["Bottom Navigation (Video)", "https://www.raywenderlich.com/5555080-bottom-navigation"]
+			["[FREE] Navigation and Dynamic Features (Article)", "https://www.raywenderlich.com/7023243-navigation-and-dynamic-features"],
+			["[FREE] Navigation Component for Android Part 2: Graphs and Deep Links (Article)", "https://www.raywenderlich.com/4332831-navigation-component-for-android-part-2-graphs-and-deep-links"],
+			["[PREMIUM] Bottom Navigation (Video)", "https://www.raywenderlich.com/5555080-bottom-navigation"]
         ]
     },
     "85": {
@@ -819,8 +819,8 @@
         "elementCode": "Kx",
         "elementDescription": "",
         "elementTutorials": [
-			["Android KTX Tutorial: Getting Started (Article)", "https://www.raywenderlich.com/5576-android-ktx-tutorial-getting-started"],
-			["Android KTX (Video)", "https://www.raywenderlich.com/3565197-android-ktx"]
+			["[FREE] Android KTX Tutorial: Getting Started (Article)", "https://www.raywenderlich.com/5576-android-ktx-tutorial-getting-started"],
+			["[PREMIUM] Android KTX (Video)", "https://www.raywenderlich.com/3565197-android-ktx"]
         ]
     },
     "87": {
@@ -862,9 +862,9 @@
         "elementCode": "Co",
         "elementDescription": "",
         "elementTutorials": [
-			["Kotlin Coroutines Tutorial for Android: Getting Started (Article)", "https://www.raywenderlich.com/1423941-kotlin-coroutines-tutorial-for-android-getting-started"],
-			["Kotlin Coroutines Tutorial for Android : Advanced (Article)", "https://www.raywenderlich.com/2117501-kotlin-coroutines-tutorial-for-android-advanced"],
-			["Kotlin Coroutines: In Depth (Video)", "https://www.raywenderlich.com/5443783-kotlin-coroutines-in-depth"]
+			["[FREE] Kotlin Coroutines Tutorial for Android: Getting Started (Article)", "https://www.raywenderlich.com/1423941-kotlin-coroutines-tutorial-for-android-getting-started"],
+			["[FREE] Kotlin Coroutines Tutorial for Android : Advanced (Article)", "https://www.raywenderlich.com/2117501-kotlin-coroutines-tutorial-for-android-advanced"],
+			["[PREMIUM] Kotlin Coroutines: In Depth (Video)", "https://www.raywenderlich.com/5443783-kotlin-coroutines-in-depth"]
         ]
     },
     "92": {
@@ -874,10 +874,10 @@
         "elementCode": "Rx",
         "elementDescription": "",
         "elementTutorials": [
-			["Reactive Programming with RxAndroid in Kotlin: An Introduction (Article)", "https://www.raywenderlich.com/2071847-reactive-programming-with-rxandroid-in-kotlin-an-introduction"],
-			["Working with RxJava Disposables in Kotlin (Article)", "https://www.raywenderlich.com/3983802-working-with-rxjava-disposables-in-kotlin"],
-			["Beginning RxKotlin (Video)", "https://www.raywenderlich.com/7419-beginning-rxkotlin"],
-			["RxBinding (Video)", "https://www.raywenderlich.com/1554253-rxbindings"]
+			["[FREE] Reactive Programming with RxAndroid in Kotlin: An Introduction (Article)", "https://www.raywenderlich.com/2071847-reactive-programming-with-rxandroid-in-kotlin-an-introduction"],
+			["[FREE] Working with RxJava Disposables in Kotlin (Article)", "https://www.raywenderlich.com/3983802-working-with-rxjava-disposables-in-kotlin"],
+			["[PREMIUM] Beginning RxKotlin (Video)", "https://www.raywenderlich.com/7419-beginning-rxkotlin"],
+			["[PREMIUM] RxBinding (Video)", "https://www.raywenderlich.com/1554253-rxbindings"]
 		]
     },
     "93": {
@@ -887,7 +887,7 @@
         "elementCode": "Kf",
         "elementDescription": "",
         "elementTutorials": [
-            ["Kotlin Flow: Getting Started (Video)", "https://www.raywenderlich.com/9147615-kotlin-flow-getting-started"]
+            ["[PREMIUM] Kotlin Flow: Getting Started (Video)", "https://www.raywenderlich.com/9147615-kotlin-flow-getting-started"]
         ]
     },
     "94": {
@@ -897,9 +897,9 @@
         "elementCode": "Bp",
         "elementDescription": "",
         "elementTutorials": [
-        	["Threading With HandlerThread in Android (Article)", "https://www.raywenderlich.com/5466-threading-with-handlerthread-in-android"],
-			["WorkManager Tutorial for Android: Getting Started (Article)", "https://www.raywenderlich.com/6040-workmanager-tutorial-for-android-getting-started"],
-			["Android Background Processing (Video)",  "https://www.raywenderlich.com/5306-android-background-processing"]
+        	["[FREE] Threading With HandlerThread in Android (Article)", "https://www.raywenderlich.com/5466-threading-with-handlerthread-in-android"],
+			["[FREE] WorkManager Tutorial for Android: Getting Started (Article)", "https://www.raywenderlich.com/6040-workmanager-tutorial-for-android-getting-started"],
+			["[PREMIUM] Android Background Processing (Video)",  "https://www.raywenderlich.com/5306-android-background-processing"]
         ]
     },
     "95": {
@@ -917,7 +917,7 @@
         "elementCode": "Td",
         "elementDescription": "",
         "elementTutorials": [
-        	["Test-Driven Development Tutorial for Android: Getting Started (Article)", "https://www.raywenderlich.com/7109-test-driven-development-tutorial-for-android-getting-started"]           
+        	["[FREE] Test-Driven Development Tutorial for Android: Getting Started (Article)", "https://www.raywenderlich.com/7109-test-driven-development-tutorial-for-android-getting-started"]           
         ]
     },
     "97": {
@@ -927,8 +927,8 @@
         "elementCode": "Ut",
         "elementDescription": "",
         "elementTutorials": [        
-        	["Espresso Testing and Screen Robots: Getting Started (Article)", "https://www.raywenderlich.com/949489-espresso-testing-and-screen-robots-getting-started"],
-			["UI Testing with Kakao Tutorial for Android: Getting Started (Article)", "https://www.raywenderlich.com/1505688-ui-testing-with-kakao-tutorial-for-android-getting-started"]            
+        	["[FREE] Espresso Testing and Screen Robots: Getting Started (Article)", "https://www.raywenderlich.com/949489-espresso-testing-and-screen-robots-getting-started"],
+			["[FREE] UI Testing with Kakao Tutorial for Android: Getting Started (Article)", "https://www.raywenderlich.com/1505688-ui-testing-with-kakao-tutorial-for-android-getting-started"]            
         ]
     },
     "98": {
@@ -938,8 +938,8 @@
         "elementCode": "Mk",
         "elementDescription": "",
         "elementTutorials": [
-        	["Unit Testing with Mockito (Article)", "https://www.raywenderlich.com/195-android-unit-testing-with-mockito"],
-        	["Testing With MockK (Video)", "https://www.raywenderlich.com/5443751-testing-with-mockk"]
+        	["[FREE] Unit Testing with Mockito (Article)", "https://www.raywenderlich.com/195-android-unit-testing-with-mockito"],
+        	["[PREMIUM] Testing With MockK (Video)", "https://www.raywenderlich.com/5443751-testing-with-mockk"]
         ]
     },
     "99": {
@@ -964,9 +964,9 @@
         "elementCode": "Km",
         "elementDescription": "",
         "elementTutorials": [
-			["Kotlin Multiplatform Project for Android and iOS: Getting Started (Article)", "https://www.raywenderlich.com/1022411-kotlin-multiplatform-project-for-android-and-ios-getting-started"],
-			["Kotlin/Native and Multiplatform (Video)", "https://www.raywenderlich.com/1304635-kotlin-native-and-multiplatform"],
-			["Multiplatform Settings Library", "https://www.raywenderlich.com/2138441-multiplatform-settings"]        ]
+			["[FREE] Kotlin Multiplatform Project for Android and iOS: Getting Started (Article)", "https://www.raywenderlich.com/1022411-kotlin-multiplatform-project-for-android-and-ios-getting-started"],
+			["[PREMIUM] Kotlin/Native and Multiplatform (Video)", "https://www.raywenderlich.com/1304635-kotlin-native-and-multiplatform"],
+			["[FREE] Multiplatform Settings Library", "https://www.raywenderlich.com/2138441-multiplatform-settings"]        ]
     },
     "102": {
         "elementClass": "other-red-2",
@@ -975,8 +975,8 @@
         "elementCode": "Fl",
         "elementDescription": "",
         "elementTutorials": [
-            ["Getting Started with Flutter (Article)", "https://www.raywenderlich.com/4529993-getting-started-with-flutter"],
-			["Your Own Image Picker With Flutter Channels (Video)", "https://www.raywenderlich.com/2882495-your-own-image-picker-with-flutter-channels"]
+            ["[FREE] Getting Started with Flutter (Article)", "https://www.raywenderlich.com/4529993-getting-started-with-flutter"],
+			["[PREMIUM] Your Own Image Picker With Flutter Channels (Video)", "https://www.raywenderlich.com/2882495-your-own-image-picker-with-flutter-channels"]
         ]
     },
     "103": {
@@ -986,7 +986,7 @@
         "elementCode": "Rn",
         "elementDescription": "",
         "elementTutorials": [
-        	["React Native Tutorial: Building Android Apps with JavaScript (Article)", "https://www.raywenderlich.com/247-react-native-tutorial-building-android-apps-with-javascript"]
+        	["[FREE] React Native Tutorial: Building Android Apps with JavaScript (Article)", "https://www.raywenderlich.com/247-react-native-tutorial-building-android-apps-with-javascript"]
         ]
     },
     "104": {
@@ -1012,10 +1012,10 @@
         "elementCode": "Eh",
         "elementDescription": "",
         "elementTutorials": [
-			["Encryption Tutorial For Android: Getting Started (Article)", "https://www.raywenderlich.com/778533-encryption-tutorial-for-android-getting-started"],
-			["App Hardening Tutorial for Android With Kotlin (Article)", "https://www.raywenderlich.com/6294778-app-hardening-tutorial-for-android-with-kotlin"],
-			["Hack an Android App: Finding Forensic Artifacts (Article)", "https://www.raywenderlich.com/3419415-hack-an-android-app-finding-forensic-artifacts"],
-			["Getting Started with ProGuard (Article)", "https://www.raywenderlich.com/7449-getting-started-with-proguard"]        ]
+			["[FREE] Encryption Tutorial For Android: Getting Started (Article)", "https://www.raywenderlich.com/778533-encryption-tutorial-for-android-getting-started"],
+			["[FREE] App Hardening Tutorial for Android With Kotlin (Article)", "https://www.raywenderlich.com/6294778-app-hardening-tutorial-for-android-with-kotlin"],
+			["[FREE] Hack an Android App: Finding Forensic Artifacts (Article)", "https://www.raywenderlich.com/3419415-hack-an-android-app-finding-forensic-artifacts"],
+			["[FREE] Getting Started with ProGuard (Article)", "https://www.raywenderlich.com/7449-getting-started-with-proguard"]        ]
     },
     "107": {
         "elementClass": "grey-2",
@@ -1024,8 +1024,8 @@
         "elementCode": "Sd",
         "elementDescription": "",
         "elementTutorials": [
-        	["Data Privacy for Android (Article)", "https://www.raywenderlich.com/6901838-data-privacy-for-android"],
-			["Securing Network Data Tutorial for Android (Article)", "https://www.raywenderlich.com/5634-securing-network-data-tutorial-for-android"]
+        	["[FREE] Data Privacy for Android (Article)", "https://www.raywenderlich.com/6901838-data-privacy-for-android"],
+			["[FREE] Securing Network Data Tutorial for Android (Article)", "https://www.raywenderlich.com/5634-securing-network-data-tutorial-for-android"]
         ]
     },
     "108": {
@@ -1035,7 +1035,7 @@
         "elementCode": "Bm",
         "elementDescription": "",
         "elementTutorials": [
-        	["AndroidX Biometric Library: Getting Started (Article)", "https://www.raywenderlich.com/7578543-androidx-biometric-library-getting-started"]
+        	["[FREE] AndroidX Biometric Library: Getting Started (Article)", "https://www.raywenderlich.com/7578543-androidx-biometric-library-getting-started"]
         ]
     },
     "109": {
@@ -1061,7 +1061,7 @@
         "elementCode": "Gr",
         "elementDescription": "",
         "elementTutorials": [
-			["Gradle Tips and Tricks for Android (Article)", "https://www.raywenderlich.com/5532-gradle-tips-and-tricks-for-android"]
+			["[FREE] Gradle Tips and Tricks for Android (Article)", "https://www.raywenderlich.com/5532-gradle-tips-and-tricks-for-android"]
         ]
     },
     "112": {
@@ -1071,7 +1071,7 @@
         "elementCode": "Fv",
         "elementDescription": "",
         "elementTutorials": [
-            ["White Labeling Android Apps: Getting Started (Article)", "https://www.raywenderlich.com/5175277-white-labeling-android-apps-getting-started"]
+            ["[FREE] White Labeling Android Apps: Getting Started (Article)", "https://www.raywenderlich.com/5175277-white-labeling-android-apps-getting-started"]
         ]
     },
     "113": {
@@ -1081,7 +1081,7 @@
         "elementCode": "Al",
         "elementDescription": "",
         "elementTutorials": [
-			["Android SDK Versions Tutorial With Kotlin (Article)", "https://www.raywenderlich.com/2654120-android-sdk-versions-tutorial-with-kotlin"]
+			["[FREE] Android SDK Versions Tutorial With Kotlin (Article)", "https://www.raywenderlich.com/2654120-android-sdk-versions-tutorial-with-kotlin"]
         ]
     },
     "114": {
@@ -1107,8 +1107,8 @@
         "elementCode": "Ps",
         "elementDescription": "",
         "elementTutorials": [
-			["Fastlane Tutorial for Android: Getting Started (Article)", "https://www.raywenderlich.com/6461407-fastlane-tutorial-for-android-getting-started"],
-			["Publish to the Google Play Store (Video)", "https://www.raywenderlich.com/9149199-publish-to-the-google-play-store"]
+			["[FREE] Fastlane Tutorial for Android: Getting Started (Article)", "https://www.raywenderlich.com/6461407-fastlane-tutorial-for-android-getting-started"],
+			["[PREMIUM] Publish to the Google Play Store (Video)", "https://www.raywenderlich.com/9149199-publish-to-the-google-play-store"]
         ]
     },
     "117": {
@@ -1118,7 +1118,7 @@
         "elementCode": "Ia",
         "elementDescription": "",
         "elementTutorials": [
-            ["Instant Apps: Getting Started (Article)", "https://www.raywenderlich.com/9519-instant-apps-getting-started"]
+            ["[FREE] Instant Apps: Getting Started (Article)", "https://www.raywenderlich.com/9519-instant-apps-getting-started"]
         ]
     },
     "118": {
@@ -1128,8 +1128,8 @@
         "elementCode": "Ab",
         "elementDescription": "",
         "elementTutorials": [
-			["Android App Bundles: Getting Started (Article)", "https://www.raywenderlich.com/9043-android-app-bundles-getting-started"],
-			["Android Slices: Getting Started (Article)", "https://www.raywenderlich.com/5534-android-slices-getting-started"]        ]
+			["[FREE] Android App Bundles: Getting Started (Article)", "https://www.raywenderlich.com/9043-android-app-bundles-getting-started"],
+			["[FREE] Android Slices: Getting Started (Article)", "https://www.raywenderlich.com/5534-android-slices-getting-started"]        ]
     },
     "119": {
         "elementClass": "fill-bottom-right",
@@ -1154,9 +1154,9 @@
         "elementCode": "Ml",
         "elementDescription": "",
         "elementTutorials": [
-        	["Text Recognition with ML Kit (Article)", "https://www.raywenderlich.com/5804-text-recognition-with-ml-kit"],
-			["Text Recognition with ML Kit (Video)", "https://www.raywenderlich.com/7479-text-recognition-with-ml-kit"],
-			["Image Recognition With ML Kit (Article)", "https://www.raywenderlich.com/6064-image-recognition-with-ml-kit"]
+        	["[FREE] Text Recognition with ML Kit (Article)", "https://www.raywenderlich.com/5804-text-recognition-with-ml-kit"],
+			["[PREMIUM] Text Recognition with ML Kit (Video)", "https://www.raywenderlich.com/7479-text-recognition-with-ml-kit"],
+			["[FREE] Image Recognition With ML Kit (Article)", "https://www.raywenderlich.com/6064-image-recognition-with-ml-kit"]
         ]
     },
     "122": {
@@ -1166,7 +1166,7 @@
         "elementCode": "Tf",
         "elementDescription": "",
         "elementTutorials": [
-        	["Getting Started with TensorFlow on Android", "https://www.raywenderlich.com/4556-getting-started-with-tensorflow-on-android"]
+        	["[FREE] Getting Started with TensorFlow on Android", "https://www.raywenderlich.com/4556-getting-started-with-tensorflow-on-android"]
         ]
     },
     "123": {
@@ -1200,8 +1200,8 @@
         "elementCode": "Kr",
         "elementDescription": "",
         "elementTutorials": [
-        	["Ktor: REST API for Mobile (Article)", "https://www.raywenderlich.com/7265034-ktor-rest-api-for-mobile"],
-			["Server-Side Kotlin with Ktor (Video)", "https://www.raywenderlich.com/2885892-server-side-kotlin-with-ktor"]
+        	["[FREE] Ktor: REST API for Mobile (Article)", "https://www.raywenderlich.com/7265034-ktor-rest-api-for-mobile"],
+			["[PREMIUM] Server-Side Kotlin with Ktor (Video)", "https://www.raywenderlich.com/2885892-server-side-kotlin-with-ktor"]
         ]
     },
     "127": {
@@ -1210,7 +1210,7 @@
         "elementName": "AWS Lambda",
         "elementCode": "Aw",
         "elementDescription": "",
-        "elementTutorials": [["Write an AWS Lambda Function with Kotlin and Micronaut (Article)", "https://www.raywenderlich.com/5777183-write-an-aws-lambda-function-with-kotlin-and-micronaut"]]
+        "elementTutorials": [["[FREE] Write an AWS Lambda Function with Kotlin and Micronaut (Article)", "https://www.raywenderlich.com/5777183-write-an-aws-lambda-function-with-kotlin-and-micronaut"]]
     },
     "128": {
     	"elementClass": "purple-3",
@@ -1218,7 +1218,7 @@
         "elementName": "Google Cloud Platform",
         "elementCode": "Gc",
         "elementDescription": "",
-        "elementTutorials": [["Build an API with Kotlin on Google Cloud Platform (Article)", "https://www.raywenderlich.com/4656683-build-an-api-with-kotlin-on-google-cloud-platform"]]
+        "elementTutorials": [["[FREE] Build an API with Kotlin on Google Cloud Platform (Article)", "https://www.raywenderlich.com/4656683-build-an-api-with-kotlin-on-google-cloud-platform"]]
     },
     "129": {
     	"elementClass": "fill-bottom-right",
@@ -1283,7 +1283,7 @@
         "elementCode": "Ar",
         "elementDescription": "",
         "elementTutorials": [
-        	["ARCore With Kotlin: Getting Started (Article)", "https://www.raywenderlich.com/6986535-arcore-with-kotlin-getting-started"]
+        	["[FREE] ARCore With Kotlin: Getting Started (Article)", "https://www.raywenderlich.com/6986535-arcore-with-kotlin-getting-started"]
         ]
     },
     "137": {
@@ -1292,7 +1292,7 @@
         "elementName": "Google Assistant",
         "elementCode": "Gs",
         "elementDescription": "",
-        "elementTutorials": [["Building an Action for Google Assistant: Getting Started (Article)", "https://www.raywenderlich.com/4739762-building-an-action-for-google-assistant-getting-started"]]
+        "elementTutorials": [["[FREE] Building an Action for Google Assistant: Getting Started (Article)", "https://www.raywenderlich.com/4739762-building-an-action-for-google-assistant-getting-started"]]
     },
     "138": {
     	"elementClass": "empty",
