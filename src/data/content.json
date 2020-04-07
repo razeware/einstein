@@ -12,7 +12,7 @@
         "elementSection": "",
         "elementName": "Android",
         "elementCode": "An",
-        "elementDescription": "",
+        "elementDescription": "Android is the most widely used mobile operating system in the world. Learn how to get started with Android development.",
         "elementTutorials": [
 			["[FREE] Beginning Android Development with Kotlin, Part One: Installing Android Studio (Article)", "https://www.raywenderlich.com/478209-beginning-android-development-with-kotlin-part-one-installing-android-studio"],
 			["[FREE] Beginning Android Development with Kotlin, Part Two: Using Android Studio (Article)", "https://www.raywenderlich.com/738946-beginning-android-development-with-kotlin-part-two-using-android-studio"],
@@ -58,36 +58,37 @@
     "6": {
         "elementClass": "dark-green-1",
         "elementSection": "",
-        "elementName": "Cheat Sheet",
-        "elementCode": "Cs",
-        "elementDescription": "",
-        "elementTutorials": [
-            ["[FREE] Kotlin Cheat Sheet and Quick Reference (Article)", "https://www.raywenderlich.com/6362971-kotlin-cheat-sheet-and-quick-reference"]
-        ]
+        "elementName": "Collections",
+        "elementCode": "Cl",
+        "elementDescription": "Collections let you groups similar items into single data structures. You can then work with the items together in loops and other constructs.",
+        "elementTutorials": [["[FREE] Kotlin Collections: Getting Started (Article)", "https://www.raywenderlich.com/4131729-kotlin-collections-getting-started"]]
     },
     "7": {
         "elementClass": "dark-green-2",
         "elementSection": "",
-        "elementName": "Collections",
-        "elementCode": "Cl",
-        "elementDescription": "",
-        "elementTutorials": [["[FREE] Kotlin Collections: Getting Started (Article)", "https://www.raywenderlich.com/4131729-kotlin-collections-getting-started"]]
+        "elementName": "Nullability",
+        "elementCode": "Nu",
+        "elementDescription": "Kotlin utilizes nullable and non-nullable values to avoid the dreaded Null Pointer Exception.",
+        "elementTutorials": [["[FREE] Null Safety Tutorial in Kotlin: Best Practices (Article)", "https://www.raywenderlich.com/436090-null-safety-tutorial-in-kotlin-best-practices"]]
     },
     "8": {
         "elementClass": "dark-green-3",
         "elementSection": "",
-        "elementName": "Nullability",
-        "elementCode": "Nu",
-        "elementDescription": "",
-        "elementTutorials": [["[FREE] Null Safety Tutorial in Kotlin: Best Practices (Article)", "https://www.raywenderlich.com/436090-null-safety-tutorial-in-kotlin-best-practices"]]
+        "elementName": "Generics",
+        "elementCode": "Gn",
+        "elementDescription": "With generics, you can avoid duplication in your code by parameterizing your functions and classes using types.",
+        "elementTutorials": [["[FREE] Kotlin Generics Tutorial: Getting Started (Article)", "https://www.raywenderlich.com/3634394-kotlin-generics-tutorial-getting-started"]]
     },
     "9": {
         "elementClass": "dark-green-4",
         "elementSection": "",
-        "elementName": "Generics",
-        "elementCode": "Gn",
-        "elementDescription": "",
-        "elementTutorials": [["[FREE] Kotlin Generics Tutorial: Getting Started (Article)", "https://www.raywenderlich.com/3634394-kotlin-generics-tutorial-getting-started"]]
+        "elementName": "Sealed Classes",
+        "elementCode": "Sc",
+        "elementDescription": "Sealed classes go beyond enums and help you manage state in your Kotlin apps.",
+        "elementTutorials": [
+        	["[FREE] Kotlin Sealed Classes (Article)", "https://www.raywenderlich.com/75657-kotlin-sealed-classes"],
+			["[FREE] Kotlin and Android: Beyond the Basics with Sealed Classes (Article)", "https://www.raywenderlich.com/7547739-kotlin-and-android-beyond-the-basics-with-sealed-classes"]
+        ]
     },
     "10": {
         "elementClass": "fill-top-left",
@@ -100,36 +101,35 @@
     "11": {
         "elementClass": "dark-green-1",
         "elementSection": "",
-        "elementName": "Sealed Classes",
-        "elementCode": "Sc",
-        "elementDescription": "",
-        "elementTutorials": [
-        	["[FREE] Kotlin Sealed Classes (Article)", "https://www.raywenderlich.com/75657-kotlin-sealed-classes"],
-			["[FREE] Kotlin and Android: Beyond the Basics with Sealed Classes (Article)", "https://www.raywenderlich.com/7547739-kotlin-and-android-beyond-the-basics-with-sealed-classes"]
-        ]
-    },
-    "12": {
-        "elementClass": "dark-green-2",
-        "elementSection": "",
         "elementName": "Functional Programming",
         "elementCode": "Fp",
-        "elementDescription": "",
+        "elementDescription": "The functional programming paradigm helps you avoid many common errors that occur in the usual imperative programming style.",
         "elementTutorials": [
 			["[FREE] Introduction to Kotlin Lambdas: Getting Started (Article)", "https://www.raywenderlich.com/2268700-introduction-to-kotlin-lambdas-getting-started"],
 			["[FREE] Functional Programming with Kotlin and Arrow: Getting Started (Article)", "https://www.raywenderlich.com/9527-functional-programming-with-kotlin-and-arrow-getting-started"],
 			["[FREE] Functional Programming with Kotlin and Arrow Part 2: Categories and Functors (Article)", "https://www.raywenderlich.com/324105-functional-programming-with-kotlin-and-arrow-part-2-categories-and-functors"]
         ]
     },
-    "13": {
-        "elementClass": "dark-green-3",
+    "12": {
+        "elementClass": "dark-green-2",
         "elementSection": "",
         "elementName": "Other Kotlin",
         "elementCode": "Ok",
-        "elementDescription": "",
+        "elementDescription": "Learn about some other topics on the Kotlin language.",
         "elementTutorials": [
 			["[FREE] What’s New in Kotlin 1.3 (Article)", "https://www.raywenderlich.com/3871338-what-s-new-in-kotlin-1-3"],
 			["[FREE] Domain-Specific Languages In Kotlin: Getting Started (Article)", "https://www.raywenderlich.com/2780058-domain-specific-languages-in-kotlin-getting-started"],
 			["[FREE] A Comparison of Swift and Kotlin Languages (Article)", "https://www.raywenderlich.com/6754-a-comparison-of-swift-and-kotlin-languages"]        	
+        ]
+    },
+    "13": {
+        "elementClass": "dark-green-3",
+        "elementSection": "",
+        "elementName": "Cheat Sheet",
+        "elementCode": "Cs",
+        "elementDescription": "Download a handy 2-page PDF Kotlin Cheat Sheet and Quick Reference.",
+        "elementTutorials": [
+            ["[FREE] Kotlin Cheat Sheet and Quick Reference (Article)", "https://www.raywenderlich.com/6362971-kotlin-cheat-sheet-and-quick-reference"]
         ]
     },
     "14": {
@@ -143,7 +143,7 @@
     "15": {
         "elementClass": "blue-1",
         "elementSection": "section-4",
-        "elementName": "Android Studio",
+        "elementName": "IDEs",
         "elementCode": "",
         "elementDescription": "",
         "elementTutorials": []
@@ -151,9 +151,9 @@
     "16": {
         "elementClass": "blue-1",
         "elementSection": "",
-        "elementName": "Tips and Tricks",
-        "elementCode": "Tt",
-        "elementDescription": "",
+        "elementName": "Android Studio",
+        "elementCode": "As",
+        "elementDescription": "Android Studio is the main IDE used to develop Android apps.",
         "elementTutorials": [
             ["[FREE] Android Studio Tips and Tricks (Article)", "https://www.raywenderlich.com/2807578-android-studio-tips-and-tricks"]
         ]
@@ -161,9 +161,9 @@
     "17": {
         "elementClass": "blue-2",
         "elementSection": "",
-        "elementName": "Templates",
+        "elementName": "Live Templates",
         "elementCode": "Tp",
-        "elementDescription": "",
+        "elementDescription": "Live Templates help you write code more quickly through the easy re-use of common code patterns.",
         "elementTutorials": [
             ["[FREE] Live Templates in Android Studio: Getting Started (Article)", "https://www.raywenderlich.com/4979242-live-templates-in-android-studio-getting-started"]
         ]
@@ -195,9 +195,9 @@
     "21": {
         "elementClass": "purple-1",
         "elementSection": "",
-        "elementName": "Activities and Fragments",
+        "elementName": "Activities & Fragments",
         "elementCode": "Ac",
-        "elementDescription": "",
+        "elementDescription": "Activities and fragments typically form the screens of your UI, and are the first component you need to build out your app.",
         "elementTutorials": [
             ["[FREE] Introduction to Android Activities with Kotlin (Article)", "https://www.raywenderlich.com/2705552-introduction-to-android-activities-with-kotlin"],
 			["[FREE] Android Fragments Tutorial: An Introduction with Kotlin (Article)", "https://www.raywenderlich.com/1364094-android-fragments-tutorial-an-introduction-with-kotlin"]
@@ -208,7 +208,7 @@
         "elementSection": "",
         "elementName": "Intents",
         "elementCode": "In",
-        "elementDescription": "",
+        "elementDescription": "Intents let you communicate actions between different Android components.",
         "elementTutorials": [
             ["[FREE] Android Intents Tutorial with Kotlin (Article)", "https://www.raywenderlich.com/4700198-android-intents-tutorial-with-kotlin"]
         ]
@@ -218,7 +218,7 @@
         "elementSection": "",
         "elementName": "Services",
         "elementCode": "Sv",
-        "elementDescription": "",
+        "elementDescription": "Services are a foundational component for parts of your app without a UI that run in the background.",
         "elementTutorials": [
             ["[PREMIUM] Android Background Processing (Video)",  "https://www.raywenderlich.com/5306-android-background-processing"]
         ]
@@ -244,7 +244,7 @@
         "elementSection": "",
         "elementName": "Material Design",
         "elementCode": "Md",
-        "elementDescription": "",
+        "elementDescription": "Material Design is the design language used to create the visual design and styling of your apps.",
         "elementTutorials": [
             ["[FREE] An Introduction to Material Design with Kotlin (Article)", "https://www.raywenderlich.com/2780045-android-an-introduction-to-material-design-with-kotlin"],
 			["[PREMIUM] Introduction to Google's Material Design (Video)", "https://www.raywenderlich.com/7908751-introduction-to-google-s-material-design"]
@@ -255,7 +255,7 @@
         "elementSection": "",
         "elementName": "RecyclerView",
         "elementCode": "Rv",
-        "elementDescription": "",
+        "elementDescription": "A RecyclerView lets you efficiently show lists of items in your app.",
         "elementTutorials": [
 			["[FREE] Android RecyclerView Tutorial with Kotlin (Article)", "https://www.raywenderlich.com/1560485-android-recyclerview-tutorial-with-kotlin"],
 			["[PREMIUM] Beginning RecyclerView (Video)", "https://www.raywenderlich.com/4568-beginning-recyclerview"]
@@ -266,7 +266,7 @@
         "elementSection": "",
         "elementName": "UI Layouts",
         "elementCode": "Ul",
-        "elementDescription": "",
+        "elementDescription": "Android app user interfaces are typically created in XML using various layout classes.",
         "elementTutorials": [
             ["[PREMIUM] Beginning Android Layouts (Video)", "https://www.raywenderlich.com/8080493-beginning-android-layouts"]
         ]
@@ -276,8 +276,12 @@
         "elementSection": "",
         "elementName": "Custom Views",
         "elementCode": "Cv",
-        "elementDescription": "",
-        "elementTutorials": [["[FREE] Android Custom View Tutorial (Article)", "https://www.raywenderlich.com/142-android-custom-view-tutorial"]]
+        "elementDescription": "Android lets you create custom views that go beyond the normal text views and buttons found in most apps.",
+        "elementTutorials": [
+            ["[FREE] Android Custom View Tutorial (Article)", "https://www.raywenderlich.com/142-android-custom-view-tutorial"],
+            ["[FREE] Autosizing TextView Tutorial for Android: Getting Started (Article)", "https://www.raywenderlich.com/7930-autosizing-textview-tutorial-for-android-getting-started"],
+            ["[FREE] Android Tutorial for GeckoView: Getting Started (Article)", "https://www.raywenderlich.com/1381698-android-tutorial-for-geckoview-getting-started"]   
+        ]
     },
     "30": {
         "elementClass": "fill",
@@ -292,7 +296,7 @@
         "elementSection": "",
         "elementName": "Accessibility",
         "elementCode": "Ay",
-        "elementDescription": "",
+        "elementDescription": "Programming for acessibility lets you make apps that everyone can use, including people with vision, motor, or hearing disabilities.",
         "elementTutorials": [
             ["[FREE] Android Accessibility Tutorial: Getting Started (Article)", "https://www.raywenderlich.com/240-android-accessibility-tutorial-getting-started"]
         ]
@@ -300,9 +304,9 @@
     "32": {
         "elementClass": "pink-2",
         "elementSection": "",
-        "elementName": "Binding to the UI",
+        "elementName": "UI Binding",
         "elementCode": "Bi",
-        "elementDescription": "",
+        "elementDescription": "There are a number of approaches to letting your app automatically populate the UI with data from your app.",
         "elementTutorials": [
 			["[FREE] Data Binding in Android: Getting Started (Article)", "https://www.raywenderlich.com/7711166-data-binding-in-android-getting-started"],
 			["[FREE] View Binding Tutorial for Android: Getting Started (Article)", "https://www.raywenderlich.com/6430697-view-binding-tutorial-for-android-getting-started"]
@@ -313,7 +317,7 @@
         "elementSection": "",
         "elementName": "ConstraintLayout",
         "elementCode": "Cl",
-        "elementDescription": "",
+        "elementDescription": "ConstraintLayout provides a powerful, performant, and modern way of specifying the relationship between UI views.",
         "elementTutorials": [
 			["[FREE] ConstraintLayout Tutorial for Android: Getting Started", "https://www.raywenderlich.com/9193-constraintlayout-tutorial-for-android-getting-started"],
 			["[FREE] ConstraintLayout Tutorial for Android: Complex Layouts (Article)", "https://www.raywenderlich.com/9475-constraintlayout-tutorial-for-android-complex-layouts"]        	
@@ -324,7 +328,7 @@
         "elementSection": "",
         "elementName": "Custom Fonts",
         "elementCode": "Cf",
-        "elementDescription": "",
+        "elementDescription": "Android lets you easily customize the fonts shown in your user interface.",
         "elementTutorials": [["[FREE] Custom and Downloadable Fonts on Android (Article)", "https://www.raywenderlich.com/213-custom-and-downloadable-fonts-on-android"]]
     },
     "35": {
@@ -338,9 +342,9 @@
     "36": {
         "elementClass": "pink-1",
         "elementSection": "",
-        "elementName": "Themes and Styles",
+        "elementName": "Themes & Styles",
         "elementCode": "Ts",
-        "elementDescription": "",
+        "elementDescription": "Go beyond the normal default colors and shapes found in most apps using themes and styles.",
         "elementTutorials": [
 			["[FREE] Android 10 Dark Theme: Getting Started (Article)", "https://www.raywenderlich.com/6488033-android-10-dark-theme-getting-started"],
 			["[PREMIUM] Supporting Dark Theme (Video)", "https://www.raywenderlich.com/5697228-supporting-dark-theme"]
@@ -351,18 +355,20 @@
         "elementSection": "",
         "elementName": "ViewPager",
         "elementCode": "Vp",
-        "elementDescription": "",
+        "elementDescription": "ViewPager is a common element found in many apps that lets a user quickly swipe between multiple tabs of information.",
         "elementTutorials": [
             ["[FREE] ViewPager2 in Android: Getting Started (Article)", "https://www.raywenderlich.com/8192680-viewpager2-in-android-getting-started"]
         ]
     },
     "38": {
-        "elementClass": "empty",
+        "elementClass": "pink-3",
         "elementSection": "",
-        "elementName": "",
-        "elementCode": "",
-        "elementDescription": "",
-        "elementTutorials": []
+        "elementName": "Notifications",
+        "elementCode": "No",
+        "elementDescription": "The Android notification system lets you alert your user to events that have occurred in your app.",
+        "elementTutorials": [
+            ["[FREE] Android Notifications Tutorial: Getting Started (Article)", "https://www.raywenderlich.com/1214490-android-notifications-tutorial-getting-started"]
+        ]
     },
     "39": {
         "elementClass": "empty",
@@ -385,34 +391,31 @@
         "elementSection": "",
         "elementName": "Localization",
         "elementCode": "Ln",
-        "elementDescription": "",
+        "elementDescription": "Android is a global OS, and it's important to localize and internationalize your app for the benefit of all your users around the world.",
         "elementTutorials": [
-			["[FREE] Android Localization: Getting Started (Article)", "https://www.raywenderlich.com/4878024-android-localization-getting-started"]        ]
+			["[FREE] Android Localization: Getting Started (Article)", "https://www.raywenderlich.com/4878024-android-localization-getting-started"]]
     },
     "42": {
         "elementClass": "pink-2",
         "elementSection": "",
-        "elementName": "Notifications",
-        "elementCode": "No",
-        "elementDescription": "",
-        "elementTutorials": [["[FREE] Android Notifications Tutorial: Getting Started (Article)", "https://www.raywenderlich.com/1214490-android-notifications-tutorial-getting-started"]
-]
-    },
-    "43": {
-        "elementClass": "pink-3",
-        "elementSection": "",
-        "elementName": "Other UI",
-        "elementCode": "Ou",
-        "elementDescription": "",
+        "elementName": "Android 10 UI",
+        "elementCode": "At",
+        "elementDescription": "Android 10 introduced some new UI patterns that will be helpful in many apps.",
         "elementTutorials": [
-			["[FREE] Autosizing TextView Tutorial for Android: Getting Started (Article)", "https://www.raywenderlich.com/7930-autosizing-textview-tutorial-for-android-getting-started"],
 			["[FREE] Gesture Navigation Tutorial for Android (Article)", "https://www.raywenderlich.com/4638393-gesture-navigation-tutorial-for-android"],
-			["[FREE] Sharing in Android 10: Getting Started (Article)", "https://www.raywenderlich.com/6613761-sharing-in-android-10-getting-started"],
-			["[FREE] Android Tutorial for GeckoView: Getting Started (Article)", "https://www.raywenderlich.com/1381698-android-tutorial-for-geckoview-getting-started"]        	
+			["[FREE] Sharing in Android 10: Getting Started (Article)", "https://www.raywenderlich.com/6613761-sharing-in-android-10-getting-started"]			     
         ]
     },
-    "44": {
+    "43": {
         "elementClass": "empty",
+        "elementSection": "",
+        "elementName": "",
+        "elementCode": "",
+        "elementDescription": "",
+        "elementTutorials": []
+    },
+    "44": {
+        "elementClass": "fill-bottom-right",
         "elementSection": "",
         "elementName": "",
         "elementCode": "",
@@ -432,7 +435,7 @@
         "elementSection": "",
         "elementName": "Camera",
         "elementCode": "Ca",
-        "elementDescription": "",
+        "elementDescription": "See how to interact with the device camera from your apps.",
         "elementTutorials": [
             ["[FREE] CameraX: Getting Started (Article)", "https://www.raywenderlich.com/6748203-camerax-getting-started"],
 			["[PREMIUM] CameraX: Getting Started (Video)", "https://www.raywenderlich.com/7005190-camerax-getting-started"]
@@ -443,7 +446,7 @@
         "elementSection": "",
         "elementName": "Memory",
         "elementCode": "Me",
-        "elementDescription": "",
+        "elementDescription": "Learning how to control your app memory usage and avoid memory bugs is an important part of keeping your users happy.",
         "elementTutorials": [
 			["[FREE] Android Memory Profiler: Getting Started (Article)", "https://www.raywenderlich.com/4557771-android-memory-profiler-getting-started"],
 			["[FREE] Memory Leaks in Android (Article)", "https://www.raywenderlich.com/4690472-memory-leaks-in-android"]        ]
@@ -451,15 +454,15 @@
     "48": {
         "elementClass": "red-3",
         "elementSection": "",
-        "elementName": "Tools",
-        "elementCode": "To",
-        "elementDescription": "",
+        "elementName": "Media & Tools",
+        "elementCode": "Mt",
+        "elementDescription": "Learn about various tools and frameworks that let you improve both user and developer experience.",
         "elementTutorials": [
 			["[FREE] Media Playback on Android with ExoPlayer: Getting Started (Article)", "https://www.raywenderlich.com/5573-media-playback-on-android-with-exoplayer-getting-started"],
 			["[FREE] Android Debug Bridge (ADB): Beyond the Basics (Article)", "https://www.raywenderlich.com/621437-android-debug-bridge-adb-beyond-the-basics"]        ]
     },
     "49": {
-        "elementClass": "fill-top-right",
+        "elementClass": "empty",
         "elementSection": "",
         "elementName": "",
         "elementCode": "",
@@ -479,7 +482,7 @@
         "elementSection": "",
         "elementName": "Images",
         "elementCode": "Im",
-        "elementDescription": "",
+        "elementDescription": "Most apps use images in some way, and there are a number of frameworks for Android used to show images.",
         "elementTutorials": [
 			["[FREE] Picasso Tutorial for Android: Getting Started (Article)", "https://www.raywenderlich.com/3658341-picasso-tutorial-for-android-getting-started"],
 			["[PREMIUM] Image Handling with Picasso (Video)", "https://www.raywenderlich.com/8213611-image-handling-with-picasso"],
@@ -492,7 +495,7 @@
         "elementSection": "",
         "elementName": "Animation",
         "elementCode": "An",
-        "elementDescription": "",
+        "elementDescription": "Helpful animation can help improve the user experience and make your app stand out from the rest.",
         "elementTutorials": [
         	["[FREE] Android Animation Tutorial with Kotlin (Article)", "https://www.raywenderlich.com/2785491-android-animation-tutorial-with-kotlin"],
 			["[PREMIUM] Android Animations (Video)", "https://www.raywenderlich.com/3355-android-animations"]
@@ -503,7 +506,7 @@
         "elementSection": "",
         "elementName": "MotionLayout",
         "elementCode": "Mo",
-        "elementDescription": "",
+        "elementDescription": "MotionLayout is a ConstraintLayout subclass that lets you easily add motion into your UI.",
         "elementTutorials": [
             ["[FREE] MotionLayout Tutorial For Android: Getting Started (Article)", "https://www.raywenderlich.com/8883-motionlayout-tutorial-for-android-getting-started"],
 			["[PREMIUM] Animation with MotionLayout (Video)", "https://www.raywenderlich.com/6374398-animation-with-motionlayout"]
@@ -514,7 +517,7 @@
         "elementSection": "",
         "elementName": "Transitions",
         "elementCode": "Tr",
-        "elementDescription": "",
+        "elementDescription": "Transistions let you spruce up the switching between the screens of your app.",
         "elementTutorials": [["[FREE] Android Transition Framework: Getting Started (Article)", "https://www.raywenderlich.com/1376936-android-transition-framework-getting-started"]]
     },
     "55": {
@@ -528,17 +531,17 @@
     "56": {
         "elementClass": "light-orange-1",
         "elementSection": "",
-        "elementName": "SharedPreferences and Filesystem",
+        "elementName": "SharedPrefs & Filesystem",
         "elementCode": "Sp",
-        "elementDescription": "",
+        "elementDescription": "SharedPreferences and the filesystem are places where you can persist data between app restarts.",
         "elementTutorials": [["[PREMIUM] Saving Data on Android (Video)", "https://www.raywenderlich.com/4561-saving-data-on-android"]]
     },
     "57": {
         "elementClass": "light-orange-2",
         "elementSection": "",
-        "elementName": "Room and SQLite",
+        "elementName": "Room & SQLite",
         "elementCode": "Rs",
-        "elementDescription": "",
+        "elementDescription": "Room is a framework from Google that wraps your interactions with the lower-level SQLite relational database.",
         "elementTutorials": [
 			["[FREE] Room DB: Advanced Data Persistence (Article)", "https://www.raywenderlich.com/5686-room-db-advanced-data-persistence"],
 			["[PREMIUM] Saving Data on Android (Video)", "https://www.raywenderlich.com/4561-saving-data-on-android"],
@@ -551,7 +554,7 @@
         "elementSection": "",
         "elementName": "Firebase",
         "elementCode": "Fb",
-        "elementDescription": "",
+        "elementDescription": "Firebase from Google is an all encompassing toolset that lets your app store persist data in the cloud, and a whole lot more.",
         "elementTutorials": [
 			["[FREE] Firebase Tutorial for Android: Getting Started (Article)", "https://www.raywenderlich.com/5114-firebase-tutorial-for-android-getting-started"],
 			["[PREMIUM] Firebase Authentication (Video)",  "https://www.raywenderlich.com/6096-firebase-for-android-authentication"],
@@ -577,9 +580,9 @@
     "61": {
         "elementClass": "yellow-1",
         "elementSection": "",
-        "elementName": "Basics and Retrofit",
+        "elementName": "Basics & Retrofit",
         "elementCode": "Rt",
-        "elementDescription": "",
+        "elementDescription": "Learn about the basics of Android network requests, and see the most common Android networking framework, Retrofit, in action.",
         "elementTutorials": [
             ["[PREMIUM] Android Networking (Video)", "https://www.raywenderlich.com/4539-android-networking"]
         ]
@@ -589,7 +592,7 @@
         "elementSection": "",
         "elementName": "Other Networking",
         "elementCode": "On",
-        "elementDescription": "",
+        "elementDescription": "Learn about other networking frameworks available for Android development.",
         "elementTutorials": [["[PREMIUM] Getting Started with Fuel (Video)", "https://www.raywenderlich.com/3698257-getting-started-with-fuel"]]
     },
     "63": {
@@ -621,7 +624,7 @@
         "elementSection": "",
         "elementName": "Google Maps",
         "elementCode": "Gm",
-        "elementDescription": "",
+        "elementDescription": "Google Maps is the premiere SDK used to show map and location data in Android apps.",
         "elementTutorials": [
             ["[FREE] Introduction to Google Maps API for Android with Kotlin (Article)", "https://www.raywenderlich.com/230-introduction-to-google-maps-api-for-android-with-kotlin"]
         ]
@@ -631,7 +634,7 @@
         "elementSection": "",
         "elementName": "Location",
         "elementCode": "Lo",
-        "elementDescription": "",
+        "elementDescription": "Go beyond basic location data sharing to cover topics such as geofencing on Android.",
         "elementTutorials": [
 			["[FREE] Geofencing API Tutorial for Android (Article)", "https://www.raywenderlich.com/7372-geofencing-api-tutorial-for-android"],
 			["[FREE] Mapbox Tutorial For Android: Getting Started (Article)", "https://www.raywenderlich.com/378151-mapbox-tutorial-for-android-getting-started"]
@@ -666,7 +669,7 @@
         "elementSection": "",
         "elementName": "MVP",
         "elementCode": "Mp",
-        "elementDescription": "",
+        "elementDescription": "Model View Presenter is a common architecure pattern used in smaller to medium sized apps.",
         "elementTutorials": [
 			["[FREE] Getting Started with MVP (Model View Presenter) on Android (Article)", "https://www.raywenderlich.com/7026-getting-started-with-mvp-model-view-presenter-on-android"],
 			["[PREMIUM] MVP on Android (Video)", "https://www.raywenderlich.com/9216-mvp-on-android"]        ]
@@ -676,7 +679,7 @@
         "elementSection": "",
         "elementName": "MVVM",
         "elementCode": "Mv",
-        "elementDescription": "",
+        "elementDescription": "Model View ViewModel is an architecture pattern common across many tech domains, and fits in well with the use of Android Jetpack Architecture Components.",
         "elementTutorials": [
 			["[FREE] MVVM and DataBinding: Android Design Patterns (Article)", "https://www.raywenderlich.com/636803-mvvm-and-databinding-android-design-patterns"],
 			["[PREMIUM] MVVM on Android (Video)", "https://www.raywenderlich.com/8984-mvvm-on-android"]
@@ -687,7 +690,7 @@
         "elementSection": "",
         "elementName": "MVI",
         "elementCode": "Mi",
-        "elementDescription": "",
+        "elementDescription": "Model View Intent is a modern architecture pattern that lets you handle user events in a cyclical flow through your app architecture.",
         "elementTutorials": [
         	["[FREE] MVI Architecture for Android Tutorial: Getting Started (Article)", "https://www.raywenderlich.com/817602-mvi-architecture-for-android-tutorial-getting-started"],
 			["[PREMIUM] MVI on Android (Video)", "https://www.raywenderlich.com/266607-mvi-on-android"]
@@ -698,7 +701,7 @@
         "elementSection": "",
         "elementName": "Clean Architecture",
         "elementCode": "Ca",
-        "elementDescription": "",
+        "elementDescription": "Clean Architecture is a pattern used in larger, more complicated apps that helps you structure and coordinate changes that occur in your app as it grows over time.",
         "elementTutorials": [
         	["[FREE] Clean Architecture Tutorial for Android: Getting Started (Article)", "https://www.raywenderlich.com/3595916-clean-architecture-tutorial-for-android-getting-started"],
 			["[FREE] Android VIPER Tutorial (Article)", "https://www.raywenderlich.com/5192-android-viper-tutorial"]
@@ -717,7 +720,7 @@
         "elementSection": "",
         "elementName": "Dagger",
         "elementCode": "Dg",
-        "elementDescription": "",
+        "elementDescription": "Dagger is a prominent and powerful dependency injection framework used in many Android apps.",
         "elementTutorials": [
 			["[FREE] Dagger 2 Tutorial For Android: Advanced (Article)", "https://www.raywenderlich.com/6583167-dagger-2-tutorial-for-android-advanced"],
 			["[FREE] Dagger 2 Tutorial for Android: Advanced – Part 2 (Article)", "https://www.raywenderlich.com/7337181-dagger-2-tutorial-for-android-advanced-part-2"]
@@ -728,7 +731,7 @@
         "elementSection": "",
         "elementName": "Koin",
         "elementCode": "Ko",
-        "elementDescription": "",
+        "elementDescription": "Koin is a Kotlin-first dependency injection framework that is powerful but easy to use.",
         "elementTutorials": [
 			["[FREE] Dependency Injection With Koin (Article)", "https://www.raywenderlich.com/9457-dependency-injection-with-koin"],
 			["[PREMIUM] Dependency Injection with Koin (Video)", "https://www.raywenderlich.com/7042416-dependency-injection-with-koin"]
@@ -763,7 +766,7 @@
         "elementSection": "",
         "elementName": "Compose",
         "elementCode": "Jc",
-        "elementDescription": "",
+        "elementDescription": "Jetpack Compose is a declarative and code-based approach to Android UI development, similar to Swift UI for iOS and Flutter widgets.",
         "elementTutorials": [
 			["[FREE] Jetpack Compose Tutorial for Android: Getting Started (Article)", "https://www.raywenderlich.com/7032631-jetpack-compose-tutorial-for-android-getting-started"],
 			["[PREMIUM] Jetpack Compose Primer (Video)", "https://www.raywenderlich.com/7111549-jetpack-compose-primer"]
@@ -772,9 +775,9 @@
     "82": {
         "elementClass": "dark-blue-2",
         "elementSection": "",
-        "elementName": "ViewModel and LiveData",
+        "elementName": "ViewModel & LiveData",
         "elementCode": "Vm",
-        "elementDescription": "",
+        "elementDescription": "ViewModel and LiveData combine to provide a powerful means of connecting your app UI to the data in your app.",
         "elementTutorials": [
         	["[FREE] Android Jetpack Architecture Components: Getting Started (Article)", "https://www.raywenderlich.com/6729-android-jetpack-architecture-components-getting-started"],
             ["[PREMIUM] Android Architecture Components: ViewModel (Video)", "https://www.raywenderlich.com/5046-android-architecture-components-viewmodel"],
@@ -786,7 +789,7 @@
         "elementSection": "",
         "elementName": "Paging Library",
         "elementCode": "Pi",
-        "elementDescription": "",
+        "elementDescription": "The Paging library lets you load infinite lists of data gradually and efficiently.",
         "elementTutorials": [
         	["[FREE] Paging Library for Android With Kotlin: Creating Infinite Lists (Article)", "https://www.raywenderlich.com/6948-paging-library-for-android-with-kotlin-creating-infinite-lists"],
             ["[PREMIUM] Android Architecture Components: Paging Library (Video)", "https://www.raywenderlich.com/5189-android-architecture-components-paging-library"]
@@ -797,7 +800,7 @@
         "elementSection": "",
         "elementName": "Navigation",
         "elementCode": "Jn",
-        "elementDescription": "",
+        "elementDescription": "Jetpack Navigation lets you visually construct the navigation between the screens of your app, and then augment the navigation in both XML and code.",
         "elementTutorials": [
 			["[FREE] Navigation and Dynamic Features (Article)", "https://www.raywenderlich.com/7023243-navigation-and-dynamic-features"],
 			["[FREE] Navigation Component for Android Part 2: Graphs and Deep Links (Article)", "https://www.raywenderlich.com/4332831-navigation-component-for-android-part-2-graphs-and-deep-links"],
@@ -817,7 +820,7 @@
         "elementSection": "",
         "elementName": "KTX",
         "elementCode": "Kx",
-        "elementDescription": "",
+        "elementDescription": "Android KTX is a library from Google that leverages the Kotlin language to make your code more concise and readable.",
         "elementTutorials": [
 			["[FREE] Android KTX Tutorial: Getting Started (Article)", "https://www.raywenderlich.com/5576-android-ktx-tutorial-getting-started"],
 			["[PREMIUM] Android KTX (Video)", "https://www.raywenderlich.com/3565197-android-ktx"]
@@ -860,7 +863,7 @@
         "elementSection": "",
         "elementName": "Coroutines",
         "elementCode": "Co",
-        "elementDescription": "",
+        "elementDescription": "Kotlin coroutines let you program concurrency into your apps in a way that looks and feels very much like regular, sequentual code.",
         "elementTutorials": [
 			["[FREE] Kotlin Coroutines Tutorial for Android: Getting Started (Article)", "https://www.raywenderlich.com/1423941-kotlin-coroutines-tutorial-for-android-getting-started"],
 			["[FREE] Kotlin Coroutines Tutorial for Android : Advanced (Article)", "https://www.raywenderlich.com/2117501-kotlin-coroutines-tutorial-for-android-advanced"],
@@ -872,7 +875,7 @@
         "elementSection": "",
         "elementName": "RxJava",
         "elementCode": "Rx",
-        "elementDescription": "",
+        "elementDescription": "RxJava is a powerful event-based library that uses reactive programming to handle the flow of asynchronous processes in your app.",
         "elementTutorials": [
 			["[FREE] Reactive Programming with RxAndroid in Kotlin: An Introduction (Article)", "https://www.raywenderlich.com/2071847-reactive-programming-with-rxandroid-in-kotlin-an-introduction"],
 			["[FREE] Working with RxJava Disposables in Kotlin (Article)", "https://www.raywenderlich.com/3983802-working-with-rxjava-disposables-in-kotlin"],
@@ -885,7 +888,7 @@
         "elementSection": "",
         "elementName": "Kotlin Flow",
         "elementCode": "Kf",
-        "elementDescription": "",
+        "elementDescription": "Kotlin Flow is a new stream library from the JetBrains team built on top of Kotlin coroutines. It's similar to RxJava but can be has a shallower learning curve.",
         "elementTutorials": [
             ["[PREMIUM] Kotlin Flow: Getting Started (Video)", "https://www.raywenderlich.com/9147615-kotlin-flow-getting-started"]
         ]
@@ -895,7 +898,7 @@
         "elementSection": "",
         "elementName": "Background Processing",
         "elementCode": "Bp",
-        "elementDescription": "",
+        "elementDescription": "Learn about foundational aspects of background processing on Android, such as threads and WorkManager.",
         "elementTutorials": [
         	["[FREE] Threading With HandlerThread in Android (Article)", "https://www.raywenderlich.com/5466-threading-with-handlerthread-in-android"],
 			["[FREE] WorkManager Tutorial for Android: Getting Started (Article)", "https://www.raywenderlich.com/6040-workmanager-tutorial-for-android-getting-started"],
@@ -913,9 +916,9 @@
     "96": {
         "elementClass": "other-pink-1",
         "elementSection": "",
-        "elementName": "Unit Tests and TDD",
+        "elementName": "Unit Tests & TDD",
         "elementCode": "Td",
-        "elementDescription": "",
+        "elementDescription": "In unit tests, you test that individual components work correctly. Test Driven Devlopment is a methodology that uses unit tests to build out the software design of your app.",
         "elementTutorials": [
         	["[FREE] Test-Driven Development Tutorial for Android: Getting Started (Article)", "https://www.raywenderlich.com/7109-test-driven-development-tutorial-for-android-getting-started"]           
         ]
@@ -925,7 +928,7 @@
         "elementSection": "",
         "elementName": "UI Tests",
         "elementCode": "Ut",
-        "elementDescription": "",
+        "elementDescription": "UI Tests let you script and test user interactions with your app user interface.",
         "elementTutorials": [        
         	["[FREE] Espresso Testing and Screen Robots: Getting Started (Article)", "https://www.raywenderlich.com/949489-espresso-testing-and-screen-robots-getting-started"],
 			["[FREE] UI Testing with Kakao Tutorial for Android: Getting Started (Article)", "https://www.raywenderlich.com/1505688-ui-testing-with-kakao-tutorial-for-android-getting-started"]            
@@ -936,7 +939,7 @@
         "elementSection": "",
         "elementName": "Mocking",
         "elementCode": "Mk",
-        "elementDescription": "",
+        "elementDescription": "Mocking frameworks help you isolate components in unit tests, increasing the efficiency of your testing.",
         "elementTutorials": [
         	["[FREE] Unit Testing with Mockito (Article)", "https://www.raywenderlich.com/195-android-unit-testing-with-mockito"],
         	["[PREMIUM] Testing With MockK (Video)", "https://www.raywenderlich.com/5443751-testing-with-mockk"]
@@ -962,7 +965,7 @@
         "elementSection": "",
         "elementName": "Kotlin Multiplatform",
         "elementCode": "Km",
-        "elementDescription": "",
+        "elementDescription": "Kotlin Multiplatform is a powerful new cross-platform approach in which you use Kotlin for shared data layers of your Android and iOS apps, while maintaining native code for the UI.",
         "elementTutorials": [
 			["[FREE] Kotlin Multiplatform Project for Android and iOS: Getting Started (Article)", "https://www.raywenderlich.com/1022411-kotlin-multiplatform-project-for-android-and-ios-getting-started"],
 			["[PREMIUM] Kotlin/Native and Multiplatform (Video)", "https://www.raywenderlich.com/1304635-kotlin-native-and-multiplatform"],
@@ -973,7 +976,7 @@
         "elementSection": "",
         "elementName": "Flutter",
         "elementCode": "Fl",
-        "elementDescription": "",
+        "elementDescription": "Flutter is a framework from Google that lets you target both iOS and Android from a single code base while reaching near native app performance.",
         "elementTutorials": [
             ["[FREE] Getting Started with Flutter (Article)", "https://www.raywenderlich.com/4529993-getting-started-with-flutter"],
 			["[PREMIUM] Your Own Image Picker With Flutter Channels (Video)", "https://www.raywenderlich.com/2882495-your-own-image-picker-with-flutter-channels"]
@@ -984,7 +987,7 @@
         "elementSection": "",
         "elementName": "React Native",
         "elementCode": "Rn",
-        "elementDescription": "",
+        "elementDescription": "React Native is a cross-platform mobile framework from Facebook that  is built on the popular React framework for web development.",
         "elementTutorials": [
         	["[FREE] React Native Tutorial: Building Android Apps with JavaScript (Article)", "https://www.raywenderlich.com/247-react-native-tutorial-building-android-apps-with-javascript"]
         ]
@@ -998,7 +1001,7 @@
         "elementTutorials": []
     },
     "105": {
-        "elementClass": "grey-1",
+        "elementClass": "orange-1",
         "elementSection": "section-18",
         "elementName": "Security",
         "elementCode": "",
@@ -1006,11 +1009,11 @@
         "elementTutorials": []
     },
     "106": {
-        "elementClass": "grey-1",
+        "elementClass": "orange-1",
         "elementSection": "",
-        "elementName": "Encryption and Hardening",
+        "elementName": "Encryption & Hardening",
         "elementCode": "Eh",
-        "elementDescription": "",
+        "elementDescription": "See how to encrypt app data and harden your apps against potential attacks.",
         "elementTutorials": [
 			["[FREE] Encryption Tutorial For Android: Getting Started (Article)", "https://www.raywenderlich.com/778533-encryption-tutorial-for-android-getting-started"],
 			["[FREE] App Hardening Tutorial for Android With Kotlin (Article)", "https://www.raywenderlich.com/6294778-app-hardening-tutorial-for-android-with-kotlin"],
@@ -1018,22 +1021,22 @@
 			["[FREE] Getting Started with ProGuard (Article)", "https://www.raywenderlich.com/7449-getting-started-with-proguard"]        ]
     },
     "107": {
-        "elementClass": "grey-2",
+        "elementClass": "orange-2",
         "elementSection": "",
         "elementName": "Securing Data",
         "elementCode": "Sd",
-        "elementDescription": "",
+        "elementDescription": "Learn how to secure data privacy and network data in your Android apps.",
         "elementTutorials": [
         	["[FREE] Data Privacy for Android (Article)", "https://www.raywenderlich.com/6901838-data-privacy-for-android"],
 			["[FREE] Securing Network Data Tutorial for Android (Article)", "https://www.raywenderlich.com/5634-securing-network-data-tutorial-for-android"]
         ]
     },
     "108": {
-        "elementClass": "grey-3",
+        "elementClass": "orange-3",
         "elementSection": "",
         "elementName": "Biometrics",
         "elementCode": "Bm",
-        "elementDescription": "",
+        "elementDescription": "The AndroidX Biometric library lets you easily utilize device hardware, such as fingerprint sensors, to confirm your app user's identity.",
         "elementTutorials": [
         	["[FREE] AndroidX Biometric Library: Getting Started (Article)", "https://www.raywenderlich.com/7578543-androidx-biometric-library-getting-started"]
         ]
@@ -1059,7 +1062,7 @@
         "elementSection": "",
         "elementName": "Gradle",
         "elementCode": "Gr",
-        "elementDescription": "",
+        "elementDescription": "Gradle is the primary build system for the development of Android apps.",
         "elementTutorials": [
 			["[FREE] Gradle Tips and Tricks for Android (Article)", "https://www.raywenderlich.com/5532-gradle-tips-and-tricks-for-android"]
         ]
@@ -1069,7 +1072,7 @@
         "elementSection": "",
         "elementName": "Flavors",
         "elementCode": "Fv",
-        "elementDescription": "",
+        "elementDescription": "Flavors let you create multiple different versions of your app for separate environments and configurations.",
         "elementTutorials": [
             ["[FREE] White Labeling Android Apps: Getting Started (Article)", "https://www.raywenderlich.com/5175277-white-labeling-android-apps-getting-started"]
         ]
@@ -1079,7 +1082,7 @@
         "elementSection": "",
         "elementName": "API Levels",
         "elementCode": "Al",
-        "elementDescription": "",
+        "elementDescription": "Learn about how to take advantage of new features released in the most recent Android API levels.",
         "elementTutorials": [
 			["[FREE] Android SDK Versions Tutorial With Kotlin (Article)", "https://www.raywenderlich.com/2654120-android-sdk-versions-tutorial-with-kotlin"]
         ]
@@ -1105,7 +1108,7 @@
         "elementSection": "",
         "elementName": "Play Store",
         "elementCode": "Ps",
-        "elementDescription": "",
+        "elementDescription": "The Google Plat Store is the main app marketplace used to distribute Android apps.",
         "elementTutorials": [
 			["[FREE] Fastlane Tutorial for Android: Getting Started (Article)", "https://www.raywenderlich.com/6461407-fastlane-tutorial-for-android-getting-started"],
 			["[PREMIUM] Publish to the Google Play Store (Video)", "https://www.raywenderlich.com/9149199-publish-to-the-google-play-store"]
@@ -1116,7 +1119,7 @@
         "elementSection": "",
         "elementName": "Instant Apps",
         "elementCode": "Ia",
-        "elementDescription": "",
+        "elementDescription": "Instant apps let Android users try out parts of your app without downloading the full app.",
         "elementTutorials": [
             ["[FREE] Instant Apps: Getting Started (Article)", "https://www.raywenderlich.com/9519-instant-apps-getting-started"]
         ]
@@ -1124,9 +1127,9 @@
     "118": {
         "elementClass": "dark-green-3",
         "elementSection": "",
-        "elementName": "App Bundles and Slices",
+        "elementName": "App Bundles & Slices",
         "elementCode": "Ab",
-        "elementDescription": "",
+        "elementDescription": "App Bundles reduce the size of the app your user downloads to their device, saving them precious data and storage. Slices let you mbed parts of your app into viewers like the Google Search app and Google Assistant.",
         "elementTutorials": [
 			["[FREE] Android App Bundles: Getting Started (Article)", "https://www.raywenderlich.com/9043-android-app-bundles-getting-started"],
 			["[FREE] Android Slices: Getting Started (Article)", "https://www.raywenderlich.com/5534-android-slices-getting-started"]        ]
@@ -1152,7 +1155,7 @@
         "elementSection": "",
         "elementName": "ML Kit",
         "elementCode": "Ml",
-        "elementDescription": "",
+        "elementDescription": "ML Kit is a feature-rich machine learning toolkit you can use in your Android apps.",
         "elementTutorials": [
         	["[FREE] Text Recognition with ML Kit (Article)", "https://www.raywenderlich.com/5804-text-recognition-with-ml-kit"],
 			["[PREMIUM] Text Recognition with ML Kit (Video)", "https://www.raywenderlich.com/7479-text-recognition-with-ml-kit"],
@@ -1164,7 +1167,7 @@
         "elementSection": "",
         "elementName": "TensorFlow",
         "elementCode": "Tf",
-        "elementDescription": "",
+        "elementDescription": "TensorFlow is a powerful machine learning framework used for analyzing large data sets, but it can also be utilized from mobile devices.",
         "elementTutorials": [
         	["[FREE] Getting Started with TensorFlow on Android", "https://www.raywenderlich.com/4556-getting-started-with-tensorflow-on-android"]
         ]
@@ -1186,42 +1189,39 @@
         "elementTutorials": []
     },
     "125": {
-    	"elementClass": "purple-1",
-        "elementSection": "section-22",
-        "elementName": "Creating APIs",
+    	"elementClass": "empty",
+        "elementSection": "",
+        "elementName": "",
         "elementCode": "",
         "elementDescription": "",
         "elementTutorials": []
     },
     "126": {
-    	"elementClass": "purple-1",
+    	"elementClass": "empty",
         "elementSection": "",
-        "elementName": "Ktor",
-        "elementCode": "Kr",
+        "elementName": "",
+        "elementCode": "",
         "elementDescription": "",
-        "elementTutorials": [
-        	["[FREE] Ktor: REST API for Mobile (Article)", "https://www.raywenderlich.com/7265034-ktor-rest-api-for-mobile"],
-			["[PREMIUM] Server-Side Kotlin with Ktor (Video)", "https://www.raywenderlich.com/2885892-server-side-kotlin-with-ktor"]
-        ]
+        "elementTutorials": []
     },
     "127": {
-    	"elementClass": "purple-2",
+    	"elementClass": "empty",
         "elementSection": "",
-        "elementName": "AWS Lambda",
-        "elementCode": "Aw",
+        "elementName": "",
+        "elementCode": "",
         "elementDescription": "",
-        "elementTutorials": [["[FREE] Write an AWS Lambda Function with Kotlin and Micronaut (Article)", "https://www.raywenderlich.com/5777183-write-an-aws-lambda-function-with-kotlin-and-micronaut"]]
+        "elementTutorials": []
     },
     "128": {
-    	"elementClass": "purple-3",
+    	"elementClass": "empty",
         "elementSection": "",
-        "elementName": "Google Cloud Platform",
-        "elementCode": "Gc",
+        "elementName": "",
+        "elementCode": "",
         "elementDescription": "",
-        "elementTutorials": [["[FREE] Build an API with Kotlin on Google Cloud Platform (Article)", "https://www.raywenderlich.com/4656683-build-an-api-with-kotlin-on-google-cloud-platform"]]
+        "elementTutorials": []
     },
     "129": {
-    	"elementClass": "fill-bottom-right",
+        "elementClass": "empty",
         "elementSection": "",
         "elementName": "",
         "elementCode": "",
@@ -1229,85 +1229,64 @@
         "elementTutorials": []
     },
     "130": {
-    	"elementClass": "empty",
-        "elementSection": "",
-        "elementName": "",
-        "elementCode": "",
-        "elementDescription": "",
-        "elementTutorials": []
-    },
-    "131": {
-    	"elementClass": "empty",
-        "elementSection": "",
-        "elementName": "",
-        "elementCode": "",
-        "elementDescription": "",
-        "elementTutorials": []
-    },
-    "132": {
-    	"elementClass": "empty",
-        "elementSection": "",
-        "elementName": "",
-        "elementCode": "",
-        "elementDescription": "",
-        "elementTutorials": []
-    },
-    "133": {
-    	"elementClass": "empty",
-        "elementSection": "",
-        "elementName": "",
-        "elementCode": "",
-        "elementDescription": "",
-        "elementTutorials": []
-    },
-    "134": {
-    	"elementClass": "empty",
-        "elementSection": "",
-        "elementName": "",
-        "elementCode": "",
-        "elementDescription": "",
-        "elementTutorials": []
-    },
-    "135": {
-    	"elementClass": "pink-1",
+    	"elementClass": "grey-1",
         "elementSection": "section-23",
         "elementName": "Also Good to Know",
         "elementCode": "",
         "elementDescription": "",
         "elementTutorials": []
     },
-    "136": {
-    	"elementClass": "pink-1",
+    "131": {
+    	"elementClass": "grey-1",
         "elementSection": "",
         "elementName": "ARCore",
         "elementCode": "Ar",
-        "elementDescription": "",
+        "elementDescription": "ARCore is a framework from Google for creating augmented reality apps.",
         "elementTutorials": [
         	["[FREE] ARCore With Kotlin: Getting Started (Article)", "https://www.raywenderlich.com/6986535-arcore-with-kotlin-getting-started"]
         ]
     },
-    "137": {
-    	"elementClass": "pink-2",
+    "132": {
+    	"elementClass": "grey-2",
         "elementSection": "",
         "elementName": "Google Assistant",
         "elementCode": "Gs",
-        "elementDescription": "",
+        "elementDescription": "The Google Assistant brings the predictive power of Google's back-end systems to Android and beyond.",
         "elementTutorials": [["[FREE] Building an Action for Google Assistant: Getting Started (Article)", "https://www.raywenderlich.com/4739762-building-an-action-for-google-assistant-getting-started"]]
     },
-    "138": {
-    	"elementClass": "empty",
+    "133": {
+        "elementClass": "grey-3",
+        "elementSection": "",
+        "elementName": "Ktor",
+        "elementCode": "Kr",
+        "elementDescription": "Ktor is a server-side framework that lets you use Kotlin to build web applications and APIs.",
+        "elementTutorials": [
+            ["[FREE] Ktor: REST API for Mobile (Article)", "https://www.raywenderlich.com/7265034-ktor-rest-api-for-mobile"],
+            ["[PREMIUM] Server-Side Kotlin with Ktor (Video)", "https://www.raywenderlich.com/2885892-server-side-kotlin-with-ktor"]
+        ]
+    },
+    "134": {
+        "elementClass": "grey-4",
+        "elementSection": "",
+        "elementName": "AWS Lambda",
+        "elementCode": "Aw",
+        "elementDescription": "AWS Lambda lets you deploy back-end code in a serverless fasion, including with Kotlin!",
+        "elementTutorials": [["[FREE] Write an AWS Lambda Function with Kotlin and Micronaut (Article)", "https://www.raywenderlich.com/5777183-write-an-aws-lambda-function-with-kotlin-and-micronaut"]]
+    },
+    "135": {
+        "elementClass": "empty",
         "elementSection": "",
         "elementName": "",
         "elementCode": "",
         "elementDescription": "",
         "elementTutorials": []
     },
-    "139": {
-    	"elementClass": "empty",
+    "136": {
+        "elementClass": "grey-1",
         "elementSection": "",
-        "elementName": "",
-        "elementCode": "",
-        "elementDescription": "",
-        "elementTutorials": []
-    }
+        "elementName": "Google Cloud Platform",
+        "elementCode": "Gc",
+        "elementDescription": "Google Cloud Platform is a back-end service provided by Google for hosting web applications and APIs.",
+        "elementTutorials": [["[FREE] Build an API with Kotlin on Google Cloud Platform (Article)", "https://www.raywenderlich.com/4656683-build-an-api-with-kotlin-on-google-cloud-platform"]]
+    }    
 }
