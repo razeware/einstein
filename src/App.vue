@@ -16,7 +16,7 @@
       </div>
 
       <h1 class="l-page-title l-color-white">{{ tableTitle }}</h1>
-      <h2 class="l-page-title l-color-white">{{ tableSubtitle }}</h2>
+      <h2 class="l-page-subtitle l-color-white">{{ tableSubtitle }}</h2>
       <p class="l-block--690 l-font--15 l-line-height--125">{{ tableDescription1 }}</p>
       <p class="l-font--15 l-line-height--125 l-margin--26">{{ tableDescription2 }}</p>
       <p class="l-font--15 l-line-height--125 l-margin--26">{{ tableDescription3 }}</p>
