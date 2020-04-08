@@ -192,27 +192,63 @@
         "elementClass": "other-red-4"
     },
     "60": {
-        "elementClass": "grey-1"
+        "elementClass": "other-yellow-1"
     },
     "61": {
-        "elementClass": "grey-2"
+        "elementClass": "other-yellow-2"
     },
     "62": {
-        "elementClass": "grey-3"
+        "elementClass": "other-yellow-3"
     },
     "63": {
-        "elementClass": "grey-4"
+        "elementClass": "other-yellow-4"
     },
     "64": {
-        "elementClass": "grey-5"
+        "elementClass": "other-light-green-1"
     },
     "65": {
-        "elementClass": "grey-6"
+        "elementClass": "other-light-green-2"
     },
     "66": {
-        "elementClass": "grey-7"
+        "elementClass": "other-light-green-3"
     },
     "67": {
+        "elementClass": "other-light-green-4"
+    },
+    "68": {
+        "elementClass": "other-dark-green-1"
+    },
+    "69": {
+        "elementClass": "other-dark-green-2"
+    },
+    "70": {
+        "elementClass": "other-dark-green-3"
+    },
+    "71": {
+        "elementClass": "other-dark-green-4"
+    },
+    "72": {
+        "elementClass": "grey-1"
+    },
+    "73": {
+        "elementClass": "grey-2"
+    },
+    "74": {
+        "elementClass": "grey-3"
+    },
+    "75": {
+        "elementClass": "grey-4"
+    },
+    "76": {
+        "elementClass": "grey-5"
+    },
+    "77": {
+        "elementClass": "grey-6"
+    },
+    "78": {
+        "elementClass": "grey-7"
+    },
+    "79": {
         "elementClass": "grey-8"
     }
 }

@@ -1,7 +1,10 @@
 {
     "title": "Android Table of Elements",
-    "description1": "Understanding what to learn and in what order to learn Android development can be confusing. So we created the Android Table of Elements to help students on their path to be a professional Android developer.",
-    "description2": "Android tutorials have been organised into elements. Each element is part of a broader macro topic. Learn elements to become an expert in these macro topics and gradually build your skills from the top of the table to the bottom.",
-    "footerQuote": "Nothing is better than reading and gaining more and more knowledge",
-    "footerQuoteOwner": "S. Hawking"
+    "subtitle": "A Learning Roadmap for Android Developers",
+    "description1": "Learning Android development can be confusing. There's so much to learn; what do do you need to know, and in what order should you learn it?",
+    "description2": "That's why the raywenderlich.com Tutorial team put together this Android Table of Elements. This is a learning roadmap for Android developers: everything you need to learn, in a recommended step-by-step order.",
+    "description3": "You can click each element to see some recommended learning resources. The vast majority are 100% free, made by the community, for the community. We've also highlighted a few optional premium video courses for raywenderlich.com subscribers.",
+    "description4": "Start with the basic elements, then gradually dive deeper, and see your knowledge... react! :]",    
+    "footerQuote": "Develop a passion for learning. If you do, you will never cease to grow.",
+    "footerQuoteOwner": "Anthony J. D'Angelo"
 }
