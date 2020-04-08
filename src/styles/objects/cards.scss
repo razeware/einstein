@@ -807,6 +807,38 @@
   @include backgroundColor(#C48300);
 }
 
+.o-card--other-green-1{
+  @include backgroundColor(#02A963);
+}
+
+.o-card--other-green-2{
+  @include backgroundColor(#009C5A);
+}
+
+.o-card--other-green-3{
+  @include backgroundColor(#008F53);
+}
+
+.o-card--other-green-4{
+  @include backgroundColor(#00824B);
+}
+
+.o-card--other-blue-1{
+  @include backgroundColor(#0297CC);
+}
+
+.o-card--other-blue-2{
+  @include backgroundColor(#028CBD);
+}
+
+.o-card--other-blue-3{
+  @include backgroundColor(#0282B0);
+}
+
+.o-card--other-blue-4{
+  @include backgroundColor(#0279A3);
+}
+
 .o-card--other-light-green-1{
   @include backgroundColor(#81B548);
 }
