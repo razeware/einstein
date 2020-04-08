@@ -1050,7 +1050,7 @@
         "elementTutorials": []
     },
     "110": {
-        "elementClass": "light-green-1",
+        "elementClass": "other-yellow-1",
         "elementSection": "section-19",
         "elementName": "Build Configuration",
         "elementCode": "",
@@ -1058,7 +1058,7 @@
         "elementTutorials": []
     },
     "111": {
-        "elementClass": "light-green-1",
+        "elementClass": "other-yellow-1",
         "elementSection": "",
         "elementName": "Gradle",
         "elementCode": "Gr",
@@ -1068,7 +1068,7 @@
         ]
     },
     "112": {
-        "elementClass": "light-green-2",
+        "elementClass": "other-yellow-2",
         "elementSection": "",
         "elementName": "Flavors",
         "elementCode": "Fv",
@@ -1078,7 +1078,7 @@
         ]
     },
     "113": {
-        "elementClass": "light-green-3",
+        "elementClass": "other-yellow-3",
         "elementSection": "",
         "elementName": "API Levels",
         "elementCode": "Al",
@@ -1096,7 +1096,7 @@
         "elementTutorials": []
     },
     "115": {
-        "elementClass": "dark-green-1",
+        "elementClass": "other-light-green-2",
         "elementSection": "section-20",
         "elementName": "App Publishing",
         "elementCode": "",
@@ -1104,7 +1104,7 @@
         "elementTutorials": []
     },
     "116": {
-        "elementClass": "dark-green-1",
+        "elementClass": "other-light-green-2",
         "elementSection": "",
         "elementName": "Play Store",
         "elementCode": "Ps",
@@ -1115,7 +1115,7 @@
         ]
     },
     "117": {
-        "elementClass": "dark-green-2",
+        "elementClass": "other-light-green-3",
         "elementSection": "",
         "elementName": "Instant Apps",
         "elementCode": "Ia",
@@ -1125,7 +1125,7 @@
         ]
     },
     "118": {
-        "elementClass": "dark-green-3",
+        "elementClass": "other-light-green-4",
         "elementSection": "",
         "elementName": "App Bundles & Slices",
         "elementCode": "Ab",
@@ -1143,7 +1143,7 @@
         "elementTutorials": []
     },
     "120": {
-    	"elementClass": "blue-1",
+    	"elementClass": "other-dark-green-1",
         "elementSection": "section-21",
         "elementName": "Machine Learning",
         "elementCode": "",
@@ -1151,7 +1151,7 @@
         "elementTutorials": []
     },
     "121": {
-    	"elementClass": "blue-1",
+    	"elementClass": "other-dark-green-1",
         "elementSection": "",
         "elementName": "ML Kit",
         "elementCode": "Ml",
@@ -1163,7 +1163,7 @@
         ]
     },
     "122": {
-    	"elementClass": "blue-2",
+    	"elementClass": "other-dark-green-2",
         "elementSection": "",
         "elementName": "TensorFlow",
         "elementCode": "Tf",

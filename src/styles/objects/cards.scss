@@ -611,14 +611,6 @@
   @include backgroundColor(#D45528);
 }
 
-.o-card--orange-5{
-  @include backgroundColor(#CC4D21);
-}
-
-.o-card--orange-6{
-  @include backgroundColor(#C4451A);
-}
-
 .o-card--light-orange-1{
   @include backgroundColor(#EF813C);
 }
@@ -797,6 +789,54 @@
 
 .o-card--other-red-4{
   @include backgroundColor(#C93A36);
+}
+
+.o-card--other-yellow-1{
+  @include backgroundColor(#EBA10E);
+}
+
+.o-card--other-yellow-2{
+  @include backgroundColor(#DE9607);
+}
+
+.o-card--other-yellow-3{
+  @include backgroundColor(#D18B00);
+}
+
+.o-card--other-yellow-4{
+  @include backgroundColor(#C48300);
+}
+
+.o-card--other-light-green-1{
+  @include backgroundColor(#81B548);
+}
+
+.o-card--other-light-green-2{
+  @include backgroundColor(#77A843);
+}
+
+.o-card--other-light-green-3{
+  @include backgroundColor(#6C9C3A);
+}
+
+.o-card--other-light-green-4{
+  @include backgroundColor(#659432);
+}
+
+.o-card--other-dark-green-1{
+  @include backgroundColor(#28754D);
+}
+
+.o-card--other-dark-green-2{
+  @include backgroundColor(#206943);
+}
+
+.o-card--other-dark-green-3{
+  @include backgroundColor(#1A5C3A);
+}
+
+.o-card--other-dark-green-4{
+  @include backgroundColor(#144F30);
 }
 
 .o-card--grey-1{
